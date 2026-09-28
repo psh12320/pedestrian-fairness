@@ -1,0 +1,11 @@
+<edges>
+  <edge id="wi" from="W" to="C" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="wo" from="C" to="W" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="ei" from="E" to="C" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="eo" from="C" to="E" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="ni" from="N" to="C" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="no" from="C" to="N" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="si" from="S" to="C" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+  <edge id="so" from="C" to="S" numLanes="1" speed="13.9" priority="2" sidewalkWidth="2"/>
+</edges>
+

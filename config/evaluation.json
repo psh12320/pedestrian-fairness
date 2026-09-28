@@ -1,0 +1,10 @@
+{
+  "seeds": [3001, 3002, 3003, 3004, 3005],
+  "vehicle_levels": {"low": 12, "medium": 24, "high": 36},
+  "pedestrian_levels": {"low": 8, "medium": 16, "high": 24},
+  "departure_last_second": 360,
+  "include_slow_medium": true,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 4246
+}
+

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.local/
+.deck-build/
+.codex-finalizer/
+.chart-data-*/
+build/
+runs/
+.pytest_cache/

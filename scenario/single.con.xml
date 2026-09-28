@@ -1,0 +1,11 @@
+<connections>
+  <connection from="wi" to="eo"/>
+  <connection from="ei" to="wo"/>
+  <connection from="ni" to="so"/>
+  <connection from="si" to="no"/>
+  <crossing node="C" edges="wi wo" width="4"/>
+  <crossing node="C" edges="ei eo" width="4"/>
+  <crossing node="C" edges="ni no" width="4"/>
+  <crossing node="C" edges="si so" width="4"/>
+</connections>
+

@@ -1,0 +1,17 @@
+{
+  "step_seconds": 1,
+  "end_seconds": 300,
+  "end_seconds_three": 600,
+  "vehicle_count_per_axis": 24,
+  "pedestrian_count": 16,
+  "vehicle_depart_last_second": 220,
+  "pedestrian_depart_last_second": 220,
+  "vehicle_green_min_seconds": 12,
+  "vehicle_green_fixed_seconds": 25,
+  "vehicle_green_actuated_max_seconds": 30,
+  "yellow_seconds": 3,
+  "all_red_seconds": 2,
+  "pedestrian_green_seconds": 12,
+  "minimum_walking_speed_mps": 0.8,
+  "pedestrian_clearance_buffer_seconds": 3
+}
