@@ -1,8 +1,11 @@
 import importlib.util
 import json
 import shutil
+import statistics
+import subprocess
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from src.traffic_control.cli import run
@@ -10,6 +13,7 @@ from src.traffic_control.metrics import CrossingTracker, vehicle_summary
 from src.traffic_control.ppo import PPOModel, gae
 from src.traffic_control.scenario import executable, make_demand
 from src.traffic_control.signals import Controller, SignalPlan
+from src.traffic_control.viewer import write_replay
 
 
 CONFIG = json.loads((Path(__file__).resolve().parents[1] / "config" / "milestone.json").read_text())
@@ -138,6 +142,33 @@ class SumoSmokeTest(unittest.TestCase):
                                    result["pedestrians_by_crossing"].values()), 0)
             for history in result["signal_history"].values():
                 self.assertIn("PED", [stage for _, stage in history])
+
+    def test_gui_phase_replay_reproduces_completed_trip_time_loss(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = Path(folder) / "source"
+            original = run("fixed", 40, source, Path("config/milestone.json"), junctions=3)
+            replay_dir = Path(folder) / "replay"
+            _, additional = write_replay(source, replay_dir)
+            tripinfo = replay_dir / "tripinfo.xml"
+            subprocess.run([
+                executable("sumo"), "--net-file", str(source / "connected.net.xml"),
+                "--route-files", str(source / "demand.rou.xml"),
+                "--additional-files", str(additional),
+                "--begin", "0", "--end", "600", "--step-length", "1",
+                "--seed", "40", "--pedestrian.striping.dawdling", "0",
+                "--time-to-teleport", "-1", "--tripinfo-output", str(tripinfo),
+                "--no-step-log", "true",
+            ], check=True)
+            losses = [float(item.attrib["timeLoss"])
+                      for item in ET.parse(tripinfo).iter("tripinfo")]
+            self.assertEqual(len(losses), original["vehicles"]["completed_count"])
+            self.assertAlmostEqual(statistics.mean(losses),
+                                   original["vehicles"]["completed_mean_time_loss_seconds"])
+            original_trips = {item.attrib["id"]: item.attrib for item in
+                              ET.parse(source / "tripinfo.xml").iter("tripinfo")}
+            replay_trips = {item.attrib["id"]: item.attrib for item in
+                            ET.parse(tripinfo).iter("tripinfo")}
+            self.assertEqual(replay_trips, original_trips)
 
 
 if __name__ == "__main__":

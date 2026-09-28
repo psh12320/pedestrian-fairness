@@ -16,6 +16,16 @@ $env:PYTHONPATH = (Resolve-Path .local\sumo-1.27.1\tools).Path
 
 The code also finds the local portable `sumo.exe` and `netconvert.exe` when they are present. SUMO 1.27.1 was used for the saved runs. No administrative installation is required.
 
+## Watch the simulation
+
+With the `PYTHONPATH` setting above, open two SUMO GUI windows showing the same medium-demand, held-out seed:
+
+```powershell
+python -m src.traffic_control.viewer --compare
+```
+
+The left window replays fixed-time control (before RL); the right replays the trained pedestrian-aware IPPO controller. The viewer converts each controller's recorded evaluation phase decisions into a SUMO signal program; it does not retrain an agent. Both use the same network, vehicles, pedestrian trips, and seed, at about five simulated seconds per real second. Zoom into a junction to see pedestrians waiting and crossing. The windows stay open when the 600-second simulation finishes. To watch one controller, run `python -m src.traffic_control.viewer --controller fixed` or substitute `ippo-pedestrian`, `mappo-vehicle`, or another controller. `--delay-ms 500` slows playback, `--seed 3002` picks another held-out seed, and `--slow-pedestrians` shows the slower-walker scenario. If raw runs have been removed, the viewer regenerates the selected headless episode first. GUI outputs go under Git-ignored `runs/gui/`.
+
 ## Reproduce
 
 Run these commands from the repository root:
@@ -57,6 +67,7 @@ For vehicles, TraCI departure/arrival IDs reconcile scheduled, completed, unfini
 - `cli.py`: one- or three-junction SUMO episode and local observation interface.
 - `ppo.py`, `train.py`: four learned controllers and their training runs.
 - `evaluate.py`, `report.py`: held-out study, uncertainty, crossing results, report and figure.
+- `viewer.py`: matched fixed-time and learned-controller SUMO GUI runs.
 - `tests/`: hand-checkable measurements, safety, determinism, and live SUMO smoke tests.
 
 ## Official SUMO references
