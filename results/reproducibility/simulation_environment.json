@@ -1,0 +1,17 @@
+{
+  "captured_utc": "2026-09-30T15:55:09.229364+00:00",
+  "purpose": "Environment used for the completed v3 training and ongoing locked evaluation",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.12.7 (main, Nov 22 2024, 20:28:41)  [GCC UCRT 14.2.0 64 bit (AMD64)]",
+  "python_executable": "C:\\msys64\\ucrt64\\bin\\python.exe",
+  "processor": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+  "cpu_model": "11th Gen Intel Core i7-1195G7 @ 2.90GHz",
+  "logical_processors": 8,
+  "simulation_workers": 4,
+  "learning_implementation": "Python standard library; linear PPO actors and value estimators",
+  "sumo_version": "1.27.1",
+  "sumo_binary_sha256": "8cc770aca4257d2cb821d91c0d346256c72c2983708137bc94789c75d00254b4",
+  "selected_episodes_per_training_replica": 150,
+  "training_replicas": 30,
+  "timing_note": "Training includes resumed work; no complete wall-clock training total is claimed."
+}

@@ -8,6 +8,7 @@ network, routes, and seed in the graphical simulator without a TraCI client.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import subprocess
 import xml.etree.ElementTree as ET
@@ -17,28 +18,61 @@ from .cli import run
 from .connected import incoming_groups
 from .ppo import PPOModel
 from .scenario import ROOT, executable
-from .signals import SignalPlan
+from .signals import SignalPlan, load_signal_conflicts
 
 
-CONTROLLERS = ("fixed", "actuated", "ippo-vehicle", "ippo-pedestrian",
+CONTROLLERS = ("fixed", "actuated", "pressure", "ippo-vehicle", "ippo-pedestrian",
                "mappo-vehicle", "mappo-pedestrian")
 
 
-def source_run(controller: str, seed: int, slow_pedestrians: bool) -> Path:
-    scenario = "vmedium-pmedium-slow" if slow_pedestrians else "vmedium-pmedium"
-    existing = ROOT / "runs" / "evaluation" / scenario / f"seed-{seed}" / controller
-    if (existing / "metrics.json").exists():
-        return existing
-    destination = ROOT / "runs" / "gui" / "source" / scenario / f"seed-{seed}" / controller
+def default_model_directory() -> Path:
+    """Use the current protocol and honour its validation-only budget decision."""
+    decision = ROOT / "runs" / "training-v3" / "extension_decision.json"
+    if not decision.exists():
+        return ROOT / "models" / "v3"
+    budget = json.loads(decision.read_text(encoding="utf-8"))[
+        "selected_training_episodes"]
+    if budget not in (150, 300):
+        raise ValueError(f"Unexpected validation-selected training budget: {budget}")
+    return ROOT / "models" / ("v4" if budget == 300 else "v3")
+
+
+def source_protocol_key() -> str:
+    """Invalidate GUI source runs when a demand, controller, or safety rule changes."""
+    digest = hashlib.sha256()
+    sources = [ROOT / "config" / "milestone.json"]
+    sources.extend(Path(__file__).with_name(name) for name in (
+        "cli.py", "connected.py", "scenario.py", "signals.py", "metrics.py",
+        "ppo.py", "viewer.py"))
+    for path in sources:
+        digest.update(str(path.relative_to(ROOT)).encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(path.read_bytes())
+        digest.update(b"\0")
+    return digest.hexdigest()[:16]
+
+
+def source_run(controller: str, seed: int, slow_pedestrians: bool,
+               model_dir: Path | None = None,
+               pedestrian_count: int = 120) -> Path:
+    if pedestrian_count < 0:
+        raise ValueError("pedestrian_count must be nonnegative")
+    scenario = f"vmedium-p{pedestrian_count}" + ("-slow" if slow_pedestrians else "")
+    model_dir = model_dir or default_model_directory()
+    model_path = model_dir / f"{controller}.json"
+    model_key = (hashlib.sha256(model_path.read_bytes()).hexdigest()[:12]
+                 if controller not in ("fixed", "actuated", "pressure") else "baseline")
+    destination = (ROOT / "runs" / "gui" / "source" / source_protocol_key() / scenario /
+                   f"seed-{seed}" / controller / model_key)
     if (destination / "metrics.json").exists():
         return destination
-    overrides = {"vehicle_count_per_axis": 24, "pedestrian_count": 16,
+    overrides = {"vehicle_count_per_axis": 24, "pedestrian_count": pedestrian_count,
                  "vehicle_depart_last_second": 360,
                  "pedestrian_depart_last_second": 360}
     policy = None
     kind = controller
-    if controller not in ("fixed", "actuated"):
-        model = PPOModel.load(ROOT / "models" / f"{controller}.json")
+    if controller not in ("fixed", "actuated", "pressure"):
+        model = PPOModel.load(model_path)
         kind = "policy"
         policy = lambda tls, obs, global_obs, eligible: model.select(
             tls, obs, global_obs, eligible, training=False)
@@ -79,7 +113,8 @@ def write_replay(source: Path, output: Path) -> tuple[dict, Path]:
         if set.union(*groups.values()) != set(range(state_length)):
             raise ValueError(f"Incomplete controlled links at {tls}: {groups}")
         plan = SignalPlan(groups, state_length,
-                          metrics["pedestrian_clearance_seconds"], metrics["config"])
+                          metrics["pedestrian_clearance_seconds"], metrics["config"],
+                          load_signal_conflicts(source / "connected.net.xml", tls))
         logic = ET.SubElement(root, "tlLogic", id=tls, type="static",
                               programID="recorded-evaluation", offset="0")
         for index, (begin, stage) in enumerate(history):
@@ -138,12 +173,17 @@ def write_replay(source: Path, output: Path) -> tuple[dict, Path]:
 
 
 def launch(controller: str, seed: int, slow_pedestrians: bool, delay_ms: float,
-           window_pos: tuple[int, int] | None) -> tuple[subprocess.Popen, dict]:
-    source = source_run(controller, seed, slow_pedestrians)
-    output = ROOT / "runs" / "gui" / f"seed-{seed}" / controller
+           window_pos: tuple[int, int] | None,
+           model_dir: Path | None = None,
+           pedestrian_count: int = 120) -> tuple[subprocess.Popen, dict]:
+    source = source_run(controller, seed, slow_pedestrians, model_dir,
+                        pedestrian_count)
+    output = (ROOT / "runs" / "gui" / "replay" / source_protocol_key() /
+              f"seed-{seed}-p{pedestrian_count}" / controller)
     metrics, replay = write_replay(source, output)
     command = [executable("sumo-gui"), "--net-file", str(source / "connected.net.xml"),
                "--route-files", str(source / "demand.rou.xml"),
+               "--gui-settings-file", str(ROOT / "config" / "demo.gui.xml"),
                "--additional-files", str(replay), "--begin", "0",
                "--end", str(metrics["config"]["end_seconds"]),
                "--step-length", "1", "--seed", str(seed),
@@ -163,26 +203,35 @@ def main() -> None:
     mode.add_argument("--compare", action="store_true",
                       help="Open fixed-time and a trained controller side by side")
     mode.add_argument("--controller", choices=CONTROLLERS)
-    parser.add_argument("--rl-controller", choices=CONTROLLERS[2:],
+    parser.add_argument("--rl-controller", choices=CONTROLLERS[3:],
                         default="ippo-pedestrian")
-    parser.add_argument("--seed", type=int, default=3001)
+    parser.add_argument("--seed", type=int, default=6001)
     parser.add_argument("--delay-ms", type=float, default=200)
     parser.add_argument("--slow-pedestrians", action="store_true")
+    parser.add_argument("--pedestrian-count", type=int, default=120,
+                        help="Pedestrians in the matched GUI demand (default: 120)")
+    parser.add_argument("--model-dir", type=Path, default=default_model_directory(),
+                        help="Defaults to the validation-selected current model directory")
     args = parser.parse_args()
     if args.delay_ms < 0:
         parser.error("--delay-ms must be nonnegative")
+    if args.pedestrian_count < 0:
+        parser.error("--pedestrian-count must be nonnegative")
     if args.compare:
         _, fixed = launch("fixed", args.seed, args.slow_pedestrians,
-                          args.delay_ms, (0, 0))
+                          args.delay_ms, (0, 0), args.model_dir,
+                          args.pedestrian_count)
         _, learned = launch(args.rl_controller, args.seed, args.slow_pedestrians,
-                            args.delay_ms, (920, 0))
+                            args.delay_ms, (920, 0), args.model_dir,
+                            args.pedestrian_count)
         if fixed["demand_sha256"] != learned["demand_sha256"]:
             raise AssertionError("The two windows received different demand")
         print("Matched demand verified. The windows replay the recorded "
               "signal phases and remain open after the run. Zoom into a "
               "junction to see pedestrians clearly.", flush=True)
     else:
-        launch(args.controller, args.seed, args.slow_pedestrians, args.delay_ms, None)
+        launch(args.controller, args.seed, args.slow_pedestrians, args.delay_ms,
+               None, args.model_dir, args.pedestrian_count)
 
 
 if __name__ == "__main__":

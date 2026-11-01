@@ -1,0 +1,23 @@
+{
+  "schema_version": "pedestrian-fairness-v2",
+  "status": "development-only; capacity and measurement gates not yet frozen",
+  "step_seconds": 0.2,
+  "decision_seconds": 1,
+  "end_seconds": 2400,
+  "warmup_seconds": 300,
+  "measurement_end_seconds": 2100,
+  "demand_end_seconds": 2100,
+  "vehicle_rate_per_hour": 1920,
+  "pedestrian_rate_per_hour": 1200,
+  "turn_fraction": 0.1,
+  "junction_spacing_m": 140,
+  "vehicle_green_min_seconds": 12,
+  "vehicle_green_fixed_seconds": 25,
+  "vehicle_green_actuated_max_seconds": 30,
+  "yellow_seconds": 3,
+  "all_red_seconds": 2,
+  "pedestrian_green_seconds": 12,
+  "minimum_walking_speed_mps": 0.8,
+  "pedestrian_clearance_buffer_seconds": 3,
+  "pedestrian_clearance_empty_seconds": 3
+}

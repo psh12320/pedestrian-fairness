@@ -1,0 +1,44 @@
+[
+  {
+    "file": "road-crossings.zip",
+    "source_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/RoadCrossing_Sep2026.zip",
+    "retrieved_utc": "2026-11-01T11:46:16.244613+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "footpaths.zip",
+    "source_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/Footpath_Sep2026.zip",
+    "retrieved_utc": "2026-11-01T11:46:16.829530+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "detector-loops.zip",
+    "source_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/DetectorLoop_Sep2026.zip",
+    "retrieved_utc": "2026-11-01T11:46:17.100628+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "signal-aspects.zip",
+    "source_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/TrafficLight_Sep2026.zip",
+    "retrieved_utc": "2026-11-01T11:46:17.375076+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "traffic-count-description.pdf",
+    "source_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/Description%20for%20Trip%20Count.pdf",
+    "retrieved_utc": "2026-11-01T11:46:17.595788+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "traffic-flow-package.zip",
+    "source_url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/TrafficRelated/TrafficFlow.zip",
+    "retrieved_utc": "2026-11-01T11:46:17.801051+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

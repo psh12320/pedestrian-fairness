@@ -1,8 +1,9 @@
 """Small, dependency-free PPO models for IPPO and central-critic MAPPO.
 
 Each junction has its own linear Bernoulli actor taking only local features.
-IPPO has one local linear value estimator per junction. MAPPO has one shared
-value estimator taking the concatenated observations of all junctions.
+Both methods learn from the same per-junction reward. IPPO has one local linear
+value estimator per junction; MAPPO has one value estimator per junction that
+can take the concatenated observations of all junctions during training.
 """
 
 from __future__ import annotations
@@ -50,8 +51,8 @@ class PPOModel:
         self.global_dim = self.obs_dim * len(junction_ids)
         self.actors = {tls: [self.rng.uniform(-0.02, 0.02) for _ in range(self.obs_dim)]
                        for tls in self.junction_ids}
-        self.critics = ({tls: [0.0] * self.obs_dim for tls in self.junction_ids}
-                        if method == "ippo" else {"global": [0.0] * self.global_dim})
+        critic_dim = self.obs_dim if method == "ippo" else self.global_dim
+        self.critics = {tls: [0.0] * critic_dim for tls in self.junction_ids}
         self.episodes_trained = 0
 
     def select(self, tls: str, obs: list[float], global_obs: list[float],
@@ -62,8 +63,8 @@ class PPOModel:
         action = int(self.rng.random() < probability) if training and eligible else int(
             probability >= 0.5 and eligible)
         logp = math.log(probability if action else 1 - probability) if eligible else 0.0
-        value = 0.0 if not training else (dot(self.critics[tls], obs) if self.method == "ippo"
-                                          else dot(self.critics["global"], global_obs))
+        value = 0.0 if not training else dot(
+            self.critics[tls], obs if self.method == "ippo" else global_obs)
         return action, logp, value
 
     def update(self, traces: dict[str, list[dict]]) -> dict:
@@ -73,22 +74,13 @@ class PPOModel:
         length = min(len(trace) for trace in traces.values())
         if length == 0:
             raise ValueError("Empty PPO rollout")
-        if self.method == "mappo":
-            shared_rewards = [sum(traces[tls][i]["reward"] for tls in self.junction_ids)
-                              for i in range(length)]
-            shared_values = [traces[self.junction_ids[0]][i]["value"] for i in range(length)]
-            shared_adv = gae(shared_rewards, shared_values, hp["gamma"], hp["gae_lambda"])
-            for tls in self.junction_ids:
-                advantages[tls] = shared_adv
-            targets["global"] = [value + adv for value, adv in zip(shared_values, shared_adv)]
-        else:
-            for tls in self.junction_ids:
-                trace = traces[tls][:length]
-                values = [row["value"] for row in trace]
-                adv = gae([row["reward"] for row in trace], values,
-                          hp["gamma"], hp["gae_lambda"])
-                advantages[tls] = adv
-                targets[tls] = [value + advantage for value, advantage in zip(values, adv)]
+        for tls in self.junction_ids:
+            trace = traces[tls][:length]
+            values = [row["value"] for row in trace]
+            adv = gae([row["reward"] for row in trace], values,
+                      hp["gamma"], hp["gae_lambda"])
+            advantages[tls] = adv
+            targets[tls] = [value + advantage for value, advantage in zip(values, adv)]
 
         for _ in range(hp["update_epochs"]):
             for tls in self.junction_ids:
@@ -120,9 +112,8 @@ class PPOModel:
                     self.actors[tls][j] = max(-10.0, min(10.0, self.actors[tls][j]
                         + hp["actor_learning_rate"] * gradient[j] / len(valid)))
 
-            critic_keys = self.junction_ids if self.method == "ippo" else ["global"]
-            for key in critic_keys:
-                rows = traces[key][:length] if self.method == "ippo" else traces[self.junction_ids[0]][:length]
+            for key in self.junction_ids:
+                rows = traces[key][:length]
                 weights = self.critics[key]
                 gradient = [0.0] * len(weights)
                 for i, row in enumerate(rows):

@@ -1,0 +1,1589 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78557559167498,
+          1.2991749511763475
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1382625,
+        "BEARG_NUM": 302,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 25561,
+        "INC_CRC": "BE0C10046E031988",
+        "FMEL_UPD_D": "20240107231157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78571852501022,
+          1.2954215255590833
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1383564,
+        "BEARG_NUM": 288,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 24301,
+        "INC_CRC": "D44D08DE3D474739",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78537858806021,
+          1.2996276116919512
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1384444,
+        "BEARG_NUM": 132,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 21468,
+        "INC_CRC": "36A5F4DF48BE0399",
+        "FMEL_UPD_D": "20240107231157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.785310516771,
+          1.2993553080521532
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1386924,
+        "BEARG_NUM": 346,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 25557,
+        "INC_CRC": "237724C587747671",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7852440606603,
+          1.2993427135045372
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1386925,
+        "BEARG_NUM": 346,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 25558,
+        "INC_CRC": "31BC5DBE58519430",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78544854889039,
+          1.2991901692110381
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1386926,
+        "BEARG_NUM": 189,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 25559,
+        "INC_CRC": "B31924A0DD292143",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78558363923509,
+          1.2992123522273686
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1386348,
+        "BEARG_NUM": 20,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 21016,
+        "INC_CRC": "6E299174F082CE80",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78544729903837,
+          1.2991889338253062
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1387043,
+        "BEARG_NUM": 9,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 25560,
+        "INC_CRC": "AE54DE41D07D2AA7",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7831845897579,
+          1.3018381692384515
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1385652,
+        "BEARG_NUM": 50.26608204,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 18358,
+        "INC_CRC": "7C82976004EEBB5E",
+        "FMEL_UPD_D": "20240107231154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78326484096218,
+          1.301730593979779
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1385654,
+        "BEARG_NUM": 51.34019175,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 18360,
+        "INC_CRC": "FC9A4F706A6F3FD2",
+        "FMEL_UPD_D": "20240107231154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78532960829602,
+          1.2993473237832194
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1386593,
+        "BEARG_NUM": 195,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 25556,
+        "INC_CRC": "BFF13143CD353D43",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78442664451663,
+          1.3002958978677235
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1389220,
+        "BEARG_NUM": 47.04064146,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36116,
+        "INC_CRC": "CB68C13444D0D04E",
+        "FMEL_UPD_D": "20240107231211"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78445314082141,
+          1.300295063655734
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1389221,
+        "BEARG_NUM": 137.1874697,
+        "TYP_NAM": "Green Filter Arrow Signal",
+        "UNIQUE_ID": 36117,
+        "INC_CRC": "21CACE02C6977482",
+        "FMEL_UPD_D": "20240107231211"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78331200528471,
+          1.3019291743617338
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1390719,
+        "BEARG_NUM": 228.60188958,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 22738,
+        "INC_CRC": "606C2DF0262BCE24",
+        "FMEL_UPD_D": "20240107231158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78391907196479,
+          1.3026441760364031
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1390722,
+        "BEARG_NUM": 30.96893911,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 22741,
+        "INC_CRC": "797F95135F1BDDA3",
+        "FMEL_UPD_D": "20240107231158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78406138322975,
+          1.3027104814157078
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1390723,
+        "BEARG_NUM": 205.94235464,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 22742,
+        "INC_CRC": "6CF5FF6BE63C29A7",
+        "FMEL_UPD_D": "20240107231158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78346073910572,
+          1.3018222235700578
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1390724,
+        "BEARG_NUM": 50,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 22743,
+        "INC_CRC": "43DF2746CB658E5F",
+        "FMEL_UPD_D": "20240107231158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78567823249998,
+          1.2955680101444345
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1381836,
+        "BEARG_NUM": 288,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 19047,
+        "INC_CRC": "755564BA8CBA54E7",
+        "FMEL_UPD_D": "20240107231154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7856797636862,
+          1.295564331218548
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1380436,
+        "BEARG_NUM": 180,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 18665,
+        "INC_CRC": "A77F1C248080FEA3",
+        "FMEL_UPD_D": "20240107231155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78439511331605,
+          1.3005014909491805
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392939,
+        "BEARG_NUM": 50.05470644,
+        "TYP_NAM": "RAG",
+        "UNIQUE_ID": 36330,
+        "INC_CRC": "9762BBF78563EDC9",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78452909646683,
+          1.3005364092631755
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392940,
+        "BEARG_NUM": 47.34296535,
+        "TYP_NAM": "RAG",
+        "UNIQUE_ID": 36331,
+        "INC_CRC": "D6EBB4922D922814",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78454215517762,
+          1.3005749661920118
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392941,
+        "BEARG_NUM": 135.51308078,
+        "TYP_NAM": "B-Signal",
+        "UNIQUE_ID": 36332,
+        "INC_CRC": "5EE66E674B894F6E",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78451942144606,
+          1.3005566089596734
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392942,
+        "BEARG_NUM": 315,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36333,
+        "INC_CRC": "42BCE387F7636B26",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78467357263625,
+          1.300440623594183
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392943,
+        "BEARG_NUM": 137.1874697,
+        "TYP_NAM": "Green Filter Arrow Signal",
+        "UNIQUE_ID": 36334,
+        "INC_CRC": "83F5C7D5BCCA6AEC",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78451942144606,
+          1.3005566089596734
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392944,
+        "BEARG_NUM": 234,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 36335,
+        "INC_CRC": "42BCE387C1AB3703",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78460670807897,
+          1.3003126330187604
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1392945,
+        "BEARG_NUM": 139,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36336,
+        "INC_CRC": "B0E14EB1AF318210",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78318474071267,
+          1.3018382117466014
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1391999,
+        "BEARG_NUM": 52.73665987,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 18135,
+        "INC_CRC": "5D2BF5930AC2006D",
+        "FMEL_UPD_D": "20240107231153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7855907461318,
+          1.2956488234047634
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1393982,
+        "BEARG_NUM": 58,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 24197,
+        "INC_CRC": "CFBF6FB6CB5E4F30",
+        "FMEL_UPD_D": "20240107231155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78330275394688,
+          1.3017425115472854
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1393730,
+        "BEARG_NUM": 146.81009565,
+        "TYP_NAM": "Green Filter Arrow Signal",
+        "UNIQUE_ID": 40545,
+        "INC_CRC": "EC9A3F895DE29CB1",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78332186628131,
+          1.3019109091099412
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1393731,
+        "BEARG_NUM": 49.48657349,
+        "TYP_NAM": "RAG",
+        "UNIQUE_ID": 40546,
+        "INC_CRC": "6F6314C2BBDB649B",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78347883735128,
+          1.301835165385428
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1393732,
+        "BEARG_NUM": 138.71366845,
+        "TYP_NAM": "Green Filter Arrow Signal",
+        "UNIQUE_ID": 40547,
+        "INC_CRC": "ADF95E5EDE9593C1",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7856254750803,
+          1.2994243659037135
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1399472,
+        "BEARG_NUM": 200,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20286,
+        "INC_CRC": "D055A6E0077DFF88",
+        "FMEL_UPD_D": "20240107231153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78554267822877,
+          1.2957147289613447
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1401150,
+        "BEARG_NUM": 58,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 12353,
+        "INC_CRC": "68A9DD175A595A7B",
+        "FMEL_UPD_D": "20240107231144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78460670807897,
+          1.3003126330187604
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1401792,
+        "BEARG_NUM": 319,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36337,
+        "INC_CRC": "B0E14EB1F63CC577",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78530215392564,
+          1.2994077519888032
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1401993,
+        "BEARG_NUM": 20,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 20291,
+        "INC_CRC": "29464C6FBC4B2448",
+        "FMEL_UPD_D": "20240107231151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78537858806021,
+          1.2996276116919512
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1401994,
+        "BEARG_NUM": 317,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20292,
+        "INC_CRC": "36A5F4DF834217D4",
+        "FMEL_UPD_D": "20240107231151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78458241403982,
+          1.2942137856080436
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1403061,
+        "BEARG_NUM": 325,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 39601,
+        "INC_CRC": "90094E5BA00F7263",
+        "FMEL_UPD_D": "20240107231216"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78468164229582,
+          1.2940987686374306
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1403062,
+        "BEARG_NUM": 325,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 39602,
+        "INC_CRC": "26A10EED9D2824B4",
+        "FMEL_UPD_D": "20240107231216"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78562332035004,
+          1.2994254610481615
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1402490,
+        "BEARG_NUM": 311,
+        "TYP_NAM": "Pedestrian Signal with Intergrated Count Down Timer",
+        "UNIQUE_ID": 17317,
+        "INC_CRC": "25ABAE6FF81333ED",
+        "FMEL_UPD_D": "20240107231154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78329561910857,
+          1.3016710648050456
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1402113,
+        "BEARG_NUM": 143.13010235,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 40540,
+        "INC_CRC": "2B96DE4C7CA7314A",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78327964417919,
+          1.3018833432386163
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1402114,
+        "BEARG_NUM": 53.2672358,
+        "TYP_NAM": "RAG",
+        "UNIQUE_ID": 40541,
+        "INC_CRC": "426CF6B264F3A0BB",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78324187713241,
+          1.3018979262648465
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1404853,
+        "BEARG_NUM": 320.56363499,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 40543,
+        "INC_CRC": "09200507CDC62B58",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78345246976103,
+          1.301778134734387
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1404854,
+        "BEARG_NUM": 233.16532608,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 40544,
+        "INC_CRC": "D58C3497397E84CD",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78324187713241,
+          1.3018979262648465
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1404408,
+        "BEARG_NUM": 142.20852049,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 40542,
+        "INC_CRC": "09200507AC642A80",
+        "FMEL_UPD_D": "20240107231215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7856254750803,
+          1.2994243659037135
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1405111,
+        "BEARG_NUM": 20,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20290,
+        "INC_CRC": "D055A6E05030F2BE",
+        "FMEL_UPD_D": "20240107231153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78533711612268,
+          1.2997975030028037
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1406806,
+        "BEARG_NUM": 85.06023987,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 5722,
+        "INC_CRC": "E31ECABF5E5B51DE",
+        "FMEL_UPD_D": "20240107231141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7843611311342,
+          1.3005073930727988
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1406731,
+        "BEARG_NUM": 139,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36338,
+        "INC_CRC": "21DFF60D532C320D",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78534083114812,
+          1.2997264932788195
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1406807,
+        "BEARG_NUM": 85.06023987,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 5723,
+        "INC_CRC": "8756CC7679CF48DC",
+        "FMEL_UPD_D": "20240107231141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78563325712236,
+          1.2994377904381116
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1405339,
+        "BEARG_NUM": 168.79847456,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 5433,
+        "INC_CRC": "DACEEEFC4D5A9D5A",
+        "FMEL_UPD_D": "20240107231142"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78583251651165,
+          1.295537902243145
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1405644,
+        "BEARG_NUM": 180,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 26297,
+        "INC_CRC": "901F3A5D3E1080C8",
+        "FMEL_UPD_D": "20240107231203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78569916758464,
+          1.2994630189371839
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1406546,
+        "BEARG_NUM": 168.79847456,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 5916,
+        "INC_CRC": "3D396A50FBD013B0",
+        "FMEL_UPD_D": "20240107231142"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78435969158318,
+          1.3005116553144238
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1408250,
+        "BEARG_NUM": 319,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36339,
+        "INC_CRC": "1E866BBEA755BA05",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78458388660997,
+          1.3005118722075317
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1408251,
+        "BEARG_NUM": 140,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 36340,
+        "INC_CRC": "3ABCC2BD83EBEFBC",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78564282242108,
+          1.299422193949826
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1399137,
+        "BEARG_NUM": 210,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 20272,
+        "INC_CRC": "8446DB9B30A85C7B",
+        "FMEL_UPD_D": "20240107231153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78567141207137,
+          1.2954497724935787
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1411263,
+        "BEARG_NUM": 0,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 24183,
+        "INC_CRC": "73E923C2FEC7190A",
+        "FMEL_UPD_D": "20240107231155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78346073910572,
+          1.3018222235700578
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1413137,
+        "BEARG_NUM": 50,
+        "TYP_NAM": "Green Filter Arrow Signal",
+        "UNIQUE_ID": 22755,
+        "INC_CRC": "43DF27460E7A395C",
+        "FMEL_UPD_D": "20240107231158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78346073910572,
+          1.3018222235700578
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1413144,
+        "BEARG_NUM": 320,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 22764,
+        "INC_CRC": "43DF27468D2F52C0",
+        "FMEL_UPD_D": "20240107231158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78570246125186,
+          1.2955928453569963
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1412203,
+        "BEARG_NUM": 110,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 24190,
+        "INC_CRC": "BCF299BE7967CAB2",
+        "FMEL_UPD_D": "20240107231155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78583684945662,
+          1.2953840084227595
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1412666,
+        "BEARG_NUM": 180,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 24296,
+        "INC_CRC": "5274DD74BB063D35",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7855720278657,
+          1.2991846522264707
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1418553,
+        "BEARG_NUM": 302,
+        "TYP_NAM": "Pedestrian Signal with Intergrated Count Down Timer",
+        "UNIQUE_ID": 9672,
+        "INC_CRC": "5D3B31D16DDF9689",
+        "FMEL_UPD_D": "20240107231146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78570535103471,
+          1.2955891990139186
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1418722,
+        "BEARG_NUM": 110,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 18312,
+        "INC_CRC": "CEF928B4DFC1CB53",
+        "FMEL_UPD_D": "20240107231154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78530139910022,
+          1.2994102959516642
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420938,
+        "BEARG_NUM": 24,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 20937,
+        "INC_CRC": "3BFCD8C4057DA2B3",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7855816921981,
+          1.2992065588313988
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420939,
+        "BEARG_NUM": 126,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20938,
+        "INC_CRC": "3A66C205538D52DB",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78558277943685,
+          1.2992065588520767
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420940,
+        "BEARG_NUM": 306,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20939,
+        "INC_CRC": "AB6FBC095A68998B",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78570196008341,
+          1.2990407006675482
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1419951,
+        "BEARG_NUM": 251.13412345,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 9822,
+        "INC_CRC": "D6891AEF254F46FC",
+        "FMEL_UPD_D": "20240107231146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78567596661274,
+          1.2991089064401857
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1419952,
+        "BEARG_NUM": 251.13412345,
+        "TYP_NAM": "Beacon",
+        "UNIQUE_ID": 9823,
+        "INC_CRC": "996A870299F3D160",
+        "FMEL_UPD_D": "20240107231146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78565197624746,
+          1.2993074881489526
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420941,
+        "BEARG_NUM": 300,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20940,
+        "INC_CRC": "FB91ACA4FEC9627E",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78565197624746,
+          1.2993074881489526
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420942,
+        "BEARG_NUM": 120,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20941,
+        "INC_CRC": "FB91ACA4A7C42519",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78450045896633,
+          1.3002546639032833
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420531,
+        "BEARG_NUM": 322.31830384,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36343,
+        "INC_CRC": "FA9F640B268DF425",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7845018311004,
+          1.3002517401196578
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420532,
+        "BEARG_NUM": 138,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36344,
+        "INC_CRC": "838FBA30F8B9AE33",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78464284535497,
+          1.3004272266470005
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420533,
+        "BEARG_NUM": 38.15022609,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 36345,
+        "INC_CRC": "C9051674146D4056",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78464678242639,
+          1.3003049078111526
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420534,
+        "BEARG_NUM": 47.34296535,
+        "TYP_NAM": "RAG",
+        "UNIQUE_ID": 36346,
+        "INC_CRC": "8A548E4CE7765B25",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7858341428747,
+          1.295537902273827
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420594,
+        "BEARG_NUM": 286,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 26144,
+        "INC_CRC": "EF30AF825DA47A4B",
+        "FMEL_UPD_D": "20240107231203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7858344089641,
+          1.2953866681127895
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420231,
+        "BEARG_NUM": 288,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 12548,
+        "INC_CRC": "32548736AF6A9B55",
+        "FMEL_UPD_D": "20240107231144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78571873606899,
+          1.2954268224260772
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420232,
+        "BEARG_NUM": 180,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 12549,
+        "INC_CRC": "9AAABE9C5EC70D42",
+        "FMEL_UPD_D": "20240107231144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78466645821177,
+          1.300380467844593
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1420233,
+        "BEARG_NUM": 227.11619658,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 36342,
+        "INC_CRC": "21EA8C2DB7037AD6",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78564282242108,
+          1.299422193949826
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1416464,
+        "BEARG_NUM": 200,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 3383,
+        "INC_CRC": "8446DB9B4B668292",
+        "FMEL_UPD_D": "20240107231138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78541211003692,
+          1.2996289589309236
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1416465,
+        "BEARG_NUM": 120,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 3384,
+        "INC_CRC": "93ABBEE89F3204D8",
+        "FMEL_UPD_D": "20240107231138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78541211097642,
+          1.2996267866474427
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1416466,
+        "BEARG_NUM": 126,
+        "TYP_NAM": "Pedestrian Signal with Intergrated Count Down Timer",
+        "UNIQUE_ID": 3385,
+        "INC_CRC": "EEFD55BA7A7C5D04",
+        "FMEL_UPD_D": "20240107231138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78537737685845,
+          1.2996256862768172
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1413782,
+        "BEARG_NUM": 210,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 26732,
+        "INC_CRC": "8218A77781AB1421",
+        "FMEL_UPD_D": "20240107231203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78532838796579,
+          1.2993529841772165
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1414813,
+        "BEARG_NUM": 125,
+        "TYP_NAM": "Pedestrian Signal with Intergrated Count Down Timer",
+        "UNIQUE_ID": 3386,
+        "INC_CRC": "6FFAF2B5A8E10F3F",
+        "FMEL_UPD_D": "20240107231138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78530914581783,
+          1.2995336704075693
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1413407,
+        "BEARG_NUM": 120,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 25331,
+        "INC_CRC": "D84DE0D9274CD516",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78530914581783,
+          1.2995336704075693
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1413408,
+        "BEARG_NUM": 300,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 25332,
+        "INC_CRC": "D84DE0D9904FF35D",
+        "FMEL_UPD_D": "20240107231156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78464284535497,
+          1.3004272266470005
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1414466,
+        "BEARG_NUM": 323,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 36341,
+        "INC_CRC": "C90516744EA7D3D8",
+        "FMEL_UPD_D": "20240107231210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78433796043133,
+          1.3004103841570154
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1422248,
+        "BEARG_NUM": 52,
+        "TYP_NAM": "Pedestrian Signal",
+        "UNIQUE_ID": 12693,
+        "INC_CRC": "77941DDBF3AFFD90",
+        "FMEL_UPD_D": "20240107231143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78433726585632,
+          1.3004103760041683
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1422249,
+        "BEARG_NUM": 52.79125895,
+        "TYP_NAM": "Overhead Signal",
+        "UNIQUE_ID": 12694,
+        "INC_CRC": "68AD49738B643DD4",
+        "FMEL_UPD_D": "20240107231143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78552376482902,
+          1.2995893046773972
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1422372,
+        "BEARG_NUM": 200,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20935,
+        "INC_CRC": "0EB1C535CA70F7AA",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78552376482902,
+          1.2995893046773972
+        ]
+      },
+      "properties": {
+        "OBJECTID_1": 1422373,
+        "BEARG_NUM": 20,
+        "TYP_NAM": "Ground Signal",
+        "UNIQUE_ID": 20936,
+        "INC_CRC": "0EB1C535E1C1E155",
+        "FMEL_UPD_D": "20240107231152"
+      }
+    }
+  ]
+}

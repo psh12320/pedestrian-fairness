@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <!-- Display only: enlarge pedestrian icons so crossings are visible in talks. -->
+    <scheme name="team38-demo">
+        <vehicles vehicleQuality="2" vehicle_exaggeration="1"/>
+        <persons personQuality="2" person_exaggeration="3"/>
+    </scheme>
+</viewsettings>

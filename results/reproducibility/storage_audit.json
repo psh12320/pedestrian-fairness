@@ -1,0 +1,25 @@
+{
+  "project_bytes_excluding_git_and_link_targets": 619081730,
+  "disk_free_bytes": 4320202752,
+  "excluded_link_targets": [
+    ".deck-build\\node_modules"
+  ],
+  "top_level_bytes": {
+    "(root)": 29742,
+    ".codex-finalizer": 52526,
+    ".deck-build": 506058,
+    ".local": 288141972,
+    "config": 5350,
+    "deliverables": 8001942,
+    "docs": 55221,
+    "models": 289059,
+    "output": 318019,
+    "results": 64664602,
+    "runs": 246901398,
+    "scenario": 463601,
+    "scripts": 66772,
+    "src": 771328,
+    "tests": 130792,
+    "tmp": 8683348
+  }
+}

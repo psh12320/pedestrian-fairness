@@ -1,0 +1,73 @@
+{
+  "path": "output\\pdf\\cs4246-team38-final-report.pdf",
+  "sha256": "29fbf0d7328d783b70ee3ee931f793e2ffcfe48cbf4ef04261294924c2546f8c",
+  "pages": 10,
+  "checks": [
+    {
+      "page": 1,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 2,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 3,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 4,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 5,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 6,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 7,
+      "minimum_body_font_pt": 11.999999999999986,
+      "margin_violations": []
+    },
+    {
+      "page": 8,
+      "minimum_body_font_pt": 12.0,
+      "margin_violations": []
+    },
+    {
+      "page": 9,
+      "minimum_body_font_pt": 11.999999999999943,
+      "margin_violations": []
+    },
+    {
+      "page": 10,
+      "minimum_body_font_pt": 11.999999999999943,
+      "margin_violations": []
+    }
+  ],
+  "visual_review": {
+    "all_pages_inspected": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "clipping_or_overlap_observed": false
+  }
+}

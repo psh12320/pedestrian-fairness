@@ -1,0 +1,56 @@
+{
+  "purpose": "Development runtime equivalence check, seed 6001, IPPO-w3 replica 0 from models/v3",
+  "both_cases_byte_identical": true,
+  "runtime_used_for_training_and_evaluation": "C:\\msys64\\ucrt64\\bin\\python.exe",
+  "timing_limit": "Timings were collected during concurrent training and are not a controlled benchmark. No runtime switch was made.",
+  "observations": [
+    {
+      "python": "3.12.7 (main, Nov 22 2024, 20:28:41)  [GCC UCRT 14.2.0 64 bit (AMD64)]",
+      "executable": "C:\\msys64\\ucrt64\\bin\\python.exe",
+      "records": [
+        {
+          "pedestrian_count": 120,
+          "seconds": 14.22532460000366,
+          "sha256": {
+            "metrics.json": "fd5a04f6a4c0623b0e79e09ec01621a54f4acf690c98c2f9da43c50db317a6c0",
+            "crossing_events.json": "1f6394bce0f454956e9ea88e8be059939a22c7200be827d37404112d305df1a7",
+            "demand.rou.xml": "ecce368d3fc5b8ddfe806ba09a24c145d3c2cecadedc308e547d8b213d9cd0d0"
+          }
+        },
+        {
+          "pedestrian_count": 200,
+          "seconds": 12.494459200184792,
+          "sha256": {
+            "metrics.json": "b04885ab6687c7091f2d55ffd9e0086191472281f42816d70a0c396f3a1c16d8",
+            "crossing_events.json": "06998ec600edcf5a577a33fb1c5fc5aa04236d030a697c40c7b1dc9405bf46a2",
+            "demand.rou.xml": "dc17f14f329163186dda05df161d95d049784487d9dbb41af302c417ed72eb5d"
+          }
+        }
+      ]
+    },
+    {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "C:\\Users\\Shricharan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "records": [
+        {
+          "pedestrian_count": 120,
+          "seconds": 18.354687599930912,
+          "sha256": {
+            "metrics.json": "fd5a04f6a4c0623b0e79e09ec01621a54f4acf690c98c2f9da43c50db317a6c0",
+            "crossing_events.json": "1f6394bce0f454956e9ea88e8be059939a22c7200be827d37404112d305df1a7",
+            "demand.rou.xml": "ecce368d3fc5b8ddfe806ba09a24c145d3c2cecadedc308e547d8b213d9cd0d0"
+          }
+        },
+        {
+          "pedestrian_count": 200,
+          "seconds": 15.574262300040573,
+          "sha256": {
+            "metrics.json": "b04885ab6687c7091f2d55ffd9e0086191472281f42816d70a0c396f3a1c16d8",
+            "crossing_events.json": "06998ec600edcf5a577a33fb1c5fc5aa04236d030a697c40c7b1dc9405bf46a2",
+            "demand.rou.xml": "dc17f14f329163186dda05df161d95d049784487d9dbb41af302c417ed72eb5d"
+          }
+        }
+      ]
+    }
+  ]
+}

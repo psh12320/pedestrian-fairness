@@ -15,6 +15,7 @@ class CrossingEvent:
     crossing_id: str
     reached_at: float
     entered_at: float | None = None
+    arrival_source: str = "unknown"
 
     @property
     def wait(self) -> float | None:
@@ -22,30 +23,48 @@ class CrossingEvent:
 
 
 class CrossingTracker:
-    """A stopped approach or direct crossing entry is a crossing request.
+    """Track each person's arrival at a crossing entrance and crossing entry.
 
-    SUMO's person waitingTime is used only to detect the first stopped step, never
-    as the measured wait. The request timestamp is the beginning of that step.
-    The observed entry event is when road ID changes to the crossing edge.
-    Time resolution is one simulation step.
+    The fourth person observation value is the geometric distance in metres to
+    the nearest endpoint of the next crossing lane. On SUMO's generated network,
+    a pedestrian stops about one metre from that endpoint because the walking
+    lane has a lateral offset. The 1.2 m entrance zone includes this stop line.
+    A stopped pedestrian farther away on the immediate crossing approach is a
+    queued request; the first stopped interval begins one step before observation.
+    SUMO waitingTime is only a queue trigger, not the reported crossing wait.
+    Both entrance and entry timestamps have one simulation step resolution.
     """
 
-    def __init__(self, crossing_ids: set[str], step_seconds: float = 1.0):
+    def __init__(self, crossing_ids: set[str], step_seconds: float = 1.0,
+                 approach_distance_metres: float = 1.2):
+        if step_seconds <= 0 or approach_distance_metres <= 0:
+            raise ValueError("Step and crossing-entrance distance must be positive")
         self.crossing_ids = crossing_ids
         self.step_seconds = step_seconds
+        self.approach_distance_metres = approach_distance_metres
         self.events: dict[tuple[str, str], CrossingEvent] = {}
 
-    def observe(self, time: float, persons: dict[str, tuple[str, str, float]]) -> None:
-        for person_id, (road, next_edge, stopped_seconds) in persons.items():
-            if next_edge in self.crossing_ids and stopped_seconds > 0 and road != next_edge:
+    def observe(self, time: float,
+                persons: dict[str, tuple[str, str, float] | tuple[str, str, float, float | None]]) -> None:
+        for person_id, observation in persons.items():
+            road, next_edge, stopped_seconds = observation[:3]
+            distance = observation[3] if len(observation) == 4 else None
+            if next_edge in self.crossing_ids and road != next_edge:
                 key = (person_id, next_edge)
                 if key not in self.events:
-                    self.events[key] = CrossingEvent(person_id, next_edge,
-                                                     max(0.0, time - self.step_seconds))
+                    at_entrance = (distance is not None and math.isfinite(distance)
+                                   and 0 <= distance <= self.approach_distance_metres)
+                    if at_entrance or stopped_seconds > 0:
+                        reached = max(0.0, time - self.step_seconds) if stopped_seconds > 0 else time
+                        source = ("entrance_and_stopped" if at_entrance and stopped_seconds > 0 else
+                                  "entrance" if at_entrance else "queued_approach")
+                        self.events[key] = CrossingEvent(person_id, next_edge, reached,
+                                                         arrival_source=source)
             if road in self.crossing_ids:
                 key = (person_id, road)
                 if key not in self.events:
-                    self.events[key] = CrossingEvent(person_id, road, time, time)
+                    self.events[key] = CrossingEvent(person_id, road, time, time,
+                                                     "entry_without_approach")
                 elif self.events[key].entered_at is None:
                     self.events[key].entered_at = time
 
@@ -69,6 +88,8 @@ class CrossingTracker:
                 "p95_wait_seconds": waits[rank] if waits else None,
                 "unserved_count": len(outstanding),
                 "unserved_elapsed_seconds": [end_time - e.reached_at for e in outstanding],
+                "entry_without_approach_count": sum(
+                    e.arrival_source == "entry_without_approach" for e in events),
             }
         return out
 

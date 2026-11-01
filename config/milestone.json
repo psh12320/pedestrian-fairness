@@ -13,5 +13,6 @@
   "all_red_seconds": 2,
   "pedestrian_green_seconds": 12,
   "minimum_walking_speed_mps": 0.8,
-  "pedestrian_clearance_buffer_seconds": 3
+  "pedestrian_clearance_buffer_seconds": 3,
+  "pedestrian_clearance_empty_seconds": 3
 }

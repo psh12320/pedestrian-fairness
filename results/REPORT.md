@@ -1,5 +1,11 @@
 # CS4246 Team 38 — Simulation study
 
+> **Archived exploratory study.** This report uses one training run per method,
+> five inspected evaluation seeds, and the superseded stopped-approach wait
+> definition. Its numbers are retained for the development history and must not
+> be combined with the revised study. The final protocol's generated report is
+> [results/final-study/REPORT.md](final-study/REPORT.md), now complete with 4,290 locked-test runs.
+
 ## Question and scope
 
 Can local multi-agent PPO signal control improve vehicle flow without shifting excessive delay to pedestrians? This is a newly built, synthetic three-junction SUMO corridor. It is not a Singapore field validation or evidence for deployment. Pedestrian-aware RL and multi-agent signal control already exist; this study focuses on matched comparisons and per-crossing tail waits.

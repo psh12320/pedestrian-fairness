@@ -1,0 +1,50 @@
+{
+  "comparisons": {
+    "ippo-w0": {
+      "improved_replicas": 3,
+      "mean_score_episode_100": 32.664663194444444,
+      "mean_score_episode_150": 32.660916666666665,
+      "relative_improvement": 0.00011469666028626313,
+      "triggers_extension": false
+    },
+    "ippo-w10": {
+      "improved_replicas": 0,
+      "mean_score_episode_100": 195.61055555555555,
+      "mean_score_episode_150": 195.61055555555555,
+      "relative_improvement": 0.0,
+      "triggers_extension": false
+    },
+    "ippo-w3": {
+      "improved_replicas": 1,
+      "mean_score_episode_100": 81.08932638888888,
+      "mean_score_episode_150": 80.66472222222221,
+      "relative_improvement": 0.005236252236581029,
+      "triggers_extension": false
+    },
+    "mappo-w0": {
+      "improved_replicas": 3,
+      "mean_score_episode_100": 33.962208333333336,
+      "mean_score_episode_150": 33.75314930555555,
+      "relative_improvement": 0.006155637045915993,
+      "triggers_extension": false
+    },
+    "mappo-w10": {
+      "improved_replicas": 2,
+      "mean_score_episode_100": 204.72252083333333,
+      "mean_score_episode_150": 195.68451736111112,
+      "relative_improvement": 0.044147578075106574,
+      "triggers_extension": false
+    },
+    "mappo-w3": {
+      "improved_replicas": 0,
+      "mean_score_episode_100": 80.66472222222221,
+      "mean_score_episode_150": 80.66472222222221,
+      "relative_improvement": 0.0,
+      "triggers_extension": false
+    }
+  },
+  "extend_all_to_300": false,
+  "rule": "At least 2% lower group mean score and at least 4 of 5 replicas improve, 100\u2192150",
+  "selected_training_episodes": 150,
+  "source": "validation scores only; current locked final seeds not inspected"
+}

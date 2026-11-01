@@ -1,0 +1,31 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-10-01T18:18:57Z",
+  "training_replicas": 30,
+  "training_episodes_per_replica": 150,
+  "main_evaluation_runs": 4290,
+  "separate_singapore_derived_runs": 330,
+  "recorded_full_test_suite_passes": 43,
+  "report_pages": 10,
+  "presentation_slides": 13,
+  "artifacts_sha256": {
+    "output/pdf/cs4246-team38-final-report.pdf": "29fbf0d7328d783b70ee3ee931f793e2ffcfe48cbf4ef04261294924c2546f8c",
+    "deliverables/presentation/output/team38-research-talk-v2f-final.pptx": "5378b49ff4e249503568c5cabcd37591a23b953e0c9a5fa699da783d7e4e6903",
+    "deliverables/presentation/assets/final-protocol/sumo-fixed-vs-ippo-pedestrian-seed-6001.mp4": "645f35ff5c89ef926a97f05bed93ac7a57784c2446ddb8c87cfc0a4df6c18efa",
+    "results/final-study/summary.json": "4f1d317ecc359248f35967bf119319ea603a345b3f03f6120dc79a8d37ad83b9",
+    "results/singapore-transfer/summary.json": "1883df31b85c51fed8b1a8f4cb82dc245a0736578b79bfa6e6a031d3ec3e3b5a"
+  },
+  "main_descriptive_criterion_passes_out_of_six": 0,
+  "singapore_scope": "Uncalibrated geometry sensitivity with synthetic demand; not actual signal-plan validation",
+  "safety_scope": "Shared legal phases and crossing clearance; documented SUMO jam recovery prevents a physical collision-safety claim",
+  "human_submission_tasks": [
+    "Replace provisional contribution attributions with verified individual work.",
+    "Confirm the contradictory course deadline in Canvas or with course staff."
+  ],
+  "gui_launch": {
+    "fixed_pid": 142436,
+    "ippo_pedestrian_pid": 8252,
+    "demand_match_verified": true,
+    "visible_desktop_launch_requested": true
+  }
+}

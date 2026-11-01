@@ -1,0 +1,11 @@
+{
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\Shricharan\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "packages": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0"
+  },
+  "purpose": "Artifact rendering only; learning and SUMO evaluation use the separately recorded simulation Python"
+}

@@ -5,6 +5,32 @@ __pycache__/
 .deck-build/
 .codex-finalizer/
 .chart-data-*/
+deliverables/presentation/.build/
 build/
 runs/
+tmp/
 .pytest_cache/
+
+# Local assistant instructions and session metadata, not project source.
+AGENTS.md
+agents.md
+AGENTS.override.md
+.agents/
+.codex/
+.claude/
+.cursor/
+.aider*
+CLAUDE.md
+GEMINI.md
+.github/copilot-instructions.md
+
+# Locally generated documents and additional trained checkpoints.
+/output/
+/deliverables/presentation/output/
+/models/v2/
+/models/v3/
+/models/v4/
+
+# Personal contact information in local data-request attachments.
+output/pdf/LTA_Data_Sharing_Form_CS4246_draft.pdf
+output/documents/LTA_Data_Request_Justification_CS4246.docx

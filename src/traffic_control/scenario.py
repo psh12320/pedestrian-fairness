@@ -10,7 +10,7 @@ import subprocess
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from .connected import demand_routes, write_network
+from .connected import compatible_turn_routes, demand_routes, write_network
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -27,23 +27,27 @@ def executable(name: str) -> str:
     return path
 
 
-def build_network(output: Path, junctions: int = 1) -> dict[str, float]:
+def build_network(output: Path, junctions: int = 1,
+                  spacing_m: int | list[int] = 140,
+                  left_hand: bool = False,
+                  include_compatible_turns: bool = True) -> dict[str, float]:
     output.parent.mkdir(parents=True, exist_ok=True)
     if junctions == 1:
         node_file, edge_file, connection_file = (SCENARIO / "single.nod.xml",
                                                  SCENARIO / "single.edg.xml",
                                                  SCENARIO / "single.con.xml")
     elif junctions == 3:
-        node_file, edge_file, connection_file = write_network(output.parent)
+        node_file, edge_file, connection_file = write_network(
+            output.parent, spacing_m, left_hand, include_compatible_turns)
     else:
         raise ValueError("Only one or three junctions are implemented")
-    subprocess.run(
-        [executable("netconvert"), "--node-files", str(node_file),
-         "--edge-files", str(edge_file),
-         "--connection-files", str(connection_file),
-         "--output-file", str(output)],
-        check=True,
-    )
+    command = [executable("netconvert"), "--node-files", str(node_file),
+               "--edge-files", str(edge_file),
+               "--connection-files", str(connection_file),
+               "--output-file", str(output)]
+    if left_hand:
+        command.extend(("--lefthand", "true"))
+    subprocess.run(command, check=True)
     tree = ET.parse(output)
     crossings: dict[str, float] = {}
     for edge in tree.findall(".//edge"):
@@ -66,17 +70,37 @@ def make_demand(output: Path, seed: int, config: dict, junctions: int = 1,
                   sigma="0", length="5", maxSpeed="13.9", speedFactor="1")
     walking_speed = config["minimum_walking_speed_mps"] if slow_pedestrians else 1.3
     ET.SubElement(root, "vType", id="walker", vClass="pedestrian", maxSpeed=str(walking_speed))
-    vehicle_routes, person_od = demand_routes(junctions)
+    vehicle_routes, person_od = demand_routes(junctions, bool(config.get("left_hand", False)))
     trips = []
     for route_index, route in enumerate(vehicle_routes):
         for i in range(config["vehicle_count_per_axis"]):
             depart = rng.randint(0, config["vehicle_depart_last_second"])
             trips.append((depart, f"v{route_index:01d}_{i:03d}", route))
+    turn_count = int(config.get("turning_vehicle_count_per_route", 0))
+    if turn_count < 0:
+        raise ValueError("turning_vehicle_count_per_route must be nonnegative")
+    for route_index, route in enumerate(
+            compatible_turn_routes(junctions, bool(config.get("left_hand", False)))):
+        for i in range(turn_count):
+            depart = rng.randint(0, config["vehicle_depart_last_second"])
+            trips.append((depart, f"vt{route_index:02d}_{i:04d}", route))
     people = []
     for i in range(config["pedestrian_count"]):
         start, finish = person_od[i % len(person_od)]
         depart = rng.randint(0, config["pedestrian_depart_last_second"])
         people.append((depart, f"p{i:03d}", start, finish))
+    burst_count = int(config.get("pedestrian_burst_count", 0))
+    burst_route = int(config.get("pedestrian_burst_route_index", 0))
+    burst_start = int(config.get("pedestrian_burst_start_second", 120))
+    burst_end = int(config.get("pedestrian_burst_end_second", 135))
+    if burst_count < 0 or not 0 <= burst_route < len(person_od) or burst_start < 0 or burst_end < burst_start:
+        raise ValueError("Invalid pedestrian burst parameters")
+    if burst_end >= config["end_seconds"]:
+        raise ValueError("Pedestrian burst must depart before simulation end")
+    start, finish = person_od[burst_route]
+    for i in range(burst_count):
+        depart = rng.randint(burst_start, burst_end)
+        people.append((depart, f"pb{i:04d}", start, finish))
     for kind, depart, ident, start, finish in sorted(
         [("vehicle", depart, ident, route, None) for depart, ident, route in trips]
         + [("person", *person) for person in people],

@@ -1,0 +1,17 @@
+{
+  "purpose": "Frozen source snapshot for the safety-revised 150-episode training run",
+  "training_directory": "runs/training-v3",
+  "files": {
+    "src/traffic_control/cli.py": "bf1365c2b9715746b55dc2f96f5420ea78e1dc1481722627db1331e4ffe501a3",
+    "src/traffic_control/connected.py": "031d789c0bfae65c99050238d29a632f5a71e49da60796ffd5db4813fbf5c0d1",
+    "src/traffic_control/scenario.py": "beb62e540439f92598b56decc77a1003026c870f51ce6c76f459b99a46eded55",
+    "src/traffic_control/signals.py": "71b5d12ad3f62beab9a648e18837d027b0e82ef79b3c61794fd1dc1af42d7d82",
+    "src/traffic_control/metrics.py": "2e0b09adfbd990fc63364daa8a6630e2c84b5b1f2f6c59629f0ad91bbb44420b",
+    "src/traffic_control/ppo.py": "7ed5fd4a86dba799794790dbb2a203c676ecb1e57fb52f87b9d57cfa86840e7c",
+    "src/traffic_control/train.py": "0f28cb64f6b77e33e8df96b67f0e163a11568c323cbb1793b5ea04a974f107a4",
+    "src/traffic_control/train_parallel.py": "13c5e8456c2740198b52e5ebf0dbcdd398188f8eb1ce084c9680bf1aa6e5e511",
+    "config/milestone.json": "2ce33e2a92b77c5efa904aa56159a73e293c48c44b95305863e4859f5a0d72a3",
+    "config/training.json": "b078de9df5a23a8108d2b626b1f0c3a59260de17e46ca6d0d371894b9caffe3a",
+    ".local/sumo-1.27.1/bin/sumo.exe": "8cc770aca4257d2cb821d91c0d346256c72c2983708137bc94789c75d00254b4"
+  }
+}

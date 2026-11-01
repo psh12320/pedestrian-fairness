@@ -1,0 +1,64 @@
+{
+  "scope": "Console warnings from completed protocols; no filtering of measured runs",
+  "studies": {
+    "final-study": {
+      "summary_sha256": "4f1d317ecc359248f35967bf119319ea603a345b3f03f6120dc79a8d37ad83b9",
+      "logs": {
+        "locked-evaluation.log": {
+          "pedestrian_jam_warning_lines": 28,
+          "collision_warning_lines": 0,
+          "teleporting_warning_lines": 0
+        },
+        "locked-evaluation-interrupted-2026-09-30.log": {
+          "pedestrian_jam_warning_lines": 0,
+          "collision_warning_lines": 0,
+          "teleporting_warning_lines": 0
+        }
+      },
+      "jam_warning_lines": [
+        "Warning: Person 'p008' is jammed on edge ':C2_c0', time=245.00.",
+        "Warning: Person 'p080' is jammed on edge ':C2_c0', time=246.00.",
+        "Warning: Person 'p116' is jammed on edge ':C2_c0', time=246.00.",
+        "Warning: Person 'p056' is jammed on edge ':C2_c0', time=248.00.",
+        "Warning: Person 'p100' is jammed on edge ':C1_c0', time=257.00.",
+        "Warning: Person 'p114' is jammed on edge ':C1_c2', time=147.00.",
+        "Warning: Person 'p018' is jammed on edge ':C1_c2', time=148.00.",
+        "Warning: Person 'p112' is jammed on edge ':C1_c0', time=219.00.",
+        "Warning: Person 'p092' is jammed on edge ':C2_c0', time=246.00.",
+        "Warning: Person 'p050' is jammed on edge ':C0_c2', time=244.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=246.00.",
+        "Warning: Person 'p092' is jammed on edge ':C2_c0', time=248.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00.",
+        "Warning: Person 'p110' is jammed on edge ':C0_c2', time=258.00."
+      ]
+    },
+    "singapore-transfer": {
+      "summary_sha256": "1883df31b85c51fed8b1a8f4cb82dc245a0736578b79bfa6e6a031d3ec3e3b5a",
+      "logs": {
+        "singapore-transfer.log": {
+          "pedestrian_jam_warning_lines": 2,
+          "collision_warning_lines": 0,
+          "teleporting_warning_lines": 0
+        }
+      },
+      "jam_warning_lines": [
+        "Warning: Person 'p050' is jammed on edge ':C0_w1', time=558.00.",
+        "Warning: Person 'p014' is jammed on edge ':C0_w1', time=558.00."
+      ]
+    }
+  }
+}

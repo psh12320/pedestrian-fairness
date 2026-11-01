@@ -1,0 +1,1326 @@
+{
+  "candidate_site_groups": [
+    [
+      "1119642655",
+      "1795305239",
+      "1795305254",
+      "1807069528",
+      "1807069529",
+      "1807069530",
+      "1807069531",
+      "239612802",
+      "7907615282",
+      "7907615283",
+      "7907705805",
+      "7907705806"
+    ],
+    [
+      "10852944896",
+      "10852944897",
+      "4732376956",
+      "7912199524"
+    ],
+    [
+      "239715481",
+      "4732376967"
+    ]
+  ],
+  "controller_configurations": [
+    "fixed",
+    "actuated",
+    "pressure",
+    "ippo-w0",
+    "ippo-w10",
+    "ippo-w3",
+    "mappo-w0",
+    "mappo-w10",
+    "mappo-w3"
+  ],
+  "crossing_criterion_vs_actuated": {
+    "fixed": {
+      "crossings_with_higher_p95": [
+        ":C0_c0",
+        ":C0_c1",
+        ":C0_c2",
+        ":C0_c3",
+        ":C1_c0",
+        ":C1_c1",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c0",
+        ":C2_c1",
+        ":C2_c2",
+        ":C2_c3"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": true,
+        "ci95_high": 66.0,
+        "ci95_low": 32.0,
+        "complete_bootstrap_fraction": 0.978,
+        "mean": 42.0
+      },
+      "statistically_supported": false
+    },
+    "ippo-w0": {
+      "crossings_with_higher_p95": [
+        ":C0_c0",
+        ":C0_c2",
+        ":C1_c0",
+        ":C1_c1",
+        ":C1_c2",
+        ":C2_c0",
+        ":C2_c1",
+        ":C2_c2",
+        ":C2_c3"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "complete_bootstrap_fraction": 0.0,
+        "mean": 11.600000000000001
+      },
+      "statistically_supported": false
+    },
+    "ippo-w10": {
+      "crossings_with_higher_p95": [
+        ":C0_c2",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c1"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": true,
+        "ci95_high": 41.0,
+        "ci95_low": 4.0,
+        "complete_bootstrap_fraction": 0.966,
+        "mean": 5.0
+      },
+      "statistically_supported": false
+    },
+    "ippo-w3": {
+      "crossings_with_higher_p95": [
+        ":C0_c2",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c1"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": true,
+        "ci95_high": 40.4,
+        "ci95_low": 3.0,
+        "complete_bootstrap_fraction": 0.903,
+        "mean": 4.200000000000003
+      },
+      "statistically_supported": false
+    },
+    "mappo-w0": {
+      "crossings_with_higher_p95": [
+        ":C0_c0",
+        ":C0_c1",
+        ":C0_c2",
+        ":C1_c0",
+        ":C1_c1",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c0",
+        ":C2_c1",
+        ":C2_c2",
+        ":C2_c3"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "complete_bootstrap_fraction": 0.0,
+        "mean": 16.4
+      },
+      "statistically_supported": false
+    },
+    "mappo-w10": {
+      "crossings_with_higher_p95": [
+        ":C0_c2",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c1"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": true,
+        "ci95_high": 40.6,
+        "ci95_low": 4.0,
+        "complete_bootstrap_fraction": 0.966,
+        "mean": 5.0
+      },
+      "statistically_supported": false
+    },
+    "mappo-w3": {
+      "crossings_with_higher_p95": [
+        ":C0_c2",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c1"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": true,
+        "ci95_high": 40.0,
+        "ci95_low": 3.0,
+        "complete_bootstrap_fraction": 0.748,
+        "mean": 4.399999999999999
+      },
+      "statistically_supported": false
+    },
+    "pressure": {
+      "crossings_with_higher_p95": [
+        ":C0_c0",
+        ":C0_c2",
+        ":C1_c2",
+        ":C1_c3",
+        ":C2_c1",
+        ":C2_c3"
+      ],
+      "crossings_with_more_pending": [],
+      "descriptive_criterion_met": false,
+      "maximum_crossing_p95_difference": {
+        "all_crossings_adequate": false,
+        "all_crossings_measured": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "complete_bootstrap_fraction": 0.0,
+        "mean": 16.0
+      },
+      "statistically_supported": false
+    }
+  },
+  "limits": [
+    "Three approximate candidate-site centroids and spacings are map-derived; site identities, geometry and crossing locations are not field-verified.",
+    "Connecting links, side arms, sidewalks, protected crossings and all demand are synthetic project assumptions; no Singapore turning or pedestrian counts or deployed signal timing plans were used.",
+    "The raw OSM import had no signal-controlled pedestrian crossings, so the protected derived network is not a reconstructed field junction.",
+    "A sparse crossing p95 or incomplete bootstrap makes the every-crossing criterion inconclusive even if its point estimate appears favorable."
+  ],
+  "model_dir": "C:\\Users\\Shricharan\\VSCodeProjects\\trafficlightcontrol\\models\\v3",
+  "observed_crossings": 12,
+  "paired_vs_actuated": {
+    "fixed": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 11.976249999999999,
+        "ci95_low": 8.997499999999999,
+        "mean": 10.380624999999998,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 26.7,
+        "ci95_low": 23.3,
+        "mean": 25.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 8.426598958333335,
+        "ci95_low": 4.045692708333333,
+        "mean": 6.2736406250000005,
+        "n": 10,
+        "training_runs": 1
+      }
+    },
+    "ippo-w0": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 3.663999999999999,
+        "ci95_low": -0.26225000000000076,
+        "mean": 1.8496249999999996,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 10.64,
+        "ci95_low": 0.84,
+        "mean": 5.74,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 1.6537010416666669,
+        "ci95_low": -2.511076041666667,
+        "mean": -0.4303531249999992,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "ippo-w10": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 1.7093749999999999,
+        "ci95_low": -1.4968750000000015,
+        "mean": 0.11562499999999946,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 2.1,
+        "ci95_low": -0.8,
+        "mean": 0.6,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 1.4889479166666653,
+        "ci95_low": -2.2880989583333333,
+        "mean": -0.5036249999999995,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "ippo-w3": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 1.9027499999999997,
+        "ci95_low": -1.1716250000000008,
+        "mean": 0.3752499999999995,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 2.18,
+        "ci95_low": -0.62,
+        "mean": 0.72,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 1.044133333333334,
+        "ci95_low": -2.8699208333333317,
+        "mean": -0.9769781249999996,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "mappo-w0": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 6.3465,
+        "ci95_low": 1.4273749999999996,
+        "mean": 4.014374999999999,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 17.0,
+        "ci95_low": 4.52,
+        "mean": 11.28,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 2.8226614583333327,
+        "ci95_low": -1.2357906250000001,
+        "mean": 0.7398125000000005,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "mappo-w10": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 1.7486249999999997,
+        "ci95_low": -1.3377500000000013,
+        "mean": 0.2029999999999995,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 1.92,
+        "ci95_low": -0.72,
+        "mean": 0.58,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 1.467052083333333,
+        "ci95_low": -2.262849999999999,
+        "mean": -0.4964156249999998,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "mappo-w3": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 1.7129999999999999,
+        "ci95_low": -1.3438750000000006,
+        "mean": 0.21237499999999968,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 2.1,
+        "ci95_low": -0.7,
+        "mean": 0.66,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 1.085989583333334,
+        "ci95_low": -2.947028125,
+        "mean": -0.9418739583333329,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "pressure": {
+      "completed": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 2.5324999999999998,
+        "ci95_low": -0.10750000000000082,
+        "mean": 1.1474999999999995,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 1.6,
+        "ci95_low": -0.5,
+        "mean": 0.5,
+        "n": 10,
+        "training_runs": 1
+      },
+      "scheduled": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "vehicle_time_loss": {
+        "ci95_high": -4.132052083333333,
+        "ci95_low": -10.221692708333332,
+        "mean": -7.102708333333332,
+        "n": 10,
+        "training_runs": 1
+      }
+    }
+  },
+  "replicas_per_learned_configuration": 5,
+  "run_count": 330,
+  "scenario": "nus-derived-synthetic-demand",
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108,
+    9109,
+    9110
+  ],
+  "selected_training_episodes": 150,
+  "settings": {
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 20261001,
+    "case_config": "config/singapore.json",
+    "demand_basis": "synthetic; not calibrated to observed Singapore turning or pedestrian counts",
+    "derived_config": "config/singapore_derived.json",
+    "expected_crossings": 12,
+    "expected_full_models": 30,
+    "exploratory_seed": 61,
+    "geometry_basis": "approximate OSM candidate-site centroids and spacings with synthetic left-hand straight links, side arms, sidewalks and protected crossings",
+    "minimum_pooled_crossing_entries_per_replica": 100,
+    "scenario": "nus-derived-synthetic-demand",
+    "seeds": [
+      9101,
+      9102,
+      9103,
+      9104,
+      9105,
+      9106,
+      9107,
+      9108,
+      9109,
+      9110
+    ]
+  },
+  "smoke": false,
+  "source_osm_xml_sha256": "4d11dccb91699e9d65a287854a89d55169811a922c890efc0004d45921217ef7",
+  "source_sha256": {
+    "config/milestone.json": "2ce33e2a92b77c5efa904aa56159a73e293c48c44b95305863e4859f5a0d72a3",
+    "config/singapore.json": "6ac367665bc5433bc31f9bc7b0a35b08828040e7659cb2d232870cd6e0afbe3e",
+    "config/singapore_derived.json": "5b6eb48bf1d263167b8680666592a4f08eca707151fe87c8ee9c713f25d745aa",
+    "config/training.json": "b078de9df5a23a8108d2b626b1f0c3a59260de17e46ca6d0d371894b9caffe3a",
+    "src/traffic_control/cli.py": "bf1365c2b9715746b55dc2f96f5420ea78e1dc1481722627db1331e4ffe501a3",
+    "src/traffic_control/connected.py": "031d789c0bfae65c99050238d29a632f5a71e49da60796ffd5db4813fbf5c0d1",
+    "src/traffic_control/evaluate.py": "4c172d909f541b0ea6c9b348010637b2ac202accf297f6ecde18e9a859c0b469",
+    "src/traffic_control/metrics.py": "2e0b09adfbd990fc63364daa8a6630e2c84b5b1f2f6c59629f0ad91bbb44420b",
+    "src/traffic_control/ppo.py": "7ed5fd4a86dba799794790dbb2a203c676ecb1e57fb52f87b9d57cfa86840e7c",
+    "src/traffic_control/scenario.py": "beb62e540439f92598b56decc77a1003026c870f51ce6c76f459b99a46eded55",
+    "src/traffic_control/signals.py": "71b5d12ad3f62beab9a648e18837d027b0e82ef79b3c61794fd1dc1af42d7d82",
+    "src/traffic_control/singapore.py": "c2188864312562ae32ba6529857a6712353c89b40da10d60a6bf0f7f014dc83e",
+    "src/traffic_control/singapore_transfer.py": "978db3d6ea5c89a3f30b35d29c980ac203a799cb24e70b5b90e1f2ad1b168e75",
+    "src/traffic_control/train.py": "0f28cb64f6b77e33e8df96b67f0e163a11568c323cbb1793b5ea04a974f107a4",
+    "src/traffic_control/validation_decision.py": "d97768fcbaebd6678d51c3fd686f0a2571e1ede08d6fb0cc88a9f3e4b0ab9765"
+  },
+  "status": "UNCALIBRATED NUS-DERIVED GEOMETRY TRANSFER; synthetic demand; simulation only",
+  "study_fingerprint": "160425e0a43b64a88e32ee33622a170826d4796cb976c0a37ff7f3067080e515",
+  "summary": {
+    "actuated": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 16.05125,
+        "ci95_low": 14.246875000000001,
+        "mean": 15.141250000000001,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 43.6,
+        "ci95_low": 41.8,
+        "mean": 42.8,
+        "n": 10,
+        "training_runs": 1
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 38.055078125,
+        "ci95_low": 34.993125,
+        "mean": 36.474453125,
+        "n": 10,
+        "training_runs": 1
+      }
+    },
+    "fixed": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 26.626875,
+        "ci95_low": 24.4575,
+        "mean": 25.521875,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 68.9,
+        "ci95_low": 66.6,
+        "mean": 67.8,
+        "n": 10,
+        "training_runs": 1
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 44.292609375,
+        "ci95_low": 41.253510416666664,
+        "mean": 42.74809375,
+        "n": 10,
+        "training_runs": 1
+      }
+    },
+    "ippo-w0": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 18.507125,
+        "ci95_low": 15.40625,
+        "mean": 16.990875,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 53.34,
+        "ci95_low": 43.7,
+        "mean": 48.54,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 38.696571875,
+        "ci95_low": 33.409792708333335,
+        "mean": 36.0441,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "ippo-w10": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 16.055625,
+        "ci95_low": 14.365625,
+        "mean": 15.256875,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 44.1,
+        "ci95_low": 42.6,
+        "mean": 43.4,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 38.724979166666664,
+        "ci95_low": 33.36216666666667,
+        "mean": 35.970828125,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "ippo-w3": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 16.3475,
+        "ci95_low": 14.6575,
+        "mean": 15.5165,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 44.24,
+        "ci95_low": 42.82,
+        "mean": 43.52,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 38.121874999999996,
+        "ci95_low": 32.66371770833334,
+        "mean": 35.497475,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "mappo-w0": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 21.394875,
+        "ci95_low": 16.917875,
+        "mean": 19.155625,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 59.74,
+        "ci95_low": 47.56,
+        "mean": 54.08,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 39.553547916666666,
+        "ci95_low": 34.84087291666667,
+        "mean": 37.214265625,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "mappo-w10": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 16.128875,
+        "ci95_low": 14.510625000000001,
+        "mean": 15.34425,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 44.0,
+        "ci95_low": 42.78,
+        "mean": 43.38,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 38.751927083333335,
+        "ci95_low": 33.449328125,
+        "mean": 35.9780375,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "mappo-w3": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 16.138375,
+        "ci95_low": 14.536875,
+        "mean": 15.353625000000001,
+        "n": 10,
+        "training_runs": 5
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 44.16,
+        "ci95_low": 42.72,
+        "mean": 43.46,
+        "n": 10,
+        "training_runs": 5
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 5
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 38.29861458333333,
+        "ci95_low": 32.829486458333335,
+        "mean": 35.532579166666665,
+        "n": 10,
+        "training_runs": 5
+      }
+    },
+    "pressure": {
+      "completed": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_mean_wait": {
+        "ci95_high": 17.2925,
+        "ci95_low": 15.33375,
+        "mean": 16.28875,
+        "n": 10,
+        "training_runs": 1
+      },
+      "pedestrian_p95_wait": {
+        "ci95_high": 43.8,
+        "ci95_low": 42.8,
+        "mean": 43.3,
+        "n": 10,
+        "training_runs": 1
+      },
+      "scheduled": {
+        "ci95_high": 192.0,
+        "ci95_low": 192.0,
+        "mean": 192.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unfinished": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "uninserted": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "unserved_requests": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "n": 10,
+        "training_runs": 1
+      },
+      "vehicle_time_loss": {
+        "ci95_high": 31.942520833333333,
+        "ci95_low": 27.073333333333334,
+        "mean": 29.371744791666668,
+        "n": 10,
+        "training_runs": 1
+      }
+    }
+  },
+  "sumo_version": "SUMO 1.27.1",
+  "validation_decision": {
+    "comparisons": {
+      "ippo-w0": {
+        "improved_replicas": 3,
+        "mean_score_episode_100": 32.664663194444444,
+        "mean_score_episode_150": 32.660916666666665,
+        "relative_improvement": 0.00011469666028626313,
+        "triggers_extension": false
+      },
+      "ippo-w10": {
+        "improved_replicas": 0,
+        "mean_score_episode_100": 195.61055555555555,
+        "mean_score_episode_150": 195.61055555555555,
+        "relative_improvement": 0.0,
+        "triggers_extension": false
+      },
+      "ippo-w3": {
+        "improved_replicas": 1,
+        "mean_score_episode_100": 81.08932638888888,
+        "mean_score_episode_150": 80.66472222222221,
+        "relative_improvement": 0.005236252236581029,
+        "triggers_extension": false
+      },
+      "mappo-w0": {
+        "improved_replicas": 3,
+        "mean_score_episode_100": 33.962208333333336,
+        "mean_score_episode_150": 33.75314930555555,
+        "relative_improvement": 0.006155637045915993,
+        "triggers_extension": false
+      },
+      "mappo-w10": {
+        "improved_replicas": 2,
+        "mean_score_episode_100": 204.72252083333333,
+        "mean_score_episode_150": 195.68451736111112,
+        "relative_improvement": 0.044147578075106574,
+        "triggers_extension": false
+      },
+      "mappo-w3": {
+        "improved_replicas": 0,
+        "mean_score_episode_100": 80.66472222222221,
+        "mean_score_episode_150": 80.66472222222221,
+        "relative_improvement": 0.0,
+        "triggers_extension": false
+      }
+    },
+    "extend_all_to_300": false,
+    "rule": "At least 2% lower group mean score and at least 4 of 5 replicas improve, 100\u2192150",
+    "selected_training_episodes": 150,
+    "source": "validation scores only; current locked final seeds not inspected"
+  }
+}

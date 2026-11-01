@@ -1,6 +1,26 @@
 {
-  "episodes": 36,
-  "seed_start": 1000,
+  "episodes": 150,
+  "extended_episodes": 300,
+  "validation_every_episodes": 50,
+  "training_run_seeds": [1101, 1102, 1103, 1104, 1105],
+  "demand_seed_start": 10000,
+  "validation_seeds": [4001, 4002, 4003],
+  "reward_weights": [0, 3, 10],
+  "episode_demand_factors": [0.75, 1.0, 1.25],
+  "training_scenario": {
+    "vehicle_count_per_axis": 24,
+    "pedestrian_count": 40,
+    "vehicle_depart_last_second": 360,
+    "pedestrian_depart_last_second": 360
+  },
+  "validation_scenario": {
+    "vehicle_count_per_axis": 24,
+    "pedestrian_count": 120,
+    "vehicle_depart_last_second": 360,
+    "pedestrian_depart_last_second": 360
+  },
+  "unfinished_vehicle_penalty_seconds": 300,
+  "unserved_request_penalty_seconds": 60,
   "gamma": 0.99,
   "gae_lambda": 0.95,
   "clip_ratio": 0.2,

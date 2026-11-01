@@ -1,0 +1,28 @@
+{
+  "seed": 6001,
+  "start_second": 138,
+  "frames": 20,
+  "fps": 2,
+  "controllers": [
+    "fixed",
+    "ippo-pedestrian"
+  ],
+  "demand_sha256": "ecce368d3fc5b8ddfe806ba09a24c145d3c2cecadedc308e547d8b213d9cd0d0",
+  "source": "SUMO GUI phase replay; visualization only",
+  "capture_mode": "independent deterministic frame replays",
+  "source_runs": {
+    "fixed": {
+      "source_run": "C:\\Users\\Shricharan\\VSCodeProjects\\trafficlightcontrol\\runs\\gui\\source\\98f4deb4e9a44735\\vmedium-p120\\seed-6001\\fixed\\baseline",
+      "metrics_sha256": "cd3720b4bd36a1d8ffc2cd47b961a92cf8c9b6a578e56820349dee7b9fcff7cb",
+      "phase_replay_sha256": "173a89edfd3e284541254d094d98f4a8e150933345ce52610c7d9126ed6ebf18"
+    },
+    "ippo-pedestrian": {
+      "source_run": "C:\\Users\\Shricharan\\VSCodeProjects\\trafficlightcontrol\\runs\\gui\\source\\98f4deb4e9a44735\\vmedium-p120\\seed-6001\\ippo-pedestrian\\a6721f4076c8",
+      "metrics_sha256": "6e19963d7d082dd2b96b7b0bb0f1ceb1fd76cb17ac097645bff5551b06d0e587",
+      "phase_replay_sha256": "cd1b56ec08bff237f2837db59b7ffee8a94c447a0d1c25d20de9d5ae16b21b73",
+      "model_path": "C:\\Users\\Shricharan\\VSCodeProjects\\trafficlightcontrol\\models\\v3\\ippo-pedestrian.json",
+      "model_sha256": "a6721f4076c8739df456dc397f6675639ecd924bf169e0f15ac4644d9b08b44c"
+    }
+  },
+  "display": "Pedestrian icons enlarged 3x; simulation geometry unchanged"
+}

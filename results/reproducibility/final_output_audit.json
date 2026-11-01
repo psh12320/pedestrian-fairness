@@ -1,0 +1,28 @@
+{
+  "main_study": {
+    "runs": 4290,
+    "matched_demand_groups": 130,
+    "crossing_rows": 51480,
+    "unique_runs": true,
+    "vehicle_conservation": true,
+    "crossing_pending_counts_reconcile": true,
+    "all_groups_have_three_baselines_and_thirty_replicas": true
+  },
+  "frozen_source_hashes_match": 12,
+  "fixed_overload_unserved_fraction": {
+    "min": 0.15348837209302327,
+    "max": 0.18372093023255814,
+    "mean": 0.1705813953488372,
+    "all_ten_seeds_exceed_five_percent": true
+  },
+  "primary_minimum_crossing_entries": 100,
+  "singapore_derived_transfer": {
+    "runs": 330,
+    "matched_demand_groups": 10,
+    "crossing_rows": 3960,
+    "unique_runs": true,
+    "vehicle_conservation": true,
+    "crossing_pending_counts_reconcile": true,
+    "all_groups_have_three_baselines_and_thirty_replicas": true
+  }
+}

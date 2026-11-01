@@ -1,0 +1,14 @@
+{
+  "case_config": "config/singapore.json",
+  "derived_config": "config/singapore_derived.json",
+  "scenario": "nus-derived-synthetic-demand",
+  "seeds": [9101, 9102, 9103, 9104, 9105, 9106, 9107, 9108, 9109, 9110],
+  "exploratory_seed": 61,
+  "expected_crossings": 12,
+  "expected_full_models": 30,
+  "minimum_pooled_crossing_entries_per_replica": 100,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20261001,
+  "demand_basis": "synthetic; not calibrated to observed Singapore turning or pedestrian counts",
+  "geometry_basis": "approximate OSM candidate-site centroids and spacings with synthetic left-hand straight links, side arms, sidewalks and protected crossings"
+}

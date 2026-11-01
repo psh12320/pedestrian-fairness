@@ -1,0 +1,16 @@
+{
+  "case_type": "NUS-derived simplified three-junction corridor",
+  "source_site_config": "config/singapore.json",
+  "candidate_chain_index": 0,
+  "junction_spacings_m": [161, 196],
+  "junction_site_centroids_m": [
+    [1415.52, 3757.59],
+    [1301.21, 3871.48],
+    [1175.20, 4021.76]
+  ],
+  "left_hand": true,
+  "include_compatible_turns": false,
+  "base_experiment_config": "config/milestone.json",
+  "seed": 61,
+  "pedestrian_count": 120
+}

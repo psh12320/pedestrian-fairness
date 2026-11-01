@@ -1,0 +1,94 @@
+Success.
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Environment variable SUMO_HOME is not set, using built in type maps.
+Warning: Discarding unusable type 'waterway.canal' (first occurrence for edge '276156093').
+Warning: Discarding unusable type 'railway.station' (first occurrence for edge '823759110').
+Warning: Discarding unusable type 'waterway.stream' (first occurrence for edge '1106863305').
+Warning: Discarding unusable type 'railway.ventilation_shaft' (first occurrence for edge '1148565261').
+Warning: Discarding unknown compound 'bus' in type 'bus|highway.service' (first occurrence for edge '1166293884').
+Warning: PT line in relation 1152258 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line 'Svc 92 (Ghim Moh Terminal â†º Science Park Drive)' in relation 1152306 has a gap of 13 stops, only keeping first part.
+Warning: PT line 'Svc 95 (Kent Ridge Terminal â†º Holland Road)' in relation 1152572 has a gap of 10 stops, only keeping first part.
+Warning: PT line 'Svc 200 (Buona Vista Terminal â†º Kent Ridge Bus Terminal)' in relation 1157115 has a gap of 33 stops, only keeping first part.
+Warning: PT line 'NUS Svc K' in relation 2319957 has a gap of 4 stops, only keeping first part.
+Warning: PT line in relation 2352568 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2352569 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2971033 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 3563178 with no stops ignored. Probably OSM file is incomplete.
+Warning: No way found for reference '573701671' in relation '8153466'
+Warning: Ignoring restriction relation '8153466' with unknown to-way.
+Warning: No way found for reference '4723147230' in relation '8776451'
+Warning: No way found for reference '6039376800' in relation '8776451'
+Warning: No way found for reference '4723147231' in relation '8776452'
+Warning: No way found for reference '6039364480' in relation '8776452'
+Warning: Ignoring restriction relation '8853734' with unknown to-way.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '8857720'.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '8857721'.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '8857722'.
+Warning: Ignoring restriction relation '8857743' with unknown via.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '8857746'.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '8858035'.
+Warning: Ignoring restriction relation '8858148' with unknown to-way.
+Warning: Ignoring restriction relation '8858148' with unknown via.
+Warning: Ignoring restriction relation '8879065' with unknown from-way.
+Warning: Ignoring restriction relation '8879065' with unknown to-way.
+Warning: Ignoring restriction relation '8879066' with unknown from-way.
+Warning: Ignoring restriction relation '8879066' with unknown to-way.
+Warning: Ignoring restriction relation '8879067' with unknown from-way.
+Warning: Ignoring restriction relation '8879068' with unknown from-way.
+Warning: from-edge '643425149' of restriction relation could not be determined
+Warning: Ignoring restriction relation '8925268' with unknown from-way.
+Warning: to-edge '643425149' of restriction relation could not be determined
+Warning: Via-node '595964040' was not instantiated
+Warning: Via-node '595964040' was not instantiated
+Warning: Via-node '595964040' was not instantiated
+Warning: from-edge '526855207' of restriction relation could not be determined
+Warning: Ignoring restriction relation '9026763' with unknown via.
+Warning: from-edge '121762757' of restriction relation could not be determined
+Warning: from-edge '647083240' of restriction relation could not be determined
+Warning: from-edge '146928387' of restriction relation could not be determined
+Warning: to-edge '121762757' of restriction relation could not be determined
+Warning: to-edge '464985767' of restriction relation could not be determined
+Warning: to-edge '647086343' of restriction relation could not be determined
+Warning: Ignoring restriction relation '13209452' with unknown type.
+Warning: Ignoring restriction relation '13209723' with unknown type.
+Warning: Could not find corresponding edge or compatible lane for free-floating pt stop '9849950852' (COM3). Thus, it will be removed!
+Warning: PT stop '410467187' has been moved to edge '682751196#1'.
+Warning: PT stop '1738421866' has been moved to edge '652569820'.
+Warning: Cannot assign stop 410467184 on edge '142074914' to pt line '2167803'. Ignoring!
+Warning: Ambiguity in turnarounds computation at junction '12188667508'.
+Warning: Ambiguity in turnarounds computation at junction '12188667511'.
+Warning: Shape for junction '1362160467' has distance 35.79 to its given position.
+Warning: Edge '-673051956#0' is not connected to outgoing edges at junction '6822078952'.
+Warning: Edge '-745396475' is not connected to outgoing edges at junction '6977414038'.
+Warning: Edge '-745396476' is not connected to outgoing edges at junction '6977414039'.
+Warning: Lane '673051956#0_0' is not connected from any incoming edge at junction '6822078952'.
+Warning: Edge '673051956#1' is not connected to outgoing edges at junction '6977414039'.
+Warning: Edge '745396475' is not connected to outgoing edges at junction '6302941964'.
+Warning: Lane '745396475_0' is not connected from any incoming edge at junction '6977414038'.
+Warning: Lane '745396476_0' is not connected from any incoming edge at junction '6977414039'.
+Warning: Invalid pedestrian topology at junction '1534828782'; crossing ':1534828782_c0' starts and ends at walkingarea ':1534828782_w0'.
+Warning: The traffic light '239620883' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '239620883'
+Warning: The traffic light '409638735' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '409638735'
+Warning: Stop '12842237301' named 'one-north' from line '2076291' on edge '558667142#0' is not part of the route downstream of the previous stop.
+Warning: Stop '12842237346' named 'Buona Vista' from line '2076291' on edge '558667142#0' is not part of the route downstream of the previous stop.
+Warning: Stop '12842237347' named 'Holland Village' from line '2076291' on edge '558667142#0' is not part of the route downstream of the previous stop.
+Warning: Stop '12842237348' named 'Farrer Road' from line '2076291' on edge '558667142#0' is not part of the route downstream of the previous stop.
+Warning: Stop '12842237273' named 'Botanic Gardens' from line '2076291' on edge '558667142#0' is not part of the route downstream of the previous stop.
+Warning: Stop '410467184' named 'Lim Seng Tjoe Building (LT 27)' from line '2167803' on edge '142074914#0' is not part of the route.
+Warning: 6 total messages of type: Edge '%' is not connected to outgoing edges at junction '%'.
+Warning: 20 total messages of type: Ignoring restriction relation '%' with unknown from-way.
+Warning: 24 total messages of type: Ignoring restriction relation '%' with unknown to-way.
+Warning: 39 total messages of type: Ignoring restriction relation '%'.
+Warning: 39 total messages of type: No way found for reference '%' in relation '%'
+Warning: 20 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
+Warning: 19 total messages of type: Stop '%' named '%' from line '%' on edge '%' is not part of the route downstream of the previous stop.
+Warning: 21 total messages of type: direction of restriction relation could not be determined%
+Warning: 11 total messages of type: from-edge '%' of restriction relation could not be determined

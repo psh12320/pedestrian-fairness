@@ -1,0 +1,31 @@
+{
+  "video_sha256": "645f35ff5c89ef926a97f05bed93ac7a57784c2446ddb8c87cfc0a4df6c18efa",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 690,
+        "r_frame_rate": "2/1",
+        "nb_frames": "20"
+      }
+    ],
+    "format": {
+      "duration": "10.000000"
+    }
+  },
+  "frame_checks": {
+    "fixed": {
+      "frames": 20,
+      "distinct_frames": 20
+    },
+    "ippo-pedestrian": {
+      "frames": 20,
+      "distinct_frames": 20
+    }
+  },
+  "matched_demand_sha256": "ecce368d3fc5b8ddfe806ba09a24c145d3c2cecadedc308e547d8b213d9cd0d0",
+  "decode_check": "passed",
+  "capture_mode": "independent deterministic frame replays"
+}

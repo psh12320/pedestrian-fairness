@@ -1,0 +1,14 @@
+{
+  "name": "NUS Kent Ridge–NUH pilot search window",
+  "bbox_west_south_east_north": [103.774, 1.2938, 103.786, 1.303],
+  "osm_snapshot": "scenario/singapore/nus-kent-ridge-2026-09-28.osm.xml.gz",
+  "osm_source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=103.774%2C1.2938%2C103.786%2C1.303",
+  "osm_snapshot_date": "2026-09-28",
+  "lta_signal_aspects_snapshot": "scenario/singapore/lta-signal-aspects-clipped-2026-09-28.geojson",
+  "lta_signal_aspects_dataset_url": "https://data.gov.sg/datasets/d_44cc2bba6131f9057fb92f367eba69ed/view",
+  "lta_full_geojson_sha256": "f1b773cf551f112c1f8f96cde0d8dd05475150acee57c11c5e24a9e903044491",
+  "study_junctions": 3,
+  "max_signal_link_metres": 450,
+  "max_osm_bytes": 8000000,
+  "max_lta_geojson_bytes": 22000000
+}
