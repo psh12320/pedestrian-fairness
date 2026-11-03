@@ -16,6 +16,7 @@ from . import SCHEMA_VERSION
 from .demand import make_demand, scenarios
 from .events import EventTracker, PersonSample
 from .signals import SafeSignal, baseline_action, PHASES
+from .control_observation import SCHEMAS, controller_memory
 from ..connected import incoming_groups, outgoing_groups
 from ..metrics import vehicle_summary
 from ..scenario import ROOT, build_network, executable, clearance_seconds
@@ -32,6 +33,9 @@ def run(controller="actuated", seed=21001, output=None, junctions=3,
         raise ValueError("A policy callback is required")
     cfg = json.loads((ROOT / "config/fairness_v2.json").read_text())
     cfg.update(overrides or {})
+    observation_schema = cfg.get("observation_schema", "legacy-v2")
+    if observation_schema not in SCHEMAS:
+        raise ValueError("Unknown observation schema: " + str(observation_schema))
     dt = cfg["step_seconds"]
     horizon = cfg["end_seconds"]
     cutoff = cfg["measurement_end_seconds"]
@@ -63,6 +67,7 @@ def run(controller="actuated", seed=21001, output=None, junctions=3,
                      "--step-length", str(dt), "--seed", str(seed), "--end", str(horizon),
                      "--tripinfo-output", str(tripinfo), "--tripinfo-output.write-unfinished", "true",
                      "--time-to-teleport", "-1", "--no-step-log", "true",
+                     "--collision.check-junctions", "true",
                      "--pedestrian.striping.dawdling", "0", "--log", str(log),
                      "--pedestrian.striping.jamtime", str(horizon + 1),
                      "--pedestrian.striping.jamtime.crossing", str(horizon + 1),
@@ -149,6 +154,10 @@ def run(controller="actuated", seed=21001, output=None, junctions=3,
                         stages = (*PHASES, "EW_YELLOW", "NS_YELLOW", "ALL_RED", "PED_CLEARANCE", "READY")
                         features.extend([signal.age(now) / 30, *[float(signal.stage == p) for p in stages]])
                         names.extend(["phase_age", *stages])
+                        if observation_schema == "controller-memory-v1":
+                            memory, memory_names = controller_memory(signal, now)
+                            features.extend(memory)
+                            names.extend(memory_names)
                         demand_now = (queues[0] > 0, queues[1] > 0, pending_count > 0)
                         mask = signal.mask(now, demand_now)
                         features.extend(map(float, mask))
@@ -181,7 +190,9 @@ def run(controller="actuated", seed=21001, output=None, junctions=3,
                         traci.trafficlight.setRedYellowGreenState(tls, next_state)
                     states[tls] = next_state
                 if simulation[tc.VAR_COLLIDING_VEHICLES_NUMBER]:
-                    raise AssertionError("SUMO reported a vehicle collision")
+                    # SUMO also adds the vehicle in an intermodal collision to
+                    # this counter. Preserve participants/type in failure.json.
+                    raise AssertionError(f"SUMO reported a collision: {traci.simulation.getCollisions()!r}")
                 if math.isclose(now, cutoff):
                     cutoff_counts = {
                         "vehicle_departed": sorted(departed), "vehicle_arrived": sorted(arrived),

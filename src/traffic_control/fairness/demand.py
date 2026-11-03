@@ -97,7 +97,10 @@ def make_demand(path, seed, cfg, junctions):
             element = ET.SubElement(root, kind, **attrs)
             ET.SubElement(element, "walk", **{"from": record["route"][0], "to": record["route"][1]})
     ET.indent(root)
-    ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
+    # Explicit binary output prevents platform newline translation. Windows and
+    # Linux must hash identical bytes for identical scheduled traffic.
+    with open(path, "wb") as stream:
+        ET.ElementTree(root).write(stream, encoding="utf-8", xml_declaration=True)
     return {"sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
             "vehicles": vehicles, "people": people, "seed": seed,
             "basis": "synthetic; development load labels have not been capacity-calibrated"}

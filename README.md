@@ -1,10 +1,30 @@
 # CS4246 Team 38: pedestrian-aware traffic signal control
 
-**New implementation on `pedestrian-fairness-v2`:** neural IPPO/MAPPO, per-crossing
-constraints, explicit phase requests, finer event measurements, 21 demand settings,
-resumable training/evaluation and CPU-cluster scripts. See
-[the v2 execution guide](docs/fairness_v2.md). Its short engineering runs are separate
-from the completed older study below; the full v2 experiment is not yet complete.
+**Local correction experiment:** [audit-repair trial](docs/audit_trial.md) compares
+legacy, controller-memory, separate-clipping and combined settings for IPPO/MAPPO.
+Its 56-run engineering smoke passed. The full 1,396-simulation CPU study was
+launched on 3 November; use `python scripts/collect_audit_trial_status.py` for
+current evidence. Launching the experiment is not evidence of a performance gain.
+
+**3 November implementation audit:** [findings, verified repairs and remaining experiments](docs/deep_audit_2026_11_03.md).
+Three independent audits identified missing controller memory, a junction-collision
+check gap, platform-dependent demand bytes and missing insertion-delay reporting.
+Bounded fixes are verified; no new RL performance gain is claimed. Existing
+cluster archives/results are preserved. The newer neural `fairness` pipeline uses
+a different tracker/protocol from the original study described further below;
+do not combine their results or measurement definitions.
+
+**Latest development study:** [guided exploration](docs/guided_exploration.md)
+tests crossing-age rewards, actuated-guided MAPPO and training-only curiosity
+against matched controls, including imitation without RL. The
+[completed PPO-repair review](results/ppo-repair-cluster/REVIEW.md) found no joint
+vehicle/pedestrian win. The new study is a separate experiment, not a claimed
+solution. See the [v2 execution guide](docs/fairness_v2.md) for the earlier neural
+IPPO/MAPPO implementation, 21 demand settings, constraints and cluster workflow.
+
+A separate [local timing study](docs/local_timing_study.md) tests 12-, 18- and
+24-second pedestrian admission periods under matched conventional controllers.
+It is a timing sensitivity experiment; any gains are not attributable to RL.
 
 This project asks: **When, if ever, does multi-agent PPO save vehicle time without worsening long waits at any crossing, compared with a pedestrian-responsive controller?** It is an original SUMO simulation, built from scratch, with a single-junction safety and measurement milestone and a three-junction research corridor. Each learning actor controls one signal using local observations. Both PPO methods use the same per-junction reward; IPPO has local value estimators, while MAPPO's value estimators can see the whole corridor during training. Vehicles and pedestrians are simulated road users. Earlier CS3263 code, scenarios, models, results, and figures were not reused.
 

@@ -1,0 +1,1225 @@
+{
+  "audit": {
+    "archive_sha256": "9ce0e58ed6b24ac2a75f9e3aee32e47c4e4e153ff7eea3d70d94f7bff05a7997",
+    "complete_diagnostics": 4,
+    "fit_job_files": 24,
+    "critic_fits": 144,
+    "metric_rows": 432,
+    "source_and_protocol_hashes_match": true,
+    "summaries_and_gates_recomputed": true,
+    "raw_trajectories_or_model_weights_present": false,
+    "limitation": "Cannot recompute prediction errors from raw samples or replay learned actors from this summary-only archive."
+  },
+  "horizon_comparisons": [
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "without_clock": 1.1957939307907277,
+      "with_clock": 0.8332885774916543,
+      "relative_reduction": 0.30315035389029277,
+      "initialization_gates_passed": 3,
+      "individual_cases_below_constant": 15,
+      "individual_cases_clock_improved": 18,
+      "individual_cases": 18,
+      "training_ratio_with_clock": 0.307756909943108,
+      "bias_with_clock": 21.673012839423286
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "without_clock": 1.5028179040202518,
+      "with_clock": 1.1229579848012974,
+      "relative_reduction": 0.25276510094987226,
+      "initialization_gates_passed": 0,
+      "individual_cases_below_constant": 6,
+      "individual_cases_clock_improved": 18,
+      "individual_cases": 18,
+      "training_ratio_with_clock": 0.05012148427007697,
+      "bias_with_clock": 31.823004298739964
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "ippo",
+      "without_clock": 1.3730825417786725,
+      "with_clock": 0.8331509756158271,
+      "relative_reduction": 0.3932258620544584,
+      "initialization_gates_passed": 3,
+      "individual_cases_below_constant": 16,
+      "individual_cases_clock_improved": 15,
+      "individual_cases": 18,
+      "training_ratio_with_clock": 0.2345971843969286,
+      "bias_with_clock": 23.886274920569527
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "without_clock": 1.7330502715277387,
+      "with_clock": 1.2360756764938468,
+      "relative_reduction": 0.28676294230968447,
+      "initialization_gates_passed": 0,
+      "individual_cases_below_constant": 8,
+      "individual_cases_clock_improved": 17,
+      "individual_cases": 18,
+      "training_ratio_with_clock": 0.04933754074917586,
+      "bias_with_clock": 33.286664221021866
+    }
+  ],
+  "junction_results": [
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "junction": "C0",
+      "mean_mse_ratio": 0.8091761069316405,
+      "training_target_mean": -115.79547882080078,
+      "check_target_mean": -124.30843353271484,
+      "mean_bias": 9.787752151489258
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "junction": "C1",
+      "mean_mse_ratio": 1.0659779053326104,
+      "training_target_mean": -96.15044403076172,
+      "check_target_mean": -140.28993225097656,
+      "mean_bias": 44.11362965901693
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "junction": "C2",
+      "mean_mse_ratio": 0.6247117202107119,
+      "training_target_mean": -116.40596008300781,
+      "check_target_mean": -125.59227752685547,
+      "mean_bias": 11.117656707763672
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "mean_mse_ratio": 1.0331791400837405,
+      "training_target_mean": -115.79547882080078,
+      "check_target_mean": -124.30843353271484,
+      "mean_bias": 18.33688481648763
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "mean_mse_ratio": 1.4545422393796659,
+      "training_target_mean": -96.15044403076172,
+      "check_target_mean": -140.28993225097656,
+      "mean_bias": 62.131605784098305
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C2",
+      "mean_mse_ratio": 0.8811525749404859,
+      "training_target_mean": -116.40596008300781,
+      "check_target_mean": -125.59227752685547,
+      "mean_bias": 15.000522295633951
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "ippo",
+      "junction": "C0",
+      "mean_mse_ratio": 0.7195486734787223,
+      "training_target_mean": -110.95196533203125,
+      "check_target_mean": -122.07379150390625,
+      "mean_bias": 4.65962012608846
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "ippo",
+      "junction": "C1",
+      "mean_mse_ratio": 0.769139470904324,
+      "training_target_mean": -102.16417694091797,
+      "check_target_mean": -148.94705200195312,
+      "mean_bias": 37.82630157470703
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "ippo",
+      "junction": "C2",
+      "mean_mse_ratio": 1.0107647824644348,
+      "training_target_mean": -130.4949951171875,
+      "check_target_mean": -149.7820281982422,
+      "mean_bias": 29.172903060913086
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "mean_mse_ratio": 1.8078926075917425,
+      "training_target_mean": -110.95196533203125,
+      "check_target_mean": -122.07379150390625,
+      "mean_bias": 18.056925137837727
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "mean_mse_ratio": 0.7367153356447816,
+      "training_target_mean": -102.16417694091797,
+      "check_target_mean": -148.94705200195312,
+      "mean_bias": 39.49538803100586
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C2",
+      "mean_mse_ratio": 1.163619086245016,
+      "training_target_mean": -130.4949951171875,
+      "check_target_mean": -149.7820281982422,
+      "mean_bias": 42.30767949422201
+    }
+  ],
+  "individual_failures": [
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "junction": "C1",
+      "critic_seed": 49301,
+      "check_seed": 49401,
+      "mse_ratio": 1.035781933860128
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "junction": "C1",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.2455131909831594
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "ippo",
+      "junction": "C1",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.059163237640212
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49301,
+      "check_seed": 49401,
+      "mse_ratio": 1.0903573976569536
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49301,
+      "check_seed": 49402,
+      "mse_ratio": 1.0092584286398574
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49301,
+      "check_seed": 49401,
+      "mse_ratio": 1.4596782278256792
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49301,
+      "check_seed": 49402,
+      "mse_ratio": 1.1280711204105578
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.0079584216431225
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.4963438154409898
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49302,
+      "check_seed": 49402,
+      "mse_ratio": 1.3354124103567862
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C2",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.0406874524702858
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.0558233359651252
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49303,
+      "check_seed": 49402,
+      "mse_ratio": 1.0418223451162807
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.5146703645830502
+    },
+    {
+      "behavior": "plain-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49303,
+      "check_seed": 49402,
+      "mse_ratio": 1.3205299533495867
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "ippo",
+      "junction": "C2",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.0800890520808006
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "ippo",
+      "junction": "C2",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.1245164572721649
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49301,
+      "check_seed": 49401,
+      "mse_ratio": 2.0039667643431094
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49301,
+      "check_seed": 49402,
+      "mse_ratio": 1.424070377117053
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C2",
+      "critic_seed": 49301,
+      "check_seed": 49401,
+      "mse_ratio": 1.312942391148083
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.9073838404094585
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49302,
+      "check_seed": 49402,
+      "mse_ratio": 1.6376927949016185
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C2",
+      "critic_seed": 49302,
+      "check_seed": 49401,
+      "mse_ratio": 1.2547112000072338
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.7083646913507518
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C0",
+      "critic_seed": 49303,
+      "check_seed": 49402,
+      "mse_ratio": 1.7031401200177876
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C1",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.0375293362504914
+    },
+    {
+      "behavior": "priority-mappo-r0",
+      "method": "mappo",
+      "junction": "C2",
+      "critic_seed": 49303,
+      "check_seed": 49401,
+      "mse_ratio": 1.2011476360027307
+    }
+  ],
+  "diagnostic_summaries": {
+    "fit/plain-mappo-r0": {
+      "normalized_beats_constant_each_initialization": false,
+      "per_initialization": [
+        {
+          "mean_holdout_mse_ratio": 1.3829544048470968,
+          "method": "ippo",
+          "seed": 49301
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4776300314331094,
+          "method": "ippo",
+          "seed": 49302
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4689217634144809,
+          "method": "ippo",
+          "seed": 49303
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4350004895638075,
+          "method": "mappo",
+          "seed": 49301
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4478939341176613,
+          "method": "mappo",
+          "seed": 49302
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4181474616715883,
+          "method": "mappo",
+          "seed": 49303
+        }
+      ],
+      "protocol": {
+        "behavior": "plain-mappo-r0",
+        "budgets": [
+          128,
+          512
+        ],
+        "check_demand_seeds": [
+          49201,
+          49202
+        ],
+        "checkpoint_sha256": "10644c0e9d43a5b3c0d6d2be289915f3a6e3622e4e568f2df5142d249604d14a",
+        "configuration": {
+          "demand_end_seconds": 600,
+          "end_seconds": 600,
+          "measurement_end_seconds": 600,
+          "pedestrian_rate_per_hour": 1200,
+          "vehicle_rate_per_hour": 1920,
+          "warmup_seconds": 0
+        },
+        "fingerprint": "9c9a2e587eebd9ebadedc6c6bce2672861eefa27289c87ca8e67eea4804bd1ab",
+        "gamma": 0.99,
+        "gate": "Every method/init averaged over junctions: normalized 512-step holdout MSE < training-mean baseline MSE",
+        "initial_seeds": [
+          49301,
+          49302,
+          49303
+        ],
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "reward_weight": 3,
+        "schema": "critic-fit-v1",
+        "source": {
+          "config/evaluation.json": "09436d9d86c8a3a52d1bb9e6fe5e7b9fba3e3cd4c81b64ea98ce1e8b894dcf36",
+          "config/fairness_v2.json": "02b70fcc9c542bc654272ba3009af559391f997db3b9b7c2ea8568aa25ab4395",
+          "config/milestone.json": "2ce33e2a92b77c5efa904aa56159a73e293c48c44b95305863e4859f5a0d72a3",
+          "config/singapore.json": "6ac367665bc5433bc31f9bc7b0a35b08828040e7659cb2d232870cd6e0afbe3e",
+          "config/singapore_derived.json": "5b6eb48bf1d263167b8680666592a4f08eca707151fe87c8ee9c713f25d745aa",
+          "config/singapore_transfer.json": "e52752074e0811ed91a8090406a1c20afdd6511ed1df7bb1c13cc21b7db47f80",
+          "config/training.json": "b078de9df5a23a8108d2b626b1f0c3a59260de17e46ca6d0d371894b9caffe3a",
+          "scripts/critic_fit_check.py": "42227411b5cd1e152fcba517b89488a15f03b4192f8dce9bf32d4ece9eb5b8f5",
+          "src/traffic_control/__init__.py": "4803f707b5252bbc5c9e6bb3d5f372cfc2643b583121df3223696d3eb78e215b",
+          "src/traffic_control/capture_clip.py": "b959cadaecdec4b34e07bd019f14c2293e2f4fffafb952f6e3facca464512112",
+          "src/traffic_control/capture_gui.py": "d4b39207db8493f302015141985897975edf1fcc420886932fb53943cc0744e7",
+          "src/traffic_control/cli.py": "bf1365c2b9715746b55dc2f96f5420ea78e1dc1481722627db1331e4ffe501a3",
+          "src/traffic_control/connected.py": "031d789c0bfae65c99050238d29a632f5a71e49da60796ffd5db4813fbf5c0d1",
+          "src/traffic_control/evaluate.py": "4c172d909f541b0ea6c9b348010637b2ac202accf297f6ecde18e9a859c0b469",
+          "src/traffic_control/evaluate_parallel.py": "b9b8a24ddb7eb0ef5ced6883df7a46c2979fdf57e8ac5a1e65edecc9417a79a9",
+          "src/traffic_control/fairness/__init__.py": "62eb5ccc3295eae9b9ee52fd4e9e53cf3e241e7251781ef01317cabbf5191c13",
+          "src/traffic_control/fairness/analysis.py": "308a74e802da45502c0fc77c66dbf36cc39c0581a74137ad0834808040d8b61a",
+          "src/traffic_control/fairness/audit.py": "5ea9179ba84f2e3d7ccda8c20453d2683bf948b287f6d67481cb93064024ba4a",
+          "src/traffic_control/fairness/demand.py": "217f0a6d756f8851408565f11fe1737751ba9510a14cd97f4bd70a7b8d73019c",
+          "src/traffic_control/fairness/environment.py": "bf4871a288479363e22e60c488a45a7aee1b873c9b5f53f6c0649f0ddd3fbd18",
+          "src/traffic_control/fairness/events.py": "19ff7f9d78c71e7c3f2aed9600e93efb82a8e8c721ca13ba05a01a2eb445a6c6",
+          "src/traffic_control/fairness/figures.py": "cb470fbe8b6a7b8ad6b8ad82f697102a098638051f0ae591501dc9ff51278b45",
+          "src/traffic_control/fairness/learning.py": "2420a746125e7978dfd8540aa5b2f6e8eabe7e26d85ffbccb3fdd91dd2449e29",
+          "src/traffic_control/fairness/networks.py": "5c6d2fc45c2f32239077d1e65e2aa83115003d39a7e1864c61c8bf1a7625b06b",
+          "src/traffic_control/fairness/pipeline.py": "64e55991a34ff28738a4118684d8eb49b95754948c6ca334f13af345a881bc25",
+          "src/traffic_control/fairness/signals.py": "2cfd8f75979e6fde4f36404b2226beb80a9628adb2faaff9201d8e0eea38eb39",
+          "src/traffic_control/figures.py": "83caf2789a2cfeada12f3306da5b8a6f189ab3028e31a67c9b0e6e0ccc96038a",
+          "src/traffic_control/measurement_resolution.py": "a2dc8293ad0c60cdff1dd1180b02709c99f0c164935668d93c3d49e4bcaae108",
+          "src/traffic_control/metrics.py": "2e0b09adfbd990fc63364daa8a6630e2c84b5b1f2f6c59629f0ad91bbb44420b",
+          "src/traffic_control/ppo.py": "7ed5fd4a86dba799794790dbb2a203c676ecb1e57fb52f87b9d57cfa86840e7c",
+          "src/traffic_control/scenario.py": "beb62e540439f92598b56decc77a1003026c870f51ce6c76f459b99a46eded55",
+          "src/traffic_control/service_priority/__init__.py": "a296bd26e802ac8ad8b7859e145e50a93e82b2e503732f1d06110e593e35189f",
+          "src/traffic_control/service_priority/control.py": "c07dca805aaf337b406eaba799faf1dd4feca588f864762dc949e13c34b2b893",
+          "src/traffic_control/service_priority/pilot.py": "c2310f0376f7e13c1d432e3a84c874485e94aa3f5f32e0b34867a04d3184096b",
+          "src/traffic_control/signals.py": "71b5d12ad3f62beab9a648e18837d027b0e82ef79b3c61794fd1dc1af42d7d82",
+          "src/traffic_control/singapore.py": "c2188864312562ae32ba6529857a6712353c89b40da10d60a6bf0f7f014dc83e",
+          "src/traffic_control/singapore_transfer.py": "978db3d6ea5c89a3f30b35d29c980ac203a799cb24e70b5b90e1f2ad1b168e75",
+          "src/traffic_control/train.py": "0f28cb64f6b77e33e8df96b67f0e163a11568c323cbb1793b5ea04a974f107a4",
+          "src/traffic_control/train_parallel.py": "13c5e8456c2740198b52e5ebf0dbcdd398188f8eb1ce084c9680bf1aa6e5e511",
+          "src/traffic_control/validation_decision.py": "d97768fcbaebd6678d51c3fd686f0a2571e1ede08d6fb0cc88a9f3e4b0ab9765",
+          "src/traffic_control/viewer.py": "f6399035785264a1c27c7a8842e3ed58771528602ae8576ada34727a8c434e4e"
+        },
+        "training_demand_seeds": [
+          49101,
+          49102,
+          49103,
+          49104
+        ]
+      },
+      "summary": [
+        {
+          "mean_free_decision_mse_ratio": 6.03284266503337,
+          "mean_holdout_bias": 103.21683247884114,
+          "mean_holdout_ev": 0.0006935089837491409,
+          "mean_holdout_mse_ratio": 6.576645774946622,
+          "mean_interior_mse_ratio": 14.902264234050767,
+          "mean_train_mse_ratio": 7.2475010127063255,
+          "method": "ippo",
+          "mode": "raw-scaled-loss",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 5.0565595468113465,
+          "mean_holdout_bias": 92.52707078721788,
+          "mean_holdout_ev": 0.00026355911044250043,
+          "mean_holdout_mse_ratio": 5.450163296293169,
+          "mean_interior_mse_ratio": 12.517667553302012,
+          "mean_train_mse_ratio": 5.982652067289325,
+          "method": "ippo",
+          "mode": "raw-scaled-loss",
+          "updates": 512
+        },
+        {
+          "mean_free_decision_mse_ratio": 1.1179013078817834,
+          "mean_holdout_bias": 5.173139254252116,
+          "mean_holdout_ev": -0.1085346398608945,
+          "mean_holdout_mse_ratio": 1.0893731211779696,
+          "mean_interior_mse_ratio": 1.3851644369865581,
+          "mean_train_mse_ratio": 0.657932968557977,
+          "method": "ippo",
+          "mode": "normalized-output",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 1.4336263265940987,
+          "mean_holdout_bias": 6.700737211439344,
+          "mean_holdout_ev": -0.44228557531501755,
+          "mean_holdout_mse_ratio": 1.4431687332315624,
+          "mean_interior_mse_ratio": 1.7599308984234219,
+          "mean_train_mse_ratio": 0.3831732178529714,
+          "method": "ippo",
+          "mode": "normalized-output",
+          "updates": 512
+        },
+        {
+          "mean_free_decision_mse_ratio": 5.945421135354389,
+          "mean_holdout_bias": 101.95369550916884,
+          "mean_holdout_ev": 0.0011601167541727378,
+          "mean_holdout_mse_ratio": 6.43972183532841,
+          "mean_interior_mse_ratio": 14.596884079829938,
+          "mean_train_mse_ratio": 7.089968562679708,
+          "method": "mappo",
+          "mode": "raw-scaled-loss",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 5.100757327944422,
+          "mean_holdout_bias": 92.93033430311415,
+          "mean_holdout_ev": 0.0001656059359270095,
+          "mean_holdout_mse_ratio": 5.495347518423418,
+          "mean_interior_mse_ratio": 12.613786295628868,
+          "mean_train_mse_ratio": 6.020566151028101,
+          "method": "mappo",
+          "mode": "raw-scaled-loss",
+          "updates": 512
+        },
+        {
+          "mean_free_decision_mse_ratio": 1.14351261686278,
+          "mean_holdout_bias": 10.506133715311686,
+          "mean_holdout_ev": -0.23898231604048917,
+          "mean_holdout_mse_ratio": 1.1863059009759065,
+          "mean_interior_mse_ratio": 1.7710439751212808,
+          "mean_train_mse_ratio": 0.37747384643201365,
+          "method": "mappo",
+          "mode": "normalized-output",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 1.3045266831358544,
+          "mean_holdout_bias": 14.001962820688883,
+          "mean_holdout_ev": -0.48584417884502007,
+          "mean_holdout_mse_ratio": 1.433680628451019,
+          "mean_interior_mse_ratio": 2.570922157893753,
+          "mean_train_mse_ratio": 0.05579710209383192,
+          "method": "mappo",
+          "mode": "normalized-output",
+          "updates": 512
+        }
+      ]
+    },
+    "horizon/plain-mappo-r0": {
+      "gates": [
+        {
+          "beats_both_constant_and_no_clock": true,
+          "clock": 0.817011284358419,
+          "method": "ippo",
+          "no_clock": 1.1924676758294035,
+          "seed": 49301
+        },
+        {
+          "beats_both_constant_and_no_clock": true,
+          "clock": 0.8558502321929905,
+          "method": "ippo",
+          "no_clock": 1.2048925571389018,
+          "seed": 49302
+        },
+        {
+          "beats_both_constant_and_no_clock": true,
+          "clock": 0.8270042159235533,
+          "method": "ippo",
+          "no_clock": 1.1900215594038779,
+          "seed": 49303
+        },
+        {
+          "beats_both_constant_and_no_clock": false,
+          "clock": 1.0983998897289613,
+          "method": "mappo",
+          "no_clock": 1.4620914866756523,
+          "seed": 49301
+        },
+        {
+          "beats_both_constant_and_no_clock": false,
+          "clock": 1.116812939413488,
+          "method": "mappo",
+          "no_clock": 1.5129455652960304,
+          "seed": 49302
+        },
+        {
+          "beats_both_constant_and_no_clock": false,
+          "clock": 1.1536611252614428,
+          "method": "mappo",
+          "no_clock": 1.5334166600890728,
+          "seed": 49303
+        }
+      ],
+      "passed": false,
+      "protocol": {
+        "behavior": "plain-mappo-r0",
+        "budgets": [
+          128,
+          512
+        ],
+        "check_demand_seeds": [
+          49401,
+          49402
+        ],
+        "checkpoint_sha256": "10644c0e9d43a5b3c0d6d2be289915f3a6e3622e4e568f2df5142d249604d14a",
+        "configuration": {
+          "demand_end_seconds": 600,
+          "end_seconds": 600,
+          "measurement_end_seconds": 600,
+          "pedestrian_rate_per_hour": 1200,
+          "vehicle_rate_per_hour": 1920,
+          "warmup_seconds": 0
+        },
+        "fingerprint": "7b75a3a6acef454eebb009ccc000f0406d8e2979b71ba7ee1bc257aaa459ef3d",
+        "gamma": 0.99,
+        "gate": "Every method/init: clock 512-step junction-average MSE beats constant and no-clock",
+        "horizon_script_sha256": "cc8e49f7efd0297ddbe3a63f4df0f77b326a62237e12fab14b6e2244bbde6422",
+        "initial_seeds": [
+          49301,
+          49302,
+          49303
+        ],
+        "parent_fingerprint": "9c9a2e587eebd9ebadedc6c6bce2672861eefa27289c87ca8e67eea4804bd1ab",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "reward_weight": 3,
+        "schema": "critic-horizon-v1",
+        "source": {
+          "config/evaluation.json": "09436d9d86c8a3a52d1bb9e6fe5e7b9fba3e3cd4c81b64ea98ce1e8b894dcf36",
+          "config/fairness_v2.json": "02b70fcc9c542bc654272ba3009af559391f997db3b9b7c2ea8568aa25ab4395",
+          "config/milestone.json": "2ce33e2a92b77c5efa904aa56159a73e293c48c44b95305863e4859f5a0d72a3",
+          "config/singapore.json": "6ac367665bc5433bc31f9bc7b0a35b08828040e7659cb2d232870cd6e0afbe3e",
+          "config/singapore_derived.json": "5b6eb48bf1d263167b8680666592a4f08eca707151fe87c8ee9c713f25d745aa",
+          "config/singapore_transfer.json": "e52752074e0811ed91a8090406a1c20afdd6511ed1df7bb1c13cc21b7db47f80",
+          "config/training.json": "b078de9df5a23a8108d2b626b1f0c3a59260de17e46ca6d0d371894b9caffe3a",
+          "scripts/critic_fit_check.py": "42227411b5cd1e152fcba517b89488a15f03b4192f8dce9bf32d4ece9eb5b8f5",
+          "src/traffic_control/__init__.py": "4803f707b5252bbc5c9e6bb3d5f372cfc2643b583121df3223696d3eb78e215b",
+          "src/traffic_control/capture_clip.py": "b959cadaecdec4b34e07bd019f14c2293e2f4fffafb952f6e3facca464512112",
+          "src/traffic_control/capture_gui.py": "d4b39207db8493f302015141985897975edf1fcc420886932fb53943cc0744e7",
+          "src/traffic_control/cli.py": "bf1365c2b9715746b55dc2f96f5420ea78e1dc1481722627db1331e4ffe501a3",
+          "src/traffic_control/connected.py": "031d789c0bfae65c99050238d29a632f5a71e49da60796ffd5db4813fbf5c0d1",
+          "src/traffic_control/evaluate.py": "4c172d909f541b0ea6c9b348010637b2ac202accf297f6ecde18e9a859c0b469",
+          "src/traffic_control/evaluate_parallel.py": "b9b8a24ddb7eb0ef5ced6883df7a46c2979fdf57e8ac5a1e65edecc9417a79a9",
+          "src/traffic_control/fairness/__init__.py": "62eb5ccc3295eae9b9ee52fd4e9e53cf3e241e7251781ef01317cabbf5191c13",
+          "src/traffic_control/fairness/analysis.py": "308a74e802da45502c0fc77c66dbf36cc39c0581a74137ad0834808040d8b61a",
+          "src/traffic_control/fairness/audit.py": "5ea9179ba84f2e3d7ccda8c20453d2683bf948b287f6d67481cb93064024ba4a",
+          "src/traffic_control/fairness/demand.py": "217f0a6d756f8851408565f11fe1737751ba9510a14cd97f4bd70a7b8d73019c",
+          "src/traffic_control/fairness/environment.py": "bf4871a288479363e22e60c488a45a7aee1b873c9b5f53f6c0649f0ddd3fbd18",
+          "src/traffic_control/fairness/events.py": "19ff7f9d78c71e7c3f2aed9600e93efb82a8e8c721ca13ba05a01a2eb445a6c6",
+          "src/traffic_control/fairness/figures.py": "cb470fbe8b6a7b8ad6b8ad82f697102a098638051f0ae591501dc9ff51278b45",
+          "src/traffic_control/fairness/learning.py": "2420a746125e7978dfd8540aa5b2f6e8eabe7e26d85ffbccb3fdd91dd2449e29",
+          "src/traffic_control/fairness/networks.py": "5c6d2fc45c2f32239077d1e65e2aa83115003d39a7e1864c61c8bf1a7625b06b",
+          "src/traffic_control/fairness/pipeline.py": "64e55991a34ff28738a4118684d8eb49b95754948c6ca334f13af345a881bc25",
+          "src/traffic_control/fairness/signals.py": "2cfd8f75979e6fde4f36404b2226beb80a9628adb2faaff9201d8e0eea38eb39",
+          "src/traffic_control/figures.py": "83caf2789a2cfeada12f3306da5b8a6f189ab3028e31a67c9b0e6e0ccc96038a",
+          "src/traffic_control/measurement_resolution.py": "a2dc8293ad0c60cdff1dd1180b02709c99f0c164935668d93c3d49e4bcaae108",
+          "src/traffic_control/metrics.py": "2e0b09adfbd990fc63364daa8a6630e2c84b5b1f2f6c59629f0ad91bbb44420b",
+          "src/traffic_control/ppo.py": "7ed5fd4a86dba799794790dbb2a203c676ecb1e57fb52f87b9d57cfa86840e7c",
+          "src/traffic_control/scenario.py": "beb62e540439f92598b56decc77a1003026c870f51ce6c76f459b99a46eded55",
+          "src/traffic_control/service_priority/__init__.py": "a296bd26e802ac8ad8b7859e145e50a93e82b2e503732f1d06110e593e35189f",
+          "src/traffic_control/service_priority/control.py": "c07dca805aaf337b406eaba799faf1dd4feca588f864762dc949e13c34b2b893",
+          "src/traffic_control/service_priority/pilot.py": "c2310f0376f7e13c1d432e3a84c874485e94aa3f5f32e0b34867a04d3184096b",
+          "src/traffic_control/signals.py": "71b5d12ad3f62beab9a648e18837d027b0e82ef79b3c61794fd1dc1af42d7d82",
+          "src/traffic_control/singapore.py": "c2188864312562ae32ba6529857a6712353c89b40da10d60a6bf0f7f014dc83e",
+          "src/traffic_control/singapore_transfer.py": "978db3d6ea5c89a3f30b35d29c980ac203a799cb24e70b5b90e1f2ad1b168e75",
+          "src/traffic_control/train.py": "0f28cb64f6b77e33e8df96b67f0e163a11568c323cbb1793b5ea04a974f107a4",
+          "src/traffic_control/train_parallel.py": "13c5e8456c2740198b52e5ebf0dbcdd398188f8eb1ce084c9680bf1aa6e5e511",
+          "src/traffic_control/validation_decision.py": "d97768fcbaebd6678d51c3fd686f0a2571e1ede08d6fb0cc88a9f3e4b0ab9765",
+          "src/traffic_control/viewer.py": "f6399035785264a1c27c7a8842e3ed58771528602ae8576ada34727a8c434e4e"
+        },
+        "training_demand_seeds": [
+          49101,
+          49102,
+          49103,
+          49104
+        ],
+        "trajectory_hashes": {
+          "49101": "0b60cb940269a7c42e7a5b78427f945b1d69704018f59b0848863a876e9932ca",
+          "49102": "1cf398d07f4eed472ae1ece0ac7f962f3de0eb5bee0d41356365115443d5b263",
+          "49103": "7097ef9f0c605ecc77f80fa4a9919e006df30a3fac8dd16de4af9f2c752cf6d9",
+          "49104": "9fc3ed80b56092daf0267aa887108c73978bc87a38f54716ac7915dd382096a3"
+        }
+      },
+      "summary": [
+        {
+          "clock": false,
+          "mean_holdout_bias": 23.112473487854004,
+          "mean_holdout_ev": -0.010243690789646327,
+          "mean_holdout_mse_ratio": 1.018945270691568,
+          "mean_train_mse_ratio": 0.6644292296094068,
+          "method": "ippo",
+          "updates": 128
+        },
+        {
+          "clock": false,
+          "mean_holdout_bias": 26.819691128200954,
+          "mean_holdout_ev": -0.17999599441679642,
+          "mean_holdout_mse_ratio": 1.1957939307907277,
+          "mean_train_mse_ratio": 0.39964396445971284,
+          "method": "ippo",
+          "updates": 512
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 22.267356872558594,
+          "mean_holdout_ev": 0.05291089791408801,
+          "mean_holdout_mse_ratio": 0.949435198845641,
+          "mean_train_mse_ratio": 0.6135331560399686,
+          "method": "ippo",
+          "updates": 128
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 21.673012839423286,
+          "mean_holdout_ev": 0.1591387789502831,
+          "mean_holdout_mse_ratio": 0.8332885774916543,
+          "mean_train_mse_ratio": 0.307756909943108,
+          "method": "ippo",
+          "updates": 512
+        },
+        {
+          "clock": false,
+          "mean_holdout_bias": 30.475716061062283,
+          "mean_holdout_ev": -0.1318171378866586,
+          "mean_holdout_mse_ratio": 1.2576153334557685,
+          "mean_train_mse_ratio": 0.3792782996965434,
+          "method": "mappo",
+          "updates": 128
+        },
+        {
+          "clock": false,
+          "mean_holdout_bias": 37.43538369072808,
+          "mean_holdout_ev": -0.2787488052062434,
+          "mean_holdout_mse_ratio": 1.5028179040202518,
+          "mean_train_mse_ratio": 0.057480036739696004,
+          "method": "mappo",
+          "updates": 512
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 29.237669520907932,
+          "mean_holdout_ev": -0.05380460213835344,
+          "mean_holdout_mse_ratio": 1.1763958254861002,
+          "mean_train_mse_ratio": 0.35430742283372085,
+          "method": "mappo",
+          "updates": 128
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 31.823004298739964,
+          "mean_holdout_ev": 0.05940133648958845,
+          "mean_holdout_mse_ratio": 1.1229579848012974,
+          "mean_train_mse_ratio": 0.05012148427007697,
+          "method": "mappo",
+          "updates": 512
+        }
+      ]
+    },
+    "fit/priority-mappo-r0": {
+      "normalized_beats_constant_each_initialization": false,
+      "per_initialization": [
+        {
+          "mean_holdout_mse_ratio": 1.0342007623407965,
+          "method": "ippo",
+          "seed": 49301
+        },
+        {
+          "mean_holdout_mse_ratio": 1.0339313738773999,
+          "method": "ippo",
+          "seed": 49302
+        },
+        {
+          "mean_holdout_mse_ratio": 1.0578137115210808,
+          "method": "ippo",
+          "seed": 49303
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4859687714772225,
+          "method": "mappo",
+          "seed": 49301
+        },
+        {
+          "mean_holdout_mse_ratio": 1.4902144267893622,
+          "method": "mappo",
+          "seed": 49302
+        },
+        {
+          "mean_holdout_mse_ratio": 1.449496825739173,
+          "method": "mappo",
+          "seed": 49303
+        }
+      ],
+      "protocol": {
+        "behavior": "priority-mappo-r0",
+        "budgets": [
+          128,
+          512
+        ],
+        "check_demand_seeds": [
+          49201,
+          49202
+        ],
+        "checkpoint_sha256": "83654be5ad0bf01aad7d07db39227e5fda75199036a2d2188e4ceb02193e72a6",
+        "configuration": {
+          "demand_end_seconds": 600,
+          "end_seconds": 600,
+          "measurement_end_seconds": 600,
+          "pedestrian_rate_per_hour": 1200,
+          "vehicle_rate_per_hour": 1920,
+          "warmup_seconds": 0
+        },
+        "fingerprint": "f068ddd94b573ff4c84ec6f8401d40238f9b0985e90993926ce09cbf95445139",
+        "gamma": 0.99,
+        "gate": "Every method/init averaged over junctions: normalized 512-step holdout MSE < training-mean baseline MSE",
+        "initial_seeds": [
+          49301,
+          49302,
+          49303
+        ],
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "reward_weight": 3,
+        "schema": "critic-fit-v1",
+        "source": {
+          "config/evaluation.json": "09436d9d86c8a3a52d1bb9e6fe5e7b9fba3e3cd4c81b64ea98ce1e8b894dcf36",
+          "config/fairness_v2.json": "02b70fcc9c542bc654272ba3009af559391f997db3b9b7c2ea8568aa25ab4395",
+          "config/milestone.json": "2ce33e2a92b77c5efa904aa56159a73e293c48c44b95305863e4859f5a0d72a3",
+          "config/singapore.json": "6ac367665bc5433bc31f9bc7b0a35b08828040e7659cb2d232870cd6e0afbe3e",
+          "config/singapore_derived.json": "5b6eb48bf1d263167b8680666592a4f08eca707151fe87c8ee9c713f25d745aa",
+          "config/singapore_transfer.json": "e52752074e0811ed91a8090406a1c20afdd6511ed1df7bb1c13cc21b7db47f80",
+          "config/training.json": "b078de9df5a23a8108d2b626b1f0c3a59260de17e46ca6d0d371894b9caffe3a",
+          "scripts/critic_fit_check.py": "42227411b5cd1e152fcba517b89488a15f03b4192f8dce9bf32d4ece9eb5b8f5",
+          "src/traffic_control/__init__.py": "4803f707b5252bbc5c9e6bb3d5f372cfc2643b583121df3223696d3eb78e215b",
+          "src/traffic_control/capture_clip.py": "b959cadaecdec4b34e07bd019f14c2293e2f4fffafb952f6e3facca464512112",
+          "src/traffic_control/capture_gui.py": "d4b39207db8493f302015141985897975edf1fcc420886932fb53943cc0744e7",
+          "src/traffic_control/cli.py": "bf1365c2b9715746b55dc2f96f5420ea78e1dc1481722627db1331e4ffe501a3",
+          "src/traffic_control/connected.py": "031d789c0bfae65c99050238d29a632f5a71e49da60796ffd5db4813fbf5c0d1",
+          "src/traffic_control/evaluate.py": "4c172d909f541b0ea6c9b348010637b2ac202accf297f6ecde18e9a859c0b469",
+          "src/traffic_control/evaluate_parallel.py": "b9b8a24ddb7eb0ef5ced6883df7a46c2979fdf57e8ac5a1e65edecc9417a79a9",
+          "src/traffic_control/fairness/__init__.py": "62eb5ccc3295eae9b9ee52fd4e9e53cf3e241e7251781ef01317cabbf5191c13",
+          "src/traffic_control/fairness/analysis.py": "308a74e802da45502c0fc77c66dbf36cc39c0581a74137ad0834808040d8b61a",
+          "src/traffic_control/fairness/audit.py": "5ea9179ba84f2e3d7ccda8c20453d2683bf948b287f6d67481cb93064024ba4a",
+          "src/traffic_control/fairness/demand.py": "217f0a6d756f8851408565f11fe1737751ba9510a14cd97f4bd70a7b8d73019c",
+          "src/traffic_control/fairness/environment.py": "bf4871a288479363e22e60c488a45a7aee1b873c9b5f53f6c0649f0ddd3fbd18",
+          "src/traffic_control/fairness/events.py": "19ff7f9d78c71e7c3f2aed9600e93efb82a8e8c721ca13ba05a01a2eb445a6c6",
+          "src/traffic_control/fairness/figures.py": "cb470fbe8b6a7b8ad6b8ad82f697102a098638051f0ae591501dc9ff51278b45",
+          "src/traffic_control/fairness/learning.py": "2420a746125e7978dfd8540aa5b2f6e8eabe7e26d85ffbccb3fdd91dd2449e29",
+          "src/traffic_control/fairness/networks.py": "5c6d2fc45c2f32239077d1e65e2aa83115003d39a7e1864c61c8bf1a7625b06b",
+          "src/traffic_control/fairness/pipeline.py": "64e55991a34ff28738a4118684d8eb49b95754948c6ca334f13af345a881bc25",
+          "src/traffic_control/fairness/signals.py": "2cfd8f75979e6fde4f36404b2226beb80a9628adb2faaff9201d8e0eea38eb39",
+          "src/traffic_control/figures.py": "83caf2789a2cfeada12f3306da5b8a6f189ab3028e31a67c9b0e6e0ccc96038a",
+          "src/traffic_control/measurement_resolution.py": "a2dc8293ad0c60cdff1dd1180b02709c99f0c164935668d93c3d49e4bcaae108",
+          "src/traffic_control/metrics.py": "2e0b09adfbd990fc63364daa8a6630e2c84b5b1f2f6c59629f0ad91bbb44420b",
+          "src/traffic_control/ppo.py": "7ed5fd4a86dba799794790dbb2a203c676ecb1e57fb52f87b9d57cfa86840e7c",
+          "src/traffic_control/scenario.py": "beb62e540439f92598b56decc77a1003026c870f51ce6c76f459b99a46eded55",
+          "src/traffic_control/service_priority/__init__.py": "a296bd26e802ac8ad8b7859e145e50a93e82b2e503732f1d06110e593e35189f",
+          "src/traffic_control/service_priority/control.py": "c07dca805aaf337b406eaba799faf1dd4feca588f864762dc949e13c34b2b893",
+          "src/traffic_control/service_priority/pilot.py": "c2310f0376f7e13c1d432e3a84c874485e94aa3f5f32e0b34867a04d3184096b",
+          "src/traffic_control/signals.py": "71b5d12ad3f62beab9a648e18837d027b0e82ef79b3c61794fd1dc1af42d7d82",
+          "src/traffic_control/singapore.py": "c2188864312562ae32ba6529857a6712353c89b40da10d60a6bf0f7f014dc83e",
+          "src/traffic_control/singapore_transfer.py": "978db3d6ea5c89a3f30b35d29c980ac203a799cb24e70b5b90e1f2ad1b168e75",
+          "src/traffic_control/train.py": "0f28cb64f6b77e33e8df96b67f0e163a11568c323cbb1793b5ea04a974f107a4",
+          "src/traffic_control/train_parallel.py": "13c5e8456c2740198b52e5ebf0dbcdd398188f8eb1ce084c9680bf1aa6e5e511",
+          "src/traffic_control/validation_decision.py": "d97768fcbaebd6678d51c3fd686f0a2571e1ede08d6fb0cc88a9f3e4b0ab9765",
+          "src/traffic_control/viewer.py": "f6399035785264a1c27c7a8842e3ed58771528602ae8576ada34727a8c434e4e"
+        },
+        "training_demand_seeds": [
+          49101,
+          49102,
+          49103,
+          49104
+        ]
+      },
+      "summary": [
+        {
+          "mean_free_decision_mse_ratio": 4.128963433964281,
+          "mean_holdout_bias": 117.4738506740994,
+          "mean_holdout_ev": 0.00014718939771295335,
+          "mean_holdout_mse_ratio": 5.558762694877361,
+          "mean_interior_mse_ratio": 21.570302813480644,
+          "mean_train_mse_ratio": 6.585670103945042,
+          "method": "ippo",
+          "mode": "raw-scaled-loss",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 3.397250014180999,
+          "mean_holdout_bias": 106.5226821899414,
+          "mean_holdout_ev": 0.00022551786007613602,
+          "mean_holdout_mse_ratio": 4.577024744728023,
+          "mean_interior_mse_ratio": 17.88246672754231,
+          "mean_train_mse_ratio": 5.490960883518314,
+          "method": "ippo",
+          "mode": "raw-scaled-loss",
+          "updates": 512
+        },
+        {
+          "mean_free_decision_mse_ratio": 0.6868689767900115,
+          "mean_holdout_bias": 13.243992037243313,
+          "mean_holdout_ev": 0.03356311825880371,
+          "mean_holdout_mse_ratio": 0.8574456564639336,
+          "mean_interior_mse_ratio": 1.132386018376868,
+          "mean_train_mse_ratio": 0.7021153799266427,
+          "method": "ippo",
+          "mode": "normalized-output",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 0.8152144475310554,
+          "mean_holdout_bias": 14.904030111100939,
+          "mean_holdout_ev": -0.23915873092120637,
+          "mean_holdout_mse_ratio": 1.0419819492464257,
+          "mean_interior_mse_ratio": 1.9872050127525165,
+          "mean_train_mse_ratio": 0.44522067192626935,
+          "method": "ippo",
+          "mode": "normalized-output",
+          "updates": 512
+        },
+        {
+          "mean_free_decision_mse_ratio": 4.046663935365277,
+          "mean_holdout_bias": 116.12302907307942,
+          "mean_holdout_ev": 0.0018047837666117011,
+          "mean_holdout_mse_ratio": 5.424132631977159,
+          "mean_interior_mse_ratio": 21.03077053792536,
+          "mean_train_mse_ratio": 6.448806450397513,
+          "method": "mappo",
+          "mode": "raw-scaled-loss",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 3.427411011087353,
+          "mean_holdout_bias": 107.00171322292752,
+          "mean_holdout_ev": 0.00021869763653763967,
+          "mean_holdout_mse_ratio": 4.611884445179388,
+          "mean_interior_mse_ratio": 17.999660664894076,
+          "mean_train_mse_ratio": 5.538069953204922,
+          "method": "mappo",
+          "mode": "raw-scaled-loss",
+          "updates": 512
+        },
+        {
+          "mean_free_decision_mse_ratio": 0.771897650825515,
+          "mean_holdout_bias": 17.611098130544026,
+          "mean_holdout_ev": -0.23150693193152921,
+          "mean_holdout_mse_ratio": 1.0731457065289978,
+          "mean_interior_mse_ratio": 2.0281789792508884,
+          "mean_train_mse_ratio": 0.4351343028485018,
+          "method": "mappo",
+          "mode": "normalized-output",
+          "updates": 128
+        },
+        {
+          "mean_free_decision_mse_ratio": 1.092532068883365,
+          "mean_holdout_bias": 24.96063968870375,
+          "mean_holdout_ev": -0.6446117096646524,
+          "mean_holdout_mse_ratio": 1.4752266746685858,
+          "mean_interior_mse_ratio": 3.677795171454639,
+          "mean_train_mse_ratio": 0.07419381791957882,
+          "method": "mappo",
+          "mode": "normalized-output",
+          "updates": 512
+        }
+      ]
+    },
+    "horizon/priority-mappo-r0": {
+      "gates": [
+        {
+          "beats_both_constant_and_no_clock": true,
+          "clock": 0.8112401294872907,
+          "method": "ippo",
+          "no_clock": 1.3767491391920799,
+          "seed": 49301
+        },
+        {
+          "beats_both_constant_and_no_clock": true,
+          "clock": 0.8403257094023087,
+          "method": "ippo",
+          "no_clock": 1.3520226901943122,
+          "seed": 49302
+        },
+        {
+          "beats_both_constant_and_no_clock": true,
+          "clock": 0.8478870879578819,
+          "method": "ippo",
+          "no_clock": 1.3904757959496257,
+          "seed": 49303
+        },
+        {
+          "beats_both_constant_and_no_clock": false,
+          "clock": 1.2725875832918399,
+          "method": "mappo",
+          "no_clock": 1.786103263612202,
+          "seed": 49301
+        },
+        {
+          "beats_both_constant_and_no_clock": false,
+          "clock": 1.2433798356366317,
+          "method": "mappo",
+          "no_clock": 1.747057179747333,
+          "seed": 49302
+        },
+        {
+          "beats_both_constant_and_no_clock": false,
+          "clock": 1.1922596105530687,
+          "method": "mappo",
+          "no_clock": 1.6659903712236812,
+          "seed": 49303
+        }
+      ],
+      "passed": false,
+      "protocol": {
+        "behavior": "priority-mappo-r0",
+        "budgets": [
+          128,
+          512
+        ],
+        "check_demand_seeds": [
+          49401,
+          49402
+        ],
+        "checkpoint_sha256": "83654be5ad0bf01aad7d07db39227e5fda75199036a2d2188e4ceb02193e72a6",
+        "configuration": {
+          "demand_end_seconds": 600,
+          "end_seconds": 600,
+          "measurement_end_seconds": 600,
+          "pedestrian_rate_per_hour": 1200,
+          "vehicle_rate_per_hour": 1920,
+          "warmup_seconds": 0
+        },
+        "fingerprint": "cce5afe6009fce2f5d0621842027130985b9901fe0afe11087b5344894944e4a",
+        "gamma": 0.99,
+        "gate": "Every method/init: clock 512-step junction-average MSE beats constant and no-clock",
+        "horizon_script_sha256": "cc8e49f7efd0297ddbe3a63f4df0f77b326a62237e12fab14b6e2244bbde6422",
+        "initial_seeds": [
+          49301,
+          49302,
+          49303
+        ],
+        "parent_fingerprint": "f068ddd94b573ff4c84ec6f8401d40238f9b0985e90993926ce09cbf95445139",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "reward_weight": 3,
+        "schema": "critic-horizon-v1",
+        "source": {
+          "config/evaluation.json": "09436d9d86c8a3a52d1bb9e6fe5e7b9fba3e3cd4c81b64ea98ce1e8b894dcf36",
+          "config/fairness_v2.json": "02b70fcc9c542bc654272ba3009af559391f997db3b9b7c2ea8568aa25ab4395",
+          "config/milestone.json": "2ce33e2a92b77c5efa904aa56159a73e293c48c44b95305863e4859f5a0d72a3",
+          "config/singapore.json": "6ac367665bc5433bc31f9bc7b0a35b08828040e7659cb2d232870cd6e0afbe3e",
+          "config/singapore_derived.json": "5b6eb48bf1d263167b8680666592a4f08eca707151fe87c8ee9c713f25d745aa",
+          "config/singapore_transfer.json": "e52752074e0811ed91a8090406a1c20afdd6511ed1df7bb1c13cc21b7db47f80",
+          "config/training.json": "b078de9df5a23a8108d2b626b1f0c3a59260de17e46ca6d0d371894b9caffe3a",
+          "scripts/critic_fit_check.py": "42227411b5cd1e152fcba517b89488a15f03b4192f8dce9bf32d4ece9eb5b8f5",
+          "src/traffic_control/__init__.py": "4803f707b5252bbc5c9e6bb3d5f372cfc2643b583121df3223696d3eb78e215b",
+          "src/traffic_control/capture_clip.py": "b959cadaecdec4b34e07bd019f14c2293e2f4fffafb952f6e3facca464512112",
+          "src/traffic_control/capture_gui.py": "d4b39207db8493f302015141985897975edf1fcc420886932fb53943cc0744e7",
+          "src/traffic_control/cli.py": "bf1365c2b9715746b55dc2f96f5420ea78e1dc1481722627db1331e4ffe501a3",
+          "src/traffic_control/connected.py": "031d789c0bfae65c99050238d29a632f5a71e49da60796ffd5db4813fbf5c0d1",
+          "src/traffic_control/evaluate.py": "4c172d909f541b0ea6c9b348010637b2ac202accf297f6ecde18e9a859c0b469",
+          "src/traffic_control/evaluate_parallel.py": "b9b8a24ddb7eb0ef5ced6883df7a46c2979fdf57e8ac5a1e65edecc9417a79a9",
+          "src/traffic_control/fairness/__init__.py": "62eb5ccc3295eae9b9ee52fd4e9e53cf3e241e7251781ef01317cabbf5191c13",
+          "src/traffic_control/fairness/analysis.py": "308a74e802da45502c0fc77c66dbf36cc39c0581a74137ad0834808040d8b61a",
+          "src/traffic_control/fairness/audit.py": "5ea9179ba84f2e3d7ccda8c20453d2683bf948b287f6d67481cb93064024ba4a",
+          "src/traffic_control/fairness/demand.py": "217f0a6d756f8851408565f11fe1737751ba9510a14cd97f4bd70a7b8d73019c",
+          "src/traffic_control/fairness/environment.py": "bf4871a288479363e22e60c488a45a7aee1b873c9b5f53f6c0649f0ddd3fbd18",
+          "src/traffic_control/fairness/events.py": "19ff7f9d78c71e7c3f2aed9600e93efb82a8e8c721ca13ba05a01a2eb445a6c6",
+          "src/traffic_control/fairness/figures.py": "cb470fbe8b6a7b8ad6b8ad82f697102a098638051f0ae591501dc9ff51278b45",
+          "src/traffic_control/fairness/learning.py": "2420a746125e7978dfd8540aa5b2f6e8eabe7e26d85ffbccb3fdd91dd2449e29",
+          "src/traffic_control/fairness/networks.py": "5c6d2fc45c2f32239077d1e65e2aa83115003d39a7e1864c61c8bf1a7625b06b",
+          "src/traffic_control/fairness/pipeline.py": "64e55991a34ff28738a4118684d8eb49b95754948c6ca334f13af345a881bc25",
+          "src/traffic_control/fairness/signals.py": "2cfd8f75979e6fde4f36404b2226beb80a9628adb2faaff9201d8e0eea38eb39",
+          "src/traffic_control/figures.py": "83caf2789a2cfeada12f3306da5b8a6f189ab3028e31a67c9b0e6e0ccc96038a",
+          "src/traffic_control/measurement_resolution.py": "a2dc8293ad0c60cdff1dd1180b02709c99f0c164935668d93c3d49e4bcaae108",
+          "src/traffic_control/metrics.py": "2e0b09adfbd990fc63364daa8a6630e2c84b5b1f2f6c59629f0ad91bbb44420b",
+          "src/traffic_control/ppo.py": "7ed5fd4a86dba799794790dbb2a203c676ecb1e57fb52f87b9d57cfa86840e7c",
+          "src/traffic_control/scenario.py": "beb62e540439f92598b56decc77a1003026c870f51ce6c76f459b99a46eded55",
+          "src/traffic_control/service_priority/__init__.py": "a296bd26e802ac8ad8b7859e145e50a93e82b2e503732f1d06110e593e35189f",
+          "src/traffic_control/service_priority/control.py": "c07dca805aaf337b406eaba799faf1dd4feca588f864762dc949e13c34b2b893",
+          "src/traffic_control/service_priority/pilot.py": "c2310f0376f7e13c1d432e3a84c874485e94aa3f5f32e0b34867a04d3184096b",
+          "src/traffic_control/signals.py": "71b5d12ad3f62beab9a648e18837d027b0e82ef79b3c61794fd1dc1af42d7d82",
+          "src/traffic_control/singapore.py": "c2188864312562ae32ba6529857a6712353c89b40da10d60a6bf0f7f014dc83e",
+          "src/traffic_control/singapore_transfer.py": "978db3d6ea5c89a3f30b35d29c980ac203a799cb24e70b5b90e1f2ad1b168e75",
+          "src/traffic_control/train.py": "0f28cb64f6b77e33e8df96b67f0e163a11568c323cbb1793b5ea04a974f107a4",
+          "src/traffic_control/train_parallel.py": "13c5e8456c2740198b52e5ebf0dbcdd398188f8eb1ce084c9680bf1aa6e5e511",
+          "src/traffic_control/validation_decision.py": "d97768fcbaebd6678d51c3fd686f0a2571e1ede08d6fb0cc88a9f3e4b0ab9765",
+          "src/traffic_control/viewer.py": "f6399035785264a1c27c7a8842e3ed58771528602ae8576ada34727a8c434e4e"
+        },
+        "training_demand_seeds": [
+          49101,
+          49102,
+          49103,
+          49104
+        ],
+        "trajectory_hashes": {
+          "49101": "8e4c7820787809a19e05c62861decaed74e7972f44d4ed948f1b2d6e1298360d",
+          "49102": "835db552d157fafa4bea365080c53389850dceefe5aaad77564f71af3e563176",
+          "49103": "ee49130b45cf3105f34d5fe058f7f22b67bddac8c6171b9d030a04016f3c18ff",
+          "49104": "e07a120cc5b5addb91aa400d391aae61917654d0e6b7b70aa1e4f73c99f3fc03"
+        }
+      },
+      "summary": [
+        {
+          "clock": false,
+          "mean_holdout_bias": 29.2410987218221,
+          "mean_holdout_ev": -0.03521416754062116,
+          "mean_holdout_mse_ratio": 1.0601715206453632,
+          "mean_train_mse_ratio": 0.695527561260997,
+          "method": "ippo",
+          "updates": 128
+        },
+        {
+          "clock": false,
+          "mean_holdout_bias": 37.01360066731771,
+          "mean_holdout_ev": -0.24662948885545874,
+          "mean_holdout_mse_ratio": 1.3730825417786725,
+          "mean_train_mse_ratio": 0.44611251336195673,
+          "method": "ippo",
+          "updates": 512
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 29.144963794284397,
+          "mean_holdout_ev": -0.02219594014859262,
+          "mean_holdout_mse_ratio": 1.0493780431759432,
+          "mean_train_mse_ratio": 0.6237766660982985,
+          "method": "ippo",
+          "updates": 128
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 23.886274920569527,
+          "mean_holdout_ev": 0.15949044707671467,
+          "mean_holdout_mse_ratio": 0.8331509756158271,
+          "mean_train_mse_ratio": 0.2345971843969286,
+          "method": "ippo",
+          "updates": 512
+        },
+        {
+          "clock": false,
+          "mean_holdout_bias": 33.361839824252655,
+          "mean_holdout_ev": -0.13785838069765782,
+          "mean_holdout_mse_ratio": 1.2060427256014679,
+          "mean_train_mse_ratio": 0.4440269520263622,
+          "method": "mappo",
+          "updates": 128
+        },
+        {
+          "clock": false,
+          "mean_holdout_bias": 46.36011759440104,
+          "mean_holdout_ev": -0.5131388847805122,
+          "mean_holdout_mse_ratio": 1.7330502715277387,
+          "mean_train_mse_ratio": 0.07611707201205974,
+          "method": "mappo",
+          "updates": 512
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 32.86396620008681,
+          "mean_holdout_ev": -0.1134319654325004,
+          "mean_holdout_mse_ratio": 1.17806104816239,
+          "mean_train_mse_ratio": 0.39965334592380874,
+          "method": "mappo",
+          "updates": 128
+        },
+        {
+          "clock": true,
+          "mean_holdout_bias": 33.286664221021866,
+          "mean_holdout_ev": -0.1640495141264706,
+          "mean_holdout_mse_ratio": 1.2360756764938468,
+          "mean_train_mse_ratio": 0.04933754074917586,
+          "method": "mappo",
+          "updates": 512
+        }
+      ]
+    }
+  }
+}

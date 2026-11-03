@@ -1,0 +1,4306 @@
+{
+  "audit": {
+    "archive_sha256": "a4bc25c10cad424680ddfe9910f159d2b882f4fcbf90405f920178e3a3c6f7cd",
+    "evaluations": 110,
+    "independent_replay_matches": 26,
+    "demand_seeds": [
+      47001,
+      47002
+    ],
+    "policy_seeds": [
+      48001,
+      48002,
+      48003
+    ],
+    "sumo_versions": [
+      "SUMO 1.27.1"
+    ],
+    "unfinished_person_runs": 0,
+    "unresolved_crossing_runs": 0,
+    "unknown_or_lost_events": 0,
+    "model_weights_in_archive": false
+  },
+  "manifest": {
+    "critic_diagnostic": "Discounted Monte Carlo and GAE targets on evaluation trajectories, gamma .99; not a training-convergence test",
+    "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+    "jobs": [
+      {
+        "controller": "actuated",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "baseline",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "uniform-plain",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "uniform-plain",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "uniform-plain",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "uniform-priority",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "uniform-priority",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "uniform-priority",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47001
+      },
+      {
+        "controller": "actuated",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "baseline",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "uniform-plain",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "uniform-plain",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "uniform-plain",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "uniform-priority",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "uniform-priority",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "uniform-priority",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "uniform",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "plain-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": false,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-ippo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r0",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r1",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "argmax",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 0,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48001,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48002,
+        "priority": true,
+        "seed": 47002
+      },
+      {
+        "controller": "priority-mappo-r2",
+        "fingerprint": "2e3832bf61bb15884de9356e0f1b8c7fbf60159d65d9b52351f93f8642747c9f",
+        "mode": "sample",
+        "output": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-policy-audit",
+        "pilot": "/home/s/shri/cs4246-service-priority/trafficlightcontrol/runs/service-priority-pilot",
+        "policy_seed": 48003,
+        "priority": true,
+        "seed": 47002
+      }
+    ],
+    "sampling": "Python categorical sampling; separate reproducible stream per junction; policy seeds 48001-48003",
+    "service_gap": "Consecutive one-second observations with an approach queue and no green; not individual vehicle waiting time",
+    "smoke": false,
+    "status": "development diagnostic; no training and no untouched test seeds"
+  },
+  "summary": [
+    {
+      "family": "actuated",
+      "mode": "baseline",
+      "evaluation_runs": 2,
+      "trained_replicas": 0,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 933.5,
+        "unfinished_count": 41,
+        "uninserted_count": 0,
+        "completed_mean_time_loss_seconds": 51.64339195169224,
+        "pending_at_cutoff": 6,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 26.799999999999955,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 0.0,
+          "mean_wait": 11.367346938775533,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 28.0,
+          "baseline_p95": 28.0,
+          "p95_delta": 0.0,
+          "mean_wait": 10.738613861386153,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            202
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 29.0,
+          "baseline_p95": 29.0,
+          "p95_delta": 0.0,
+          "mean_wait": 8.468686868686879,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 26.999999999999773,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": 0.0,
+          "mean_wait": 11.322448979591858,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 28.200000000000045,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 0.0,
+          "mean_wait": 7.436893203883498,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 28.200000000000045,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 0.0,
+          "mean_wait": 11.377889447236203,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            199
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 26.0,
+          "baseline_p95": 26.0,
+          "p95_delta": 0.0,
+          "mean_wait": 7.976470588235303,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            102
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 27.799999999999955,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 0.0,
+          "mean_wait": 11.062105263157918,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            190
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 26.200000000000045,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 0.0,
+          "mean_wait": 7.314285714285726,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.0,
+          "baseline_p95": 27.0,
+          "p95_delta": 0.0,
+          "mean_wait": 10.873584905660401,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 27.600000000000136,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 0.0,
+          "mean_wait": 11.634545454545496,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 27.599999999999966,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 0.0,
+          "mean_wait": 11.089010989011008,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            182
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 12,
+      "worst_crossing_delta": 0.0,
+      "service_failed_runs": 0,
+      "service_deltas": {
+        "vehicle_completed_count_delta": 0,
+        "vehicle_unfinished_count_delta": 0,
+        "vehicle_uninserted_count_delta": 0,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": 0,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 106,
+      "mean_junction_max_queued_no_green_seconds": 100.33333333333333,
+      "replica_mean_vehicle_loss": {
+        "actuated": 51.64339195169224
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "plain-ippo",
+      "mode": "argmax",
+      "evaluation_runs": 6,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 682.1666666666666,
+        "unfinished_count": 51.833333333333336,
+        "uninserted_count": 240.5,
+        "completed_mean_time_loss_seconds": 34.976453564411074,
+        "pending_at_cutoff": 0,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 28.19999999999999,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 1.400000000000034,
+          "mean_wait": 9.828571428571445,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 28.0,
+          "baseline_p95": 28.0,
+          "p95_delta": 0.0,
+          "mean_wait": 10.022857142857152,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            210,
+            210,
+            210
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 27.599999999999966,
+          "baseline_p95": 29.0,
+          "p95_delta": -1.400000000000034,
+          "mean_wait": 7.905999999999996,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            100,
+            100,
+            100
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 26.599999999999966,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": -0.39999999999980673,
+          "mean_wait": 10.34897959183675,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.40000000000009,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.7999999999999545,
+          "mean_wait": 8.476470588235305,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            102,
+            102,
+            102
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 29.200000000000045,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 1.0,
+          "mean_wait": 10.860317460317477,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            189,
+            189,
+            189
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.40000000000009,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.400000000000091,
+          "mean_wait": 7.033009708737877,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 28.200000000000045,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 0.40000000000009095,
+          "mean_wait": 10.233333333333348,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            180,
+            180,
+            180
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 27.0,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 0.7999999999999545,
+          "mean_wait": 8.070967741935474,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            93,
+            93,
+            93
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.0,
+          "baseline_p95": 27.0,
+          "p95_delta": 0.0,
+          "mean_wait": 11.520754716981154,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 28.40000000000009,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 0.7999999999999545,
+          "mean_wait": 11.121818181818215,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 28.40000000000009,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 0.8000000000001251,
+          "mean_wait": 9.993750000000016,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            192,
+            192,
+            192
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 5,
+      "worst_crossing_delta": 1.400000000000091,
+      "service_failed_runs": 6,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -251.33333333333334,
+        "vehicle_unfinished_count_delta": 10.833333333333334,
+        "vehicle_uninserted_count_delta": 240.5,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -6,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 2380,
+      "mean_junction_max_queued_no_green_seconds": 1478.8333333333333,
+      "replica_mean_vehicle_loss": {
+        "plain-ippo-r0": 41.015041769500556,
+        "plain-ippo-r1": 38.307579815140116,
+        "plain-ippo-r2": 25.606739108592556
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.0002840641596410509,
+        "min_mc_explained_variance": -0.002784838831751957,
+        "max_mc_explained_variance": 0.010880523052210989,
+        "mean_prediction": -4.618478737891944,
+        "mean_discounted_return": -628.8006589773811,
+        "mean_free_choice_max_probability": 0.48759647978952636
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "plain-ippo",
+      "mode": "sample",
+      "evaluation_runs": 18,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 923.3888888888889,
+        "unfinished_count": 50.55555555555556,
+        "uninserted_count": 0.5555555555555556,
+        "completed_mean_time_loss_seconds": 54.94401405018107,
+        "pending_at_cutoff": 6.666666666666667,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 52.466666666666725,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 25.66666666666677,
+          "mean_wait": 17.984807256235847,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 56.48888888888891,
+          "baseline_p95": 28.0,
+          "p95_delta": 28.48888888888891,
+          "mean_wait": 18.87195199848701,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            205,
+            202,
+            201,
+            191,
+            200,
+            196,
+            192,
+            188,
+            197
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 39.5555555555556,
+          "baseline_p95": 29.0,
+          "p95_delta": 10.5555555555556,
+          "mean_wait": 8.603796660796272,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            106,
+            99,
+            101,
+            98,
+            101,
+            97,
+            101,
+            102,
+            100
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 53.08888888888891,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": 26.088888888889137,
+          "mean_wait": 18.146485260770998,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 44.91111111111113,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 16.711111111111087,
+          "mean_wait": 10.282991729593666,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103,
+            102,
+            103,
+            103,
+            103,
+            102,
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 54.3777777777778,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 26.177777777777756,
+          "mean_wait": 19.24370327458782,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            206,
+            195,
+            203,
+            206,
+            202,
+            195,
+            204,
+            195,
+            203
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 41.22222222222226,
+          "baseline_p95": 26.0,
+          "p95_delta": 15.222222222222257,
+          "mean_wait": 9.04789724118043,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            102,
+            102,
+            102,
+            102,
+            103,
+            101,
+            104,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 53.244444444444476,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 25.44444444444452,
+          "mean_wait": 18.78825417472025,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            190,
+            190,
+            194,
+            202,
+            190,
+            198,
+            199,
+            203,
+            194
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 43.53333333333339,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 17.333333333333343,
+          "mean_wait": 8.841772854956583,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            92,
+            92,
+            92,
+            92,
+            93,
+            91,
+            91,
+            91,
+            93
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 54.48888888888891,
+          "baseline_p95": 27.0,
+          "p95_delta": 27.48888888888891,
+          "mean_wait": 17.78427672955977,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 51.77777777777786,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 24.17777777777772,
+          "mean_wait": 18.58606060606064,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 53.777777777777814,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 26.177777777777848,
+          "mean_wait": 18.800058560259828,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            176,
+            188,
+            179,
+            176,
+            178,
+            185,
+            178,
+            185,
+            178
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 0,
+      "worst_crossing_delta": 28.48888888888891,
+      "service_failed_runs": 18,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -10.11111111111111,
+        "vehicle_unfinished_count_delta": 9.555555555555555,
+        "vehicle_uninserted_count_delta": 0.5555555555555556,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": 0.6666666666666666,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 245,
+      "mean_junction_max_queued_no_green_seconds": 172.5185185185185,
+      "replica_mean_vehicle_loss": {
+        "plain-ippo-r0": 52.41945416653468,
+        "plain-ippo-r1": 54.88833867102,
+        "plain-ippo-r2": 57.52424931298852
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.0032961834485246144,
+        "min_mc_explained_variance": -0.0006720479554176428,
+        "max_mc_explained_variance": 0.00976454259365589,
+        "mean_prediction": -4.582610273252207,
+        "mean_discounted_return": -132.63715323038457,
+        "mean_free_choice_max_probability": 0.4982291123007295
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "plain-mappo",
+      "mode": "argmax",
+      "evaluation_runs": 6,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 596.3333333333334,
+        "unfinished_count": 77.33333333333333,
+        "uninserted_count": 300.8333333333333,
+        "completed_mean_time_loss_seconds": 32.618069634293754,
+        "pending_at_cutoff": 0.8333333333333334,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 28.200000000000006,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 1.4000000000000519,
+          "mean_wait": 9.920408163265323,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 28.200000000000006,
+          "baseline_p95": 28.0,
+          "p95_delta": 0.2000000000000064,
+          "mean_wait": 10.113333333333342,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            210,
+            210,
+            210
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 27.866666666666674,
+          "baseline_p95": 29.0,
+          "p95_delta": -1.1333333333333258,
+          "mean_wait": 8.065999999999995,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            100,
+            100,
+            100
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 26.599999999999966,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": -0.39999999999980673,
+          "mean_wait": 10.37959183673471,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.40000000000009,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.7999999999999545,
+          "mean_wait": 8.476470588235305,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            102,
+            102,
+            102
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 29.200000000000045,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 1.0,
+          "mean_wait": 10.860317460317477,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            189,
+            189,
+            189
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.40000000000009,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.400000000000091,
+          "mean_wait": 7.033009708737877,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 28.200000000000045,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 0.40000000000009095,
+          "mean_wait": 10.233333333333348,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            180,
+            180,
+            180
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 27.0,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 0.7999999999999545,
+          "mean_wait": 8.070967741935474,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            93,
+            93,
+            93
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.0,
+          "baseline_p95": 27.0,
+          "p95_delta": 0.0,
+          "mean_wait": 11.520754716981154,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 28.40000000000009,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 0.7999999999999545,
+          "mean_wait": 11.121818181818215,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 28.40000000000009,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 0.8000000000001251,
+          "mean_wait": 9.993750000000016,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            192,
+            192,
+            192
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 4,
+      "worst_crossing_delta": 1.400000000000091,
+      "service_failed_runs": 6,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -337.1666666666667,
+        "vehicle_unfinished_count_delta": 36.333333333333336,
+        "vehicle_uninserted_count_delta": 300.8333333333333,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -5.166666666666667,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 2380,
+      "mean_junction_max_queued_no_green_seconds": 1871.388888888889,
+      "replica_mean_vehicle_loss": {
+        "plain-mappo-r0": 24.04946982296633,
+        "plain-mappo-r1": 22.23656102935063,
+        "plain-mappo-r2": 51.5681780505643
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.0008125870603891139,
+        "min_mc_explained_variance": -0.0004478668763643334,
+        "max_mc_explained_variance": 0.003141294416147966,
+        "mean_prediction": -3.536016249852095,
+        "mean_discounted_return": -765.0026360168733,
+        "mean_free_choice_max_probability": 0.46103359823992357
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "plain-mappo",
+      "mode": "sample",
+      "evaluation_runs": 18,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 929.8888888888889,
+        "unfinished_count": 44.611111111111114,
+        "uninserted_count": 0,
+        "completed_mean_time_loss_seconds": 54.47993086611264,
+        "pending_at_cutoff": 7.333333333333333,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 50.11111111111112,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 23.311111111111167,
+          "mean_wait": 17.707936507936523,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 51.02222222222221,
+          "baseline_p95": 28.0,
+          "p95_delta": 23.02222222222221,
+          "mean_wait": 18.778199853567408,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            206,
+            192,
+            205,
+            195,
+            197,
+            189,
+            212,
+            199,
+            192
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 39.155555555555594,
+          "baseline_p95": 29.0,
+          "p95_delta": 10.155555555555594,
+          "mean_wait": 8.659054637829552,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            106,
+            105,
+            101,
+            102,
+            101,
+            99,
+            106,
+            97,
+            100
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 50.155555555555594,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": 23.15555555555582,
+          "mean_wait": 19.083446712018162,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 45.15555555555559,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 16.95555555555554,
+          "mean_wait": 8.975957107711235,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            104,
+            103,
+            103,
+            101,
+            102,
+            103,
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 57.80000000000003,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 29.599999999999987,
+          "mean_wait": 20.800433395076826,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            204,
+            202,
+            200,
+            195,
+            196,
+            205,
+            201,
+            206,
+            206
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 42.333333333333385,
+          "baseline_p95": 26.0,
+          "p95_delta": 16.333333333333385,
+          "mean_wait": 8.988990816081415,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            101,
+            101,
+            101,
+            101,
+            102,
+            103,
+            101,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 59.88888888888891,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 32.08888888888895,
+          "mean_wait": 20.653722613691677,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            187,
+            202,
+            188,
+            195,
+            196,
+            203,
+            180,
+            194,
+            201
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 49.933333333333394,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 23.73333333333335,
+          "mean_wait": 10.208064057563824,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91,
+            92,
+            92,
+            93,
+            90,
+            91,
+            92,
+            92,
+            90
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 64.40000000000002,
+          "baseline_p95": 27.0,
+          "p95_delta": 37.40000000000002,
+          "mean_wait": 22.61383647798744,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 58.933333333333344,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 31.333333333333208,
+          "mean_wait": 20.76323232323236,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 62.75555555555557,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 35.1555555555556,
+          "mean_wait": 21.898721830844586,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            173,
+            179,
+            179,
+            185,
+            182,
+            174,
+            177,
+            173,
+            175
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 0,
+      "worst_crossing_delta": 37.40000000000002,
+      "service_failed_runs": 15,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -3.611111111111111,
+        "vehicle_unfinished_count_delta": 3.611111111111111,
+        "vehicle_uninserted_count_delta": 0,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": 1.3333333333333333,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 264,
+      "mean_junction_max_queued_no_green_seconds": 165.75925925925927,
+      "replica_mean_vehicle_loss": {
+        "plain-mappo-r0": 49.74670719779094,
+        "plain-mappo-r1": 65.1153190692961,
+        "plain-mappo-r2": 48.57776633125087
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.0020284171224072556,
+        "min_mc_explained_variance": -0.001146694436047424,
+        "max_mc_explained_variance": 0.008922565667401572,
+        "mean_prediction": -3.4762027748810196,
+        "mean_discounted_return": -135.685632487394,
+        "mean_free_choice_max_probability": 0.4604708985384366
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "priority-ippo",
+      "mode": "argmax",
+      "evaluation_runs": 6,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 767.8333333333334,
+        "unfinished_count": 62.666666666666664,
+        "uninserted_count": 144,
+        "completed_mean_time_loss_seconds": 57.85862654541892,
+        "pending_at_cutoff": 4.333333333333333,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 28.06666666666668,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 1.2666666666667261,
+          "mean_wait": 11.348299319727905,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 27.599999999999984,
+          "baseline_p95": 28.0,
+          "p95_delta": -0.40000000000001634,
+          "mean_wait": 10.823411149381315,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            200,
+            208,
+            201
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 27.800000000000107,
+          "baseline_p95": 29.0,
+          "p95_delta": -1.1999999999998927,
+          "mean_wait": 6.796632996633002,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            99,
+            99,
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 26.399999999999938,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": -0.5999999999998344,
+          "mean_wait": 11.238095238095259,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.799999999999994,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.40000000000005187,
+          "mean_wait": 7.477669902912622,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 27.133333333333365,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -1.0666666666666806,
+          "mean_wait": 10.630901240847853,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            207,
+            203,
+            192
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.33333333333341,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.3333333333334103,
+          "mean_wait": 8.08329843264167,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            102,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 27.933333333333355,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 0.13333333333340036,
+          "mean_wait": 9.674703774871519,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            193,
+            185,
+            194
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 27.200000000000006,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 0.9999999999999609,
+          "mean_wait": 6.797069597069609,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91,
+            91,
+            91
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.400000000000034,
+          "baseline_p95": 27.0,
+          "p95_delta": 0.4000000000000341,
+          "mean_wait": 11.440251572327066,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 27.600000000000062,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": -7.460698725481052e-14,
+          "mean_wait": 11.564848484848522,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 28.399999999999903,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 0.7999999999999368,
+          "mean_wait": 11.315579803320738,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            175,
+            178,
+            187
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 6,
+      "worst_crossing_delta": 1.3333333333334103,
+      "service_failed_runs": 5,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -165.66666666666666,
+        "vehicle_unfinished_count_delta": 21.666666666666668,
+        "vehicle_uninserted_count_delta": 144,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -1.6666666666666667,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 2165,
+      "mean_junction_max_queued_no_green_seconds": 585.5,
+      "replica_mean_vehicle_loss": {
+        "priority-ippo-r0": 51.7909037818298,
+        "priority-ippo-r1": 79.90237268518518,
+        "priority-ippo-r2": 41.882603169241776
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.002396567736927646,
+        "min_mc_explained_variance": -0.0005483020299246189,
+        "max_mc_explained_variance": 0.01160070939373159,
+        "mean_prediction": -3.417090422212926,
+        "mean_discounted_return": -395.0334350986388,
+        "mean_free_choice_max_probability": 0.5535616296708447
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "priority-ippo",
+      "mode": "sample",
+      "evaluation_runs": 18,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 901,
+        "unfinished_count": 66.88888888888889,
+        "uninserted_count": 6.611111111111111,
+        "completed_mean_time_loss_seconds": 102.21012576831879,
+        "pending_at_cutoff": 4.222222222222222,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 27.577777777777857,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 0.7777777777779029,
+          "mean_wait": 11.901133786848092,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 28.28888888888891,
+          "baseline_p95": 28.0,
+          "p95_delta": 0.2888888888889092,
+          "mean_wait": 11.107351786061344,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            201,
+            195,
+            196,
+            200,
+            193,
+            198,
+            197,
+            198,
+            195
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 28.24444444444445,
+          "baseline_p95": 29.0,
+          "p95_delta": -0.7555555555555493,
+          "mean_wait": 6.914748745136574,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            99,
+            97,
+            99,
+            99,
+            97,
+            99,
+            99,
+            98,
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 26.40000000000004,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": -0.5999999999997314,
+          "mean_wait": 11.887755102040845,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.8666666666667,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.33333333333334636,
+          "mean_wait": 6.652642934196332,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103,
+            103,
+            103,
+            103,
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 27.711111111111133,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.488888888888912,
+          "mean_wait": 11.446125105917783,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            204,
+            207,
+            196,
+            199,
+            212,
+            205,
+            203,
+            207,
+            203
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.644444444444478,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.6444444444444777,
+          "mean_wait": 7.117200794893885,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            102,
+            103,
+            103,
+            102,
+            103,
+            103,
+            101
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 27.244444444444476,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": -0.555555555555479,
+          "mean_wait": 10.210285006352434,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            191,
+            195,
+            196,
+            192,
+            197,
+            195,
+            195,
+            191,
+            197
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 27.866666666666738,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 1.6666666666666927,
+          "mean_wait": 7.830769230769237,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91,
+            91,
+            91,
+            91,
+            91,
+            91,
+            91,
+            91,
+            91
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.000000000000025,
+          "baseline_p95": 27.0,
+          "p95_delta": 2.4868995751603507e-14,
+          "mean_wait": 11.867295597484297,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 27.422222222222242,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": -0.17777777777789439,
+          "mean_wait": 11.297373737373775,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 27.77777777777781,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 0.17777777777784465,
+          "mean_wait": 10.63430530112756,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            178,
+            172,
+            185,
+            181,
+            169,
+            179,
+            179,
+            172,
+            177
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 7,
+      "worst_crossing_delta": 1.6666666666666927,
+      "service_failed_runs": 18,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -32.5,
+        "vehicle_unfinished_count_delta": 25.88888888888889,
+        "vehicle_uninserted_count_delta": 6.611111111111111,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -1.7777777777777777,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 360,
+      "mean_junction_max_queued_no_green_seconds": 246.38888888888889,
+      "replica_mean_vehicle_loss": {
+        "priority-ippo-r0": 95.22217599554585,
+        "priority-ippo-r1": 101.2937805431013,
+        "priority-ippo-r2": 110.1144207663092
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.003181494523432693,
+        "min_mc_explained_variance": -0.003378478767625648,
+        "max_mc_explained_variance": 0.008885570794886388,
+        "mean_prediction": -3.489624008887168,
+        "mean_discounted_return": -185.23883239713064,
+        "mean_free_choice_max_probability": 0.5624506483035626
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "priority-mappo",
+      "mode": "argmax",
+      "evaluation_runs": 6,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 845.6666666666666,
+        "unfinished_count": 65.16666666666667,
+        "uninserted_count": 63.666666666666664,
+        "completed_mean_time_loss_seconds": 64.7474280847131,
+        "pending_at_cutoff": 3.5,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 28.00000000000004,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 1.2000000000000846,
+          "mean_wait": 11.761224489795934,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 27.866666666666713,
+          "baseline_p95": 28.0,
+          "p95_delta": -0.13333333333328667,
+          "mean_wait": 10.590379563407915,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            198,
+            202,
+            203
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 27.40000000000009,
+          "baseline_p95": 29.0,
+          "p95_delta": -1.599999999999909,
+          "mean_wait": 8.027609427609434,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            99,
+            99,
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 25.466666666666544,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": -1.5333333333332284,
+          "mean_wait": 10.691836734693895,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.599999999999984,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.6000000000000618,
+          "mean_wait": 7.6970873786407745,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 27.333333333333332,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.8666666666667133,
+          "mean_wait": 10.492698249440163,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            194,
+            205,
+            199
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.13333333333344,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.1333333333334394,
+          "mean_wait": 10.359477124183018,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            102,
+            102,
+            102
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 27.333333333333332,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": -0.4666666666666224,
+          "mean_wait": 9.538144506565576,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            195,
+            190,
+            189
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 26.73333333333335,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 0.533333333333303,
+          "mean_wait": 8.50476190476191,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91,
+            91,
+            91
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.0,
+          "baseline_p95": 27.0,
+          "p95_delta": 0.0,
+          "mean_wait": 11.688050314465428,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 27.73333333333335,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 0.13333333333321207,
+          "mean_wait": 11.435151515151555,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 27.600000000000023,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 5.684341886080802e-14,
+          "mean_wait": 11.489172340451564,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            186,
+            174,
+            182
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 8,
+      "worst_crossing_delta": 1.2000000000000846,
+      "service_failed_runs": 6,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -87.83333333333333,
+        "vehicle_unfinished_count_delta": 24.166666666666668,
+        "vehicle_uninserted_count_delta": 63.666666666666664,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -2.5,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 1001,
+      "mean_junction_max_queued_no_green_seconds": 355.55555555555554,
+      "replica_mean_vehicle_loss": {
+        "priority-mappo-r0": 55.030103143667105,
+        "priority-mappo-r1": 81.84444690773468,
+        "priority-mappo-r2": 57.367734202737545
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.0014411306949535518,
+        "min_mc_explained_variance": -0.0011700392518385616,
+        "max_mc_explained_variance": 0.006752241272015347,
+        "mean_prediction": -6.816381114988251,
+        "mean_discounted_return": -253.50071379138754,
+        "mean_free_choice_max_probability": 0.5597657183164559
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "priority-mappo",
+      "mode": "sample",
+      "evaluation_runs": 18,
+      "trained_replicas": 3,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 907.3333333333334,
+        "unfinished_count": 65.16666666666667,
+        "uninserted_count": 2,
+        "completed_mean_time_loss_seconds": 95.24919267439986,
+        "pending_at_cutoff": 3.7777777777777777,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 27.866666666666738,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 1.0666666666667837,
+          "mean_wait": 12.008843537414986,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 28.066666666666677,
+          "baseline_p95": 28.0,
+          "p95_delta": 0.06666666666667709,
+          "mean_wait": 10.924204910754396,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            203,
+            193,
+            197,
+            201,
+            193,
+            197,
+            198,
+            193,
+            197
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 28.066666666666656,
+          "baseline_p95": 29.0,
+          "p95_delta": -0.9333333333333442,
+          "mean_wait": 7.28069700440835,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            99,
+            97,
+            99,
+            99,
+            97,
+            99,
+            99,
+            97,
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 26.555555555555593,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": -0.44444444444417996,
+          "mean_wait": 12.068707482993227,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.777777777777878,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.42222222222216743,
+          "mean_wait": 6.4936353829557705,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103,
+            103,
+            103,
+            103,
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 27.7333333333334,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.46666666666664725,
+          "mean_wait": 11.501047302912148,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            204,
+            207,
+            199,
+            203,
+            207,
+            199,
+            203,
+            207,
+            206
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.755555555555574,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.7555555555555742,
+          "mean_wait": 7.167778525425361,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            101,
+            103,
+            103,
+            101,
+            103,
+            103,
+            101
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 27.400000000000027,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": -0.3999999999999275,
+          "mean_wait": 10.213917857414003,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            190,
+            197,
+            195,
+            191,
+            197,
+            195,
+            194,
+            197,
+            195
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 27.80000000000005,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 1.600000000000005,
+          "mean_wait": 7.33748473748474,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91,
+            91,
+            91,
+            91,
+            91,
+            91,
+            91,
+            91,
+            91
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 27.111111111111093,
+          "baseline_p95": 27.0,
+          "p95_delta": 0.11111111111109295,
+          "mean_wait": 11.923689727463334,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 27.266666666666694,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": -0.3333333333334423,
+          "mean_wait": 11.135151515151554,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 27.2666666666667,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": -0.33333333333326465,
+          "mean_wait": 10.564936744009753,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            178,
+            172,
+            182,
+            179,
+            172,
+            182,
+            179,
+            172,
+            175
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 7,
+      "worst_crossing_delta": 1.7555555555555742,
+      "service_failed_runs": 18,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -26.166666666666668,
+        "vehicle_unfinished_count_delta": 24.166666666666668,
+        "vehicle_uninserted_count_delta": 2,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -2.2222222222222223,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 388,
+      "mean_junction_max_queued_no_green_seconds": 240.09259259259258,
+      "replica_mean_vehicle_loss": {
+        "priority-mappo-r0": 91.84365223558264,
+        "priority-mappo-r1": 93.51660931619863,
+        "priority-mappo-r2": 100.38731647141834
+      },
+      "critic": {
+        "median_mc_explained_variance": 0.0026684303168208467,
+        "min_mc_explained_variance": -0.0002658990474144751,
+        "max_mc_explained_variance": 0.006531011277353005,
+        "mean_prediction": -6.836293846294713,
+        "mean_discounted_return": -168.3146158025711,
+        "mean_free_choice_max_probability": 0.5720578650038539
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "uniform-plain",
+      "mode": "uniform",
+      "evaluation_runs": 6,
+      "trained_replicas": 0,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 935.5,
+        "unfinished_count": 39,
+        "uninserted_count": 0,
+        "completed_mean_time_loss_seconds": 46.720193014638085,
+        "pending_at_cutoff": 16.5,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 85.13333333333337,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 58.333333333333414,
+          "mean_wait": 25.669387755102058,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 92.60000000000007,
+          "baseline_p95": 28.0,
+          "p95_delta": 64.60000000000007,
+          "mean_wait": 28.816359103859117,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            198,
+            198,
+            208
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 37.00000000000008,
+          "baseline_p95": 29.0,
+          "p95_delta": 8.000000000000078,
+          "mean_wait": 7.4419609960996,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            100,
+            101,
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 90.53333333333337,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": 63.5333333333336,
+          "mean_wait": 24.963265306122462,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 53.4666666666667,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 25.26666666666665,
+          "mean_wait": 9.629220353103259,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            100,
+            103,
+            101
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 106.40000000000005,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": 78.2,
+          "mean_wait": 32.361790135561016,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            202,
+            204,
+            199
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 58.73333333333343,
+          "baseline_p95": 26.0,
+          "p95_delta": 32.73333333333343,
+          "mean_wait": 10.804505177459495,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            96,
+            103,
+            101
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 96.60000000000007,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 68.80000000000011,
+          "mean_wait": 33.37608324043108,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            195,
+            195,
+            184
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 42.80000000000003,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 16.599999999999987,
+          "mean_wait": 8.839670902574131,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            93,
+            88,
+            93
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 67.33333333333333,
+          "baseline_p95": 27.0,
+          "p95_delta": 40.33333333333333,
+          "mean_wait": 24.289308176100644,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 81.33333333333326,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": 53.73333333333312,
+          "mean_wait": 23.186666666666696,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 71.80000000000007,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 44.2000000000001,
+          "mean_wait": 23.134590055159705,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            178,
+            174,
+            184
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 0,
+      "worst_crossing_delta": 78.2,
+      "service_failed_runs": 6,
+      "service_deltas": {
+        "vehicle_completed_count_delta": 2,
+        "vehicle_unfinished_count_delta": -2,
+        "vehicle_uninserted_count_delta": 0,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": 10.5,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 227,
+      "mean_junction_max_queued_no_green_seconds": 147.22222222222223,
+      "replica_mean_vehicle_loss": {
+        "uniform-plain": 46.720193014638085
+      },
+      "descriptive_joint_pass": false
+    },
+    {
+      "family": "uniform-priority",
+      "mode": "uniform",
+      "evaluation_runs": 6,
+      "trained_replicas": 0,
+      "vehicle_and_service_means": {
+        "scheduled_count": 974.5,
+        "completed_count": 894.6666666666666,
+        "unfinished_count": 71.5,
+        "uninserted_count": 8.333333333333334,
+        "completed_mean_time_loss_seconds": 101.10613521219763,
+        "pending_at_cutoff": 4,
+        "unresolved_after_followup": 0,
+        "unknown_cohort_entries": 0,
+        "lost": 0,
+        "person_unfinished_at_end": 0
+      },
+      "crossings": {
+        ":C0_c0": {
+          "p95": 27.400000000000073,
+          "baseline_p95": 26.799999999999955,
+          "p95_delta": 0.6000000000001187,
+          "mean_wait": 11.159863945578252,
+          "baseline_mean_wait": 11.367346938775533,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c1": {
+          "p95": 27.40000000000009,
+          "baseline_p95": 28.0,
+          "p95_delta": -0.599999999999909,
+          "mean_wait": 10.030531285900755,
+          "baseline_mean_wait": 10.738613861386153,
+          "baseline_entries": 202,
+          "model_policy_seed_entries": [
+            203,
+            195,
+            196
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c2": {
+          "p95": 27.93333333333324,
+          "baseline_p95": 29.0,
+          "p95_delta": -1.0666666666667588,
+          "mean_wait": 8.31582491582492,
+          "baseline_mean_wait": 8.468686868686879,
+          "baseline_entries": 99,
+          "model_policy_seed_entries": [
+            99,
+            99,
+            99
+          ],
+          "all_pools_observed": true
+        },
+        ":C0_c3": {
+          "p95": 27.00000000000004,
+          "baseline_p95": 26.999999999999773,
+          "p95_delta": 2.6645352591003757e-13,
+          "mean_wait": 11.305442176870764,
+          "baseline_mean_wait": 11.322448979591858,
+          "baseline_entries": 98,
+          "model_policy_seed_entries": [
+            98,
+            98,
+            98
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c0": {
+          "p95": 27.800000000000068,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -0.39999999999997726,
+          "mean_wait": 6.9300970873786385,
+          "baseline_mean_wait": 7.436893203883498,
+          "baseline_entries": 103,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            103
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c1": {
+          "p95": 27.200000000000006,
+          "baseline_p95": 28.200000000000045,
+          "p95_delta": -1.000000000000039,
+          "mean_wait": 10.463606568759545,
+          "baseline_mean_wait": 11.377889447236203,
+          "baseline_entries": 199,
+          "model_policy_seed_entries": [
+            206,
+            197,
+            203
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c2": {
+          "p95": 27.000000000000075,
+          "baseline_p95": 26.0,
+          "p95_delta": 1.0000000000000746,
+          "mean_wait": 6.683844152547756,
+          "baseline_mean_wait": 7.976470588235303,
+          "baseline_entries": 102,
+          "model_policy_seed_entries": [
+            103,
+            103,
+            102
+          ],
+          "all_pools_observed": true
+        },
+        ":C1_c3": {
+          "p95": 28.06666666666668,
+          "baseline_p95": 27.799999999999955,
+          "p95_delta": 0.2666666666667261,
+          "mean_wait": 10.488269384903122,
+          "baseline_mean_wait": 11.062105263157918,
+          "baseline_entries": 190,
+          "model_policy_seed_entries": [
+            190,
+            197,
+            195
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c0": {
+          "p95": 27.46666666666677,
+          "baseline_p95": 26.200000000000045,
+          "p95_delta": 1.2666666666667261,
+          "mean_wait": 7.1010989010989185,
+          "baseline_mean_wait": 7.314285714285726,
+          "baseline_entries": 91,
+          "model_policy_seed_entries": [
+            91,
+            91,
+            91
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c1": {
+          "p95": 26.799999999999972,
+          "baseline_p95": 27.0,
+          "p95_delta": -0.2000000000000277,
+          "mean_wait": 11.991823899371088,
+          "baseline_mean_wait": 10.873584905660401,
+          "baseline_entries": 106,
+          "model_policy_seed_entries": [
+            106,
+            106,
+            106
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c2": {
+          "p95": 27.533333333333303,
+          "baseline_p95": 27.600000000000136,
+          "p95_delta": -0.06666666666683341,
+          "mean_wait": 11.41333333333337,
+          "baseline_mean_wait": 11.634545454545496,
+          "baseline_entries": 110,
+          "model_policy_seed_entries": [
+            110,
+            110,
+            110
+          ],
+          "all_pools_observed": true
+        },
+        ":C2_c3": {
+          "p95": 28.0,
+          "baseline_p95": 27.599999999999966,
+          "p95_delta": 0.4000000000000341,
+          "mean_wait": 11.320295093356913,
+          "baseline_mean_wait": 11.089010989011008,
+          "baseline_entries": 182,
+          "model_policy_seed_entries": [
+            176,
+            185,
+            178
+          ],
+          "all_pools_observed": true
+        }
+      },
+      "crossings_no_worse_point": 7,
+      "worst_crossing_delta": 1.2666666666667261,
+      "service_failed_runs": 6,
+      "service_deltas": {
+        "vehicle_completed_count_delta": -38.833333333333336,
+        "vehicle_unfinished_count_delta": 30.5,
+        "vehicle_uninserted_count_delta": 8.333333333333334,
+        "person_completed_delta": 0,
+        "person_unfinished_delta": 0,
+        "person_uninserted_delta": 0,
+        "pending_at_cutoff_delta": -2,
+        "unresolved_after_followup_delta": 0,
+        "unknown_cohort_entries": 0,
+        "baseline_unknown_cohort_entries": 0,
+        "lost": 0,
+        "baseline_lost": 0
+      },
+      "max_queued_no_green_seconds": 348,
+      "mean_junction_max_queued_no_green_seconds": 232.61111111111111,
+      "replica_mean_vehicle_loss": {
+        "uniform-priority": 101.10613521219763
+      },
+      "descriptive_joint_pass": false
+    }
+  ],
+  "paired_vs_uniform": [
+    {
+      "controller": "plain-ippo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 7.000522725032042,
+      "completed_delta_vs_uniform": -38
+    },
+    {
+      "controller": "plain-ippo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -1.6770921129919358,
+      "completed_delta_vs_uniform": 6
+    },
+    {
+      "controller": "plain-ippo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 5.960459577056852,
+      "completed_delta_vs_uniform": -2
+    },
+    {
+      "controller": "plain-ippo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 20.072209530827806,
+      "completed_delta_vs_uniform": -35
+    },
+    {
+      "controller": "plain-ippo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 5.09088061258776,
+      "completed_delta_vs_uniform": 12
+    },
+    {
+      "controller": "plain-ippo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 7.195510641916201,
+      "completed_delta_vs_uniform": 8
+    },
+    {
+      "controller": "plain-ippo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 17.22375612691993,
+      "completed_delta_vs_uniform": -17
+    },
+    {
+      "controller": "plain-ippo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 4.198987711044133,
+      "completed_delta_vs_uniform": -23
+    },
+    {
+      "controller": "plain-ippo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 10.637809419496165,
+      "completed_delta_vs_uniform": 0
+    },
+    {
+      "controller": "plain-mappo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 2.3100341546950816,
+      "completed_delta_vs_uniform": -6
+    },
+    {
+      "controller": "plain-mappo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -2.8123192122490934,
+      "completed_delta_vs_uniform": -6
+    },
+    {
+      "controller": "plain-mappo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 9.290597855785997,
+      "completed_delta_vs_uniform": 13
+    },
+    {
+      "controller": "plain-mappo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 20.90177603297674,
+      "completed_delta_vs_uniform": -34
+    },
+    {
+      "controller": "plain-mappo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 13.510634908108237,
+      "completed_delta_vs_uniform": -1
+    },
+    {
+      "controller": "plain-mappo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 24.70096466402523,
+      "completed_delta_vs_uniform": -19
+    },
+    {
+      "controller": "plain-mappo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 4.81663043478261,
+      "completed_delta_vs_uniform": 0
+    },
+    {
+      "controller": "plain-mappo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 1.0595957357959307,
+      "completed_delta_vs_uniform": 1
+    },
+    {
+      "controller": "plain-mappo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 2.983908264637499,
+      "completed_delta_vs_uniform": -1
+    },
+    {
+      "controller": "priority-ippo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 2.6758008115526906,
+      "completed_delta_vs_uniform": 11
+    },
+    {
+      "controller": "priority-ippo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 10.889903877430939,
+      "completed_delta_vs_uniform": -6
+    },
+    {
+      "controller": "priority-ippo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 3.6480004169766147,
+      "completed_delta_vs_uniform": -9
+    },
+    {
+      "controller": "priority-ippo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 30.36735875570885,
+      "completed_delta_vs_uniform": -30
+    },
+    {
+      "controller": "priority-ippo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 2.0717864169490525,
+      "completed_delta_vs_uniform": -11
+    },
+    {
+      "controller": "priority-ippo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 18.308206814029816,
+      "completed_delta_vs_uniform": -5
+    },
+    {
+      "controller": "priority-ippo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 10.173624021900196,
+      "completed_delta_vs_uniform": 1
+    },
+    {
+      "controller": "priority-ippo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 23.511707954670044,
+      "completed_delta_vs_uniform": -16
+    },
+    {
+      "controller": "priority-ippo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 23.287950214627756,
+      "completed_delta_vs_uniform": -12
+    },
+    {
+      "controller": "priority-mappo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": -0.5596696302283277,
+      "completed_delta_vs_uniform": 27
+    },
+    {
+      "controller": "priority-mappo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 7.829759912868369,
+      "completed_delta_vs_uniform": -6
+    },
+    {
+      "controller": "priority-mappo-r0",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 2.0128091437305784,
+      "completed_delta_vs_uniform": 6
+    },
+    {
+      "controller": "priority-mappo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 6.204948766764957,
+      "completed_delta_vs_uniform": -3
+    },
+    {
+      "controller": "priority-mappo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 0.8665373215062431,
+      "completed_delta_vs_uniform": -6
+    },
+    {
+      "controller": "priority-mappo-r1",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 12.069651848304972,
+      "completed_delta_vs_uniform": 5
+    },
+    {
+      "controller": "priority-mappo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 6.036201269218594,
+      "completed_delta_vs_uniform": -8
+    },
+    {
+      "controller": "priority-mappo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 6.97908974690192,
+      "completed_delta_vs_uniform": -2
+    },
+    {
+      "controller": "priority-mappo-r2",
+      "demand_seed": 47001,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 19.248016186127643,
+      "completed_delta_vs_uniform": -6
+    },
+    {
+      "controller": "plain-ippo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 12.148513380386383,
+      "completed_delta_vs_uniform": -25
+    },
+    {
+      "controller": "plain-ippo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -0.5910824564231305,
+      "completed_delta_vs_uniform": 8
+    },
+    {
+      "controller": "plain-ippo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 11.354245798319326,
+      "completed_delta_vs_uniform": -27
+    },
+    {
+      "controller": "plain-ippo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 15.574556271358844,
+      "completed_delta_vs_uniform": -30
+    },
+    {
+      "controller": "plain-ippo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -4.772389131772194,
+      "completed_delta_vs_uniform": 13
+    },
+    {
+      "controller": "plain-ippo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 5.848106013373091,
+      "completed_delta_vs_uniform": -22
+    },
+    {
+      "controller": "plain-ippo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 24.656679190551372,
+      "completed_delta_vs_uniform": -31
+    },
+    {
+      "controller": "plain-ippo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 6.108399773656764,
+      "completed_delta_vs_uniform": -20
+    },
+    {
+      "controller": "plain-ippo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 1.9987055684342678,
+      "completed_delta_vs_uniform": 5
+    },
+    {
+      "controller": "plain-mappo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 7.789097450486928,
+      "completed_delta_vs_uniform": -12
+    },
+    {
+      "controller": "plain-mappo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -8.636643713193855,
+      "completed_delta_vs_uniform": -5
+    },
+    {
+      "controller": "plain-mappo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 10.218318563392089,
+      "completed_delta_vs_uniform": 10
+    },
+    {
+      "controller": "plain-mappo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 17.50714835386477,
+      "completed_delta_vs_uniform": -24
+    },
+    {
+      "controller": "plain-mappo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": 16.06023920223278,
+      "completed_delta_vs_uniform": -14
+    },
+    {
+      "controller": "plain-mappo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 17.68999316674038,
+      "completed_delta_vs_uniform": -2
+    },
+    {
+      "controller": "plain-mappo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 1.6583690250391712,
+      "completed_delta_vs_uniform": -4
+    },
+    {
+      "controller": "plain-mappo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -1.939579401091919,
+      "completed_delta_vs_uniform": 7
+    },
+    {
+      "controller": "plain-mappo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": 2.566515840513418,
+      "completed_delta_vs_uniform": -4
+    },
+    {
+      "controller": "priority-ippo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 5.263934162750701,
+      "completed_delta_vs_uniform": 60
+    },
+    {
+      "controller": "priority-ippo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -11.865274499479284,
+      "completed_delta_vs_uniform": -19
+    },
+    {
+      "controller": "priority-ippo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": -45.916120069142266,
+      "completed_delta_vs_uniform": 67
+    },
+    {
+      "controller": "priority-ippo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": -3.807888509422682,
+      "completed_delta_vs_uniform": 52
+    },
+    {
+      "controller": "priority-ippo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -7.23243296942465,
+      "completed_delta_vs_uniform": -19
+    },
+    {
+      "controller": "priority-ippo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": -38.58115852241832,
+      "completed_delta_vs_uniform": 48
+    },
+    {
+      "controller": "priority-ippo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 35.72119660241245,
+      "completed_delta_vs_uniform": 11
+    },
+    {
+      "controller": "priority-ippo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -12.529160722473534,
+      "completed_delta_vs_uniform": -28
+    },
+    {
+      "controller": "priority-ippo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": -26.11560474646751,
+      "completed_delta_vs_uniform": 19
+    },
+    {
+      "controller": "priority-mappo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 0.6429894902733793,
+      "completed_delta_vs_uniform": 64
+    },
+    {
+      "controller": "priority-mappo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -18.88047723350745,
+      "completed_delta_vs_uniform": -17
+    },
+    {
+      "controller": "priority-mappo-r0",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": -46.620309542826476,
+      "completed_delta_vs_uniform": 67
+    },
+    {
+      "controller": "priority-mappo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": -1.7441378396857345,
+      "completed_delta_vs_uniform": 33
+    },
+    {
+      "controller": "priority-mappo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -15.088666982689574,
+      "completed_delta_vs_uniform": -17
+    },
+    {
+      "controller": "priority-mappo-r1",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": -47.845488490194896,
+      "completed_delta_vs_uniform": 67
+    },
+    {
+      "controller": "priority-mappo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48001,
+      "vehicle_loss_delta_vs_uniform": 6.386298932199466,
+      "completed_delta_vs_uniform": 7
+    },
+    {
+      "controller": "priority-mappo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48002,
+      "vehicle_loss_delta_vs_uniform": -17.680204605372225,
+      "completed_delta_vs_uniform": -17
+    },
+    {
+      "controller": "priority-mappo-r2",
+      "demand_seed": 47002,
+      "policy_seed": 48003,
+      "vehicle_loss_delta_vs_uniform": -25.282313973751116,
+      "completed_delta_vs_uniform": 34
+    }
+  ]
+}

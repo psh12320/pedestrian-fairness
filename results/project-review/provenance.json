@@ -1,0 +1,25 @@
+{
+  "source_matches_cluster": {
+    "src/traffic_control/fairness/environment.py": true,
+    "src/traffic_control/connected.py": true,
+    "src/traffic_control/fairness/demand.py": true,
+    "src/traffic_control/fairness/signals.py": true,
+    "config/fairness_v2.json": true
+  },
+  "signals": [
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "crossings": 12,
+  "cluster_protocol_fingerprint": "4d1019ca447323e8810a639cc9b1c314cc21b9e160356926a8ecbd791884de0d",
+  "comparison_rows": 126,
+  "sources": {
+    "runs/cluster-final-review/REPORT.md": "36bf28e1db531ba029eb7a4f158d2c21e575ed603219e32a15515bd32e242a09",
+    "runs/cluster-final-review/primary_inference.json": "27635a0417576eeba51d5cdb48b441ade646da5d794acbc4fd70f2bf60970421",
+    "runs/cluster-final-review/protocol.json": "2a31998ca910601e1d25f736a8d610feae2bedbb636bd6782f36a676270ba544",
+    "results/final-study/summary.json": "4f1d317ecc359248f35967bf119319ea603a345b3f03f6120dc79a8d37ad83b9",
+    "results/summary.json": "4d895646c478c0addb28c75dfed1c289ca4344569fc4094eed3c2ef37d75e591",
+    "results/singapore-transfer/summary.json": "1883df31b85c51fed8b1a8f4cb82dc245a0736578b79bfa6e6a031d3ec3e3b5a"
+  }
+}

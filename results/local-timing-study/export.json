@@ -1,0 +1,12 @@
+{
+  "source": "runs/local-timing-study",
+  "status": "complete",
+  "completed_simulations": 144,
+  "fingerprint": "b26feb3513ca61a2668c204731b99231e528474a9a93b2dbcef5b43013902d12",
+  "scope": "Completed conventional-controller timing study; not the running audit-repair RL study",
+  "files": {
+    "REPORT.md": "90c375a16cc9d59cd1fec67c6c2b73cfcb35cbf0abb55dd2bed5998a0d53f4ea",
+    "summary.json": "273fd33dff7c6d5ac0bcd9f142340334e971f9216f3f4713a00707205e925111",
+    "protocol.json": "297ad236cefec99bfc30f1d4ff1c37871061ac94fa4fdc2d9d2647cac3df3e9c"
+  }
+}

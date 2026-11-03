@@ -1,0 +1,18 @@
+{
+  "schema": "guided-exploration-v1",
+  "methods": ["mappo"],
+  "variants": ["control", "age", "guided", "rnd"],
+  "replicas": 3,
+  "episodes": 128,
+  "validation_episodes": [32, 64, 128],
+  "demonstration_episodes": 12,
+  "imitation_steps": 1000,
+  "imitation_batch_size": 512,
+  "age_scale_seconds": 60.0,
+  "age_cap_units": 5.0,
+  "age_weight": 1.0,
+  "guidance_weight": 0.1,
+  "guidance_decay_episodes": 128,
+  "rnd_weight": 0.05,
+  "rnd_bonus_cap": 5.0
+}

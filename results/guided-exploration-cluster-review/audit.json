@@ -1,0 +1,1155 @@
+{
+  "archive_sha256": "ea17b162e3329e777abe0f98122ffae42d2642453bedd704fc5e8eef75447725",
+  "checks": {
+    "manifest_coverage": 1,
+    "manifest_hash": 484,
+    "archived_source_hash": 52,
+    "result_fingerprint": 416,
+    "training_budget": 12,
+    "training_schedule": 12,
+    "normalizer_sample_count": 4608,
+    "validation_coverage": 12,
+    "vehicle_accounting": 534,
+    "inserted_accounting": 534,
+    "crossing_coverage": 534,
+    "crossing_entries": 6408,
+    "crossing_p95": 6408,
+    "crossing_mean": 6408,
+    "nonnegative_waits": 6408,
+    "pending_accounting": 6408,
+    "model_hash": 15,
+    "matched_training_demands": 9,
+    "baseline_coverage": 24,
+    "baseline_network": 72,
+    "aggregate_vehicle_counts": 144,
+    "aggregate_vehicle_loss": 36,
+    "aggregate_pedestrian_service": 72,
+    "pooled_crossing_entries": 432,
+    "pooled_crossing_p95": 432,
+    "pooled_crossing_mean": 432,
+    "paired_vehicle_delta": 112,
+    "paired_crossing_delta": 1344,
+    "service_gate": 112,
+    "paired_demand": 1824,
+    "evaluation_checkpoint": 360,
+    "evaluation_network": 360,
+    "phase_duration_total": 1080,
+    "vehicle_bootstrap_interval": 72
+  },
+  "check_count": 46171,
+  "source_changed_since_run": [
+    "src/traffic_control/fairness/demand.py",
+    "src/traffic_control/fairness/environment.py",
+    "src/traffic_control/metrics.py"
+  ],
+  "training": {
+    "mappo-control-r0": {
+      "free_decisions_per_junction": {
+        "C0": 4418,
+        "C1": 4686,
+        "C2": 4851
+      },
+      "recorded_training_wall_seconds": 1905.6148401759565,
+      "mean_actor_gradient_norm": 0.5558859409879656,
+      "mean_critic_gradient_norm": 2.911633902004259
+    },
+    "mappo-control-r1": {
+      "free_decisions_per_junction": {
+        "C0": 4369,
+        "C1": 4819,
+        "C2": 4509
+      },
+      "recorded_training_wall_seconds": 1897.711291757878,
+      "mean_actor_gradient_norm": 0.5723811645263057,
+      "mean_critic_gradient_norm": 2.867244766493545
+    },
+    "mappo-control-r2": {
+      "free_decisions_per_junction": {
+        "C0": 4552,
+        "C1": 4352,
+        "C2": 4476
+      },
+      "recorded_training_wall_seconds": 1892.3734946567565,
+      "mean_actor_gradient_norm": 0.578196926831187,
+      "mean_critic_gradient_norm": 2.5671765661345867
+    },
+    "mappo-age-r0": {
+      "free_decisions_per_junction": {
+        "C0": 4317,
+        "C1": 4409,
+        "C2": 4272
+      },
+      "recorded_training_wall_seconds": 1884.4481996577233,
+      "mean_actor_gradient_norm": 0.6150790596255641,
+      "mean_critic_gradient_norm": 2.9406554818066817
+    },
+    "mappo-age-r1": {
+      "free_decisions_per_junction": {
+        "C0": 4128,
+        "C1": 4319,
+        "C2": 4380
+      },
+      "recorded_training_wall_seconds": 1880.1877195877023,
+      "mean_actor_gradient_norm": 0.582846229677604,
+      "mean_critic_gradient_norm": 2.814570292423492
+    },
+    "mappo-age-r2": {
+      "free_decisions_per_junction": {
+        "C0": 4497,
+        "C1": 4230,
+        "C2": 4262
+      },
+      "recorded_training_wall_seconds": 1880.9566979475785,
+      "mean_actor_gradient_norm": 0.5828195468392524,
+      "mean_critic_gradient_norm": 2.5301667851659952
+    },
+    "mappo-guided-r0": {
+      "free_decisions_per_junction": {
+        "C0": 4091,
+        "C1": 4022,
+        "C2": 4109
+      },
+      "recorded_training_wall_seconds": 1858.2876643652562,
+      "mean_actor_gradient_norm": 0.2859969706047628,
+      "mean_critic_gradient_norm": 2.71477256491898
+    },
+    "mappo-guided-r1": {
+      "free_decisions_per_junction": {
+        "C0": 4165,
+        "C1": 3979,
+        "C2": 4019
+      },
+      "recorded_training_wall_seconds": 1860.2643186715432,
+      "mean_actor_gradient_norm": 0.28063927014972423,
+      "mean_critic_gradient_norm": 2.7124625739758956
+    },
+    "mappo-guided-r2": {
+      "free_decisions_per_junction": {
+        "C0": 4093,
+        "C1": 3969,
+        "C2": 4030
+      },
+      "recorded_training_wall_seconds": 1280.4863974768668,
+      "mean_actor_gradient_norm": 0.23744654011810026,
+      "mean_critic_gradient_norm": 2.556177354671269
+    },
+    "mappo-rnd-r0": {
+      "free_decisions_per_junction": {
+        "C0": 4221,
+        "C1": 4371,
+        "C2": 4345
+      },
+      "recorded_training_wall_seconds": 1305.832461876329,
+      "mean_actor_gradient_norm": 0.6072991797842046,
+      "mean_critic_gradient_norm": 2.9305982950011273
+    },
+    "mappo-rnd-r1": {
+      "free_decisions_per_junction": {
+        "C0": 4131,
+        "C1": 4389,
+        "C2": 4376
+      },
+      "recorded_training_wall_seconds": 1287.312399853021,
+      "mean_actor_gradient_norm": 0.5903821740546837,
+      "mean_critic_gradient_norm": 2.8329470664100653
+    },
+    "mappo-rnd-r2": {
+      "free_decisions_per_junction": {
+        "C0": 4558,
+        "C1": 4260,
+        "C2": 4253
+      },
+      "recorded_training_wall_seconds": 1297.1874465169385,
+      "mean_actor_gradient_norm": 0.5751488101334435,
+      "mean_critic_gradient_norm": 2.5339444510615388
+    }
+  },
+  "validation_trend": {
+    "mappo-control": {
+      "32": {
+        "vehicle_time_loss": 56.22958029608749,
+        "entropy": 0.9249194628662534,
+        "teacher_agreement": 0.4560445449659892
+      },
+      "64": {
+        "vehicle_time_loss": 60.18836714249818,
+        "entropy": 0.7546477251582675,
+        "teacher_agreement": 0.5880508984898695
+      },
+      "128": {
+        "vehicle_time_loss": 41.45575331409108,
+        "entropy": 0.6223473515775468,
+        "teacher_agreement": 0.6223738620558074
+      }
+    },
+    "mappo-age": {
+      "32": {
+        "vehicle_time_loss": 65.51849622998584,
+        "entropy": 0.8313332796096802,
+        "teacher_agreement": 0.51870755454723
+      },
+      "64": {
+        "vehicle_time_loss": 71.10467557649915,
+        "entropy": 0.6368420571088791,
+        "teacher_agreement": 0.6357185924495391
+      },
+      "128": {
+        "vehicle_time_loss": 44.131007552677644,
+        "entropy": 0.5587442484166887,
+        "teacher_agreement": 0.6717500588285396
+      }
+    },
+    "mappo-guided": {
+      "32": {
+        "vehicle_time_loss": 50.713980906062936,
+        "entropy": 0.03227843608086308,
+        "teacher_agreement": 0.9638321719732265
+      },
+      "64": {
+        "vehicle_time_loss": 50.88778659607608,
+        "entropy": 0.03245785185653302,
+        "teacher_agreement": 0.9661128977321856
+      },
+      "128": {
+        "vehicle_time_loss": 50.44682512967999,
+        "entropy": 0.04121121691746844,
+        "teacher_agreement": 0.9517899091259554
+      }
+    },
+    "mappo-rnd": {
+      "32": {
+        "vehicle_time_loss": 68.89921162900501,
+        "entropy": 0.8335000276565552,
+        "teacher_agreement": 0.515652620374413
+      },
+      "64": {
+        "vehicle_time_loss": 66.71958982443297,
+        "entropy": 0.6411126123534309,
+        "teacher_agreement": 0.6364754450509098
+      },
+      "128": {
+        "vehicle_time_loss": 44.07524328864724,
+        "entropy": 0.5563649535179138,
+        "teacher_agreement": 0.6741758761667803
+      }
+    }
+  },
+  "evaluation_diagnostics": {
+    "vmedium-pmedium": {
+      "mappo-control": {
+        "mean_entropy": 0.6262232738512533,
+        "sampled_teacher_agreement": 0.617568766153232,
+        "teacher_probability": 0.6261576535525145
+      },
+      "mappo-age": {
+        "mean_entropy": 0.5545310521567309,
+        "sampled_teacher_agreement": 0.6660724808452583,
+        "teacher_probability": 0.6741494359793486
+      },
+      "mappo-guided": {
+        "mean_entropy": 0.04049296114869692,
+        "sampled_teacher_agreement": 0.9493069004178496,
+        "teacher_probability": 0.9487257025859974
+      },
+      "mappo-rnd": {
+        "mean_entropy": 0.5567315700981352,
+        "sampled_teacher_agreement": 0.6756510592067301,
+        "teacher_probability": 0.6730019803400393
+      },
+      "imitation": {
+        "mean_entropy": 0.033080283707628645,
+        "sampled_teacher_agreement": 0.9683697058810884,
+        "teacher_probability": 0.9690955159840761
+      }
+    },
+    "pedestrian-burst": {
+      "mappo-control": {
+        "mean_entropy": 0.6260373526149325,
+        "sampled_teacher_agreement": 0.6156496279367868,
+        "teacher_probability": 0.6259247219121015
+      },
+      "mappo-age": {
+        "mean_entropy": 0.5548240702461313,
+        "sampled_teacher_agreement": 0.6675980792157388,
+        "teacher_probability": 0.67411901111956
+      },
+      "mappo-guided": {
+        "mean_entropy": 0.04051650601818606,
+        "sampled_teacher_agreement": 0.9491563433567234,
+        "teacher_probability": 0.9491766823662652
+      },
+      "mappo-rnd": {
+        "mean_entropy": 0.5569382541709476,
+        "sampled_teacher_agreement": 0.6763086091790335,
+        "teacher_probability": 0.6734462314181857
+      },
+      "imitation": {
+        "mean_entropy": 0.03338748228701728,
+        "sampled_teacher_agreement": 0.9679180346977099,
+        "teacher_probability": 0.968640872725734
+      }
+    },
+    "short-spacing": {
+      "mappo-control": {
+        "mean_entropy": 0.6215827884497466,
+        "sampled_teacher_agreement": 0.5740822568951096,
+        "teacher_probability": 0.5773357263317814
+      },
+      "mappo-age": {
+        "mean_entropy": 0.5717579264331747,
+        "sampled_teacher_agreement": 0.6502984269898437,
+        "teacher_probability": 0.6501637250185013
+      },
+      "mappo-guided": {
+        "mean_entropy": 0.0660536177456379,
+        "sampled_teacher_agreement": 0.9000736877035969,
+        "teacher_probability": 0.9006155078057889
+      },
+      "mappo-rnd": {
+        "mean_entropy": 0.5827261474397447,
+        "sampled_teacher_agreement": 0.6432452240379015,
+        "teacher_probability": 0.6455349281982139
+      },
+      "imitation": {
+        "mean_entropy": 0.05203972298100039,
+        "sampled_teacher_agreement": 0.9491507274951327,
+        "teacher_probability": 0.9516132209036086
+      }
+    },
+    "slow-walkers": {
+      "mappo-control": {
+        "mean_entropy": 0.6053677637267996,
+        "sampled_teacher_agreement": 0.65594581594459,
+        "teacher_probability": 0.6600240524168368
+      },
+      "mappo-age": {
+        "mean_entropy": 0.5405773299711721,
+        "sampled_teacher_agreement": 0.6905238449938644,
+        "teacher_probability": 0.7008976285104398
+      },
+      "mappo-guided": {
+        "mean_entropy": 0.04187292753960247,
+        "sampled_teacher_agreement": 0.9498941164275031,
+        "teacher_probability": 0.9484356288556699
+      },
+      "mappo-rnd": {
+        "mean_entropy": 0.5447178692729385,
+        "sampled_teacher_agreement": 0.6961378757286864,
+        "teacher_probability": 0.6968381261384046
+      },
+      "imitation": {
+        "mean_entropy": 0.028816030619459018,
+        "sampled_teacher_agreement": 0.9716679437344934,
+        "teacher_probability": 0.9715727998150719
+      }
+    }
+  },
+  "service_failure_components_vs_actuated": {
+    "vmedium-pmedium": {
+      "mappo-control": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 18,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 13
+      },
+      "mappo-age": {
+        "vehicle": 4,
+        "person_trip": 0,
+        "crossing_cutoff": 16,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 12
+      },
+      "mappo-guided": {
+        "vehicle": 8,
+        "person_trip": 0,
+        "crossing_cutoff": 12,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 5
+      },
+      "mappo-rnd": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 18,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 13
+      },
+      "imitation": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 9,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 8
+      }
+    },
+    "pedestrian-burst": {
+      "mappo-control": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 17,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 12
+      },
+      "mappo-age": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 17,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 12
+      },
+      "mappo-guided": {
+        "vehicle": 7,
+        "person_trip": 0,
+        "crossing_cutoff": 12,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 5
+      },
+      "mappo-rnd": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 18,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 13
+      },
+      "imitation": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 9,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 8
+      }
+    },
+    "short-spacing": {
+      "mappo-control": {
+        "vehicle": 17,
+        "person_trip": 0,
+        "crossing_cutoff": 16,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 1
+      },
+      "mappo-age": {
+        "vehicle": 16,
+        "person_trip": 1,
+        "crossing_cutoff": 18,
+        "crossing_followup": 1,
+        "measurement": 0,
+        "cutoff_only": 2
+      },
+      "mappo-guided": {
+        "vehicle": 13,
+        "person_trip": 2,
+        "crossing_cutoff": 16,
+        "crossing_followup": 2,
+        "measurement": 0,
+        "cutoff_only": 5
+      },
+      "mappo-rnd": {
+        "vehicle": 18,
+        "person_trip": 0,
+        "crossing_cutoff": 18,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 0
+      },
+      "imitation": {
+        "vehicle": 13,
+        "person_trip": 0,
+        "crossing_cutoff": 16,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 4
+      }
+    },
+    "slow-walkers": {
+      "mappo-control": {
+        "vehicle": 5,
+        "person_trip": 0,
+        "crossing_cutoff": 18,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 13
+      },
+      "mappo-age": {
+        "vehicle": 6,
+        "person_trip": 0,
+        "crossing_cutoff": 16,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 10
+      },
+      "mappo-guided": {
+        "vehicle": 12,
+        "person_trip": 0,
+        "crossing_cutoff": 14,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 6
+      },
+      "mappo-rnd": {
+        "vehicle": 6,
+        "person_trip": 0,
+        "crossing_cutoff": 15,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 10
+      },
+      "imitation": {
+        "vehicle": 16,
+        "person_trip": 0,
+        "crossing_cutoff": 3,
+        "crossing_followup": 0,
+        "measurement": 0,
+        "cutoff_only": 0
+      }
+    }
+  },
+  "person_trip_means": {
+    "vmedium-pmedium": {
+      "mappo-control": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-age": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-guided": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-rnd": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "imitation": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      }
+    },
+    "pedestrian-burst": {
+      "mappo-control": {
+        "scheduled": 723.1666666666666,
+        "completed": 723.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-age": {
+        "scheduled": 723.1666666666666,
+        "completed": 723.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-guided": {
+        "scheduled": 723.1666666666666,
+        "completed": 723.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-rnd": {
+        "scheduled": 723.1666666666666,
+        "completed": 723.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "imitation": {
+        "scheduled": 723.1666666666666,
+        "completed": 723.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      }
+    },
+    "short-spacing": {
+      "mappo-control": {
+        "scheduled": 709.1666666666666,
+        "completed": 709.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-age": {
+        "scheduled": 709.1666666666666,
+        "completed": 703.3888888888889,
+        "unfinished": 5.777777777777778,
+        "uninserted": 0
+      },
+      "mappo-guided": {
+        "scheduled": 709.1666666666666,
+        "completed": 687.2777777777778,
+        "unfinished": 21.88888888888889,
+        "uninserted": 0
+      },
+      "mappo-rnd": {
+        "scheduled": 709.1666666666666,
+        "completed": 709.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "imitation": {
+        "scheduled": 709.1666666666666,
+        "completed": 709.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      }
+    },
+    "slow-walkers": {
+      "mappo-control": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-age": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-guided": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "mappo-rnd": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      },
+      "imitation": {
+        "scheduled": 703.1666666666666,
+        "completed": 703.1666666666666,
+        "unfinished": 0,
+        "uninserted": 0
+      }
+    }
+  },
+  "unresolved_learned_runs": [
+    {
+      "label": "mappo-age-r2",
+      "scenario": "short-spacing",
+      "seed": 890004,
+      "unresolved": 76,
+      "persons": {
+        "completed": 597,
+        "scheduled": 701,
+        "seen": 701,
+        "unfinished": 104,
+        "uninserted": 0
+      },
+      "diagnostics": {
+        "C0": {
+          "free_action_counts": {
+            "0": 18,
+            "1": 118,
+            "2": 46
+          },
+          "free_decisions": 182,
+          "max_queued_no_green_seconds": {
+            "EW": 251,
+            "NS": 45
+          },
+          "mean_entropy": 0.5889603495597839,
+          "phase_seconds": {
+            "ALL_RED": 152.0,
+            "EW": 217.0,
+            "EW_YELLOW": 54.0,
+            "NS": 756.0,
+            "NS_YELLOW": 174.0,
+            "PED": 552.0,
+            "PED_CLEARANCE": 495.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.6043956043956044,
+          "teacher_greedy_agreement": 0.5439560413360596,
+          "teacher_probability": 0.5478280186653137
+        },
+        "C1": {
+          "free_action_counts": {
+            "0": 8,
+            "1": 62,
+            "2": 57
+          },
+          "free_decisions": 127,
+          "max_queued_no_green_seconds": {
+            "EW": 845,
+            "NS": 68
+          },
+          "mean_entropy": 0.4227745234966278,
+          "phase_seconds": {
+            "ALL_RED": 128.0,
+            "EW": 97.0,
+            "EW_YELLOW": 24.0,
+            "NS": 678.0,
+            "NS_YELLOW": 168.0,
+            "PED": 684.0,
+            "PED_CLEARANCE": 621.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.8031496062992126,
+          "teacher_greedy_agreement": 0.8818897604942322,
+          "teacher_probability": 0.7841550707817078
+        },
+        "C2": {
+          "free_action_counts": {
+            "0": 3,
+            "1": 18,
+            "2": 14
+          },
+          "free_decisions": 35,
+          "max_queued_no_green_seconds": {
+            "EW": 2191,
+            "NS": 1001
+          },
+          "mean_entropy": 0.5824683904647827,
+          "phase_seconds": {
+            "ALL_RED": 32.0,
+            "EW": 48.0,
+            "EW_YELLOW": 12.0,
+            "NS": 150.0,
+            "NS_YELLOW": 36.0,
+            "PED": 168.0,
+            "PED_CLEARANCE": 1953.6,
+            "READY": 0.40000000000009095
+          },
+          "sampled_teacher_agreement": 0.6857142857142857,
+          "teacher_greedy_agreement": 0.7714285850524902,
+          "teacher_probability": 0.6653404235839844
+        }
+      },
+      "crossings": {
+        ":C0_c0": {
+          "entries": 54,
+          "p95": 57.80000000000001,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c1": {
+          "entries": 108,
+          "p95": 47.40000000000009,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c2": {
+          "entries": 58,
+          "p95": 40.80000000000007,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c3": {
+          "entries": 42,
+          "p95": 44.600000000000136,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c0": {
+          "entries": 49,
+          "p95": 28.40000000000009,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c1": {
+          "entries": 108,
+          "p95": 30.200000000000045,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c2": {
+          "entries": 48,
+          "p95": 27.600000000000023,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c3": {
+          "entries": 95,
+          "p95": 31.40000000000009,
+          "pending_at_cutoff": 1,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c0": {
+          "entries": 13,
+          "p95": 25.599999999999966,
+          "pending_at_cutoff": 8,
+          "unresolved_after_followup": 8
+        },
+        ":C2_c1": {
+          "entries": 29,
+          "p95": 830.8000000000001,
+          "pending_at_cutoff": 20,
+          "unresolved_after_followup": 20
+        },
+        ":C2_c2": {
+          "entries": 34,
+          "p95": 778.0,
+          "pending_at_cutoff": 18,
+          "unresolved_after_followup": 18
+        },
+        ":C2_c3": {
+          "entries": 54,
+          "p95": 769.2,
+          "pending_at_cutoff": 30,
+          "unresolved_after_followup": 30
+        }
+      }
+    },
+    {
+      "label": "mappo-guided-r1",
+      "scenario": "short-spacing",
+      "seed": 890004,
+      "unresolved": 105,
+      "persons": {
+        "completed": 529,
+        "scheduled": 701,
+        "seen": 701,
+        "unfinished": 172,
+        "uninserted": 0
+      },
+      "diagnostics": {
+        "C0": {
+          "free_action_counts": {
+            "0": 24,
+            "1": 161,
+            "2": 52
+          },
+          "free_decisions": 237,
+          "max_queued_no_green_seconds": {
+            "EW": 1423,
+            "NS": 85
+          },
+          "mean_entropy": 0.06965139508247375,
+          "phase_seconds": {
+            "ALL_RED": 126.0,
+            "EW": 134.0,
+            "EW_YELLOW": 30.0,
+            "NS": 755.0,
+            "NS_YELLOW": 159.0,
+            "PED": 624.0,
+            "PED_CLEARANCE": 572.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.9578059071729957,
+          "teacher_greedy_agreement": 0.9831223487854004,
+          "teacher_probability": 0.9546404480934143
+        },
+        "C1": {
+          "free_action_counts": {
+            "0": 2,
+            "1": 19,
+            "2": 17
+          },
+          "free_decisions": 38,
+          "max_queued_no_green_seconds": {
+            "EW": 2240,
+            "NS": 1679
+          },
+          "mean_entropy": 0.05235883593559265,
+          "phase_seconds": {
+            "ALL_RED": 42.0,
+            "EW": 36.0,
+            "EW_YELLOW": 9.0,
+            "NS": 217.0,
+            "NS_YELLOW": 54.0,
+            "PED": 204.0,
+            "PED_CLEARANCE": 1838.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.9473684210526315,
+          "teacher_greedy_agreement": 0.9473684430122375,
+          "teacher_probability": 0.9361129403114319
+        },
+        "C2": {
+          "free_action_counts": {
+            "0": 8,
+            "1": 138,
+            "2": 52
+          },
+          "free_decisions": 198,
+          "max_queued_no_green_seconds": {
+            "EW": 1454,
+            "NS": 45
+          },
+          "mean_entropy": 0.05885874480009079,
+          "phase_seconds": {
+            "ALL_RED": 132.0,
+            "EW": 108.0,
+            "EW_YELLOW": 27.0,
+            "NS": 766.0,
+            "NS_YELLOW": 171.0,
+            "PED": 624.0,
+            "PED_CLEARANCE": 572.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.8888888888888888,
+          "teacher_greedy_agreement": 0.8989899158477783,
+          "teacher_probability": 0.8861525058746338
+        }
+      },
+      "crossings": {
+        ":C0_c0": {
+          "entries": 54,
+          "p95": 27.40000000000009,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c1": {
+          "entries": 106,
+          "p95": 27.0,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c2": {
+          "entries": 59,
+          "p95": 26.600000000000023,
+          "pending_at_cutoff": 1,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c3": {
+          "entries": 42,
+          "p95": 28.799999999999955,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c0": {
+          "entries": 11,
+          "p95": 28.800000000000068,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c1": {
+          "entries": 21,
+          "p95": 26.599999999999966,
+          "pending_at_cutoff": 52,
+          "unresolved_after_followup": 52
+        },
+        ":C1_c2": {
+          "entries": 8,
+          "p95": 27.599999999999966,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c3": {
+          "entries": 20,
+          "p95": 25.80000000000001,
+          "pending_at_cutoff": 53,
+          "unresolved_after_followup": 53
+        },
+        ":C2_c0": {
+          "entries": 40,
+          "p95": 27.600000000000136,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c1": {
+          "entries": 49,
+          "p95": 26.200000000000045,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c2": {
+          "entries": 52,
+          "p95": 27.200000000000045,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c3": {
+          "entries": 84,
+          "p95": 27.0,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        }
+      }
+    },
+    {
+      "label": "mappo-guided-r2",
+      "scenario": "short-spacing",
+      "seed": 890005,
+      "unresolved": 130,
+      "persons": {
+        "completed": 523,
+        "scheduled": 745,
+        "seen": 745,
+        "unfinished": 222,
+        "uninserted": 0
+      },
+      "diagnostics": {
+        "C0": {
+          "free_action_counts": {
+            "0": 2,
+            "1": 7,
+            "2": 7
+          },
+          "free_decisions": 16,
+          "max_queued_no_green_seconds": {
+            "EW": 2257,
+            "NS": 2096
+          },
+          "mean_entropy": 0.04519037902355194,
+          "phase_seconds": {
+            "ALL_RED": 20.0,
+            "EW": 36.0,
+            "EW_YELLOW": 9.0,
+            "NS": 84.0,
+            "NS_YELLOW": 21.0,
+            "PED": 84.0,
+            "PED_CLEARANCE": 2146.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.9375,
+          "teacher_greedy_agreement": 1.0,
+          "teacher_probability": 0.9747714996337891
+        },
+        "C1": {
+          "free_action_counts": {
+            "0": 2,
+            "1": 127,
+            "2": 57
+          },
+          "free_decisions": 186,
+          "max_queued_no_green_seconds": {
+            "EW": 2097,
+            "NS": 43
+          },
+          "mean_entropy": 0.03636239841580391,
+          "phase_seconds": {
+            "ALL_RED": 120.0,
+            "EW": 36.0,
+            "EW_YELLOW": 9.0,
+            "NS": 754.0,
+            "NS_YELLOW": 171.0,
+            "PED": 684.0,
+            "PED_CLEARANCE": 626.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.967741935483871,
+          "teacher_greedy_agreement": 0.9677419066429138,
+          "teacher_probability": 0.9674680829048157
+        },
+        "C2": {
+          "free_action_counts": {
+            "0": 5,
+            "1": 141,
+            "2": 54
+          },
+          "free_decisions": 200,
+          "max_queued_no_green_seconds": {
+            "EW": 1891,
+            "NS": 40
+          },
+          "mean_entropy": 0.07923947274684906,
+          "phase_seconds": {
+            "ALL_RED": 128.0,
+            "EW": 72.0,
+            "EW_YELLOW": 18.0,
+            "NS": 779.0,
+            "NS_YELLOW": 174.0,
+            "PED": 646.0,
+            "PED_CLEARANCE": 583.0,
+            "READY": 0.0
+          },
+          "sampled_teacher_agreement": 0.925,
+          "teacher_greedy_agreement": 0.9399999976158142,
+          "teacher_probability": 0.925335705280304
+        }
+      },
+      "crossings": {
+        ":C0_c0": {
+          "entries": 2,
+          "p95": 1.400000000000034,
+          "pending_at_cutoff": 39,
+          "unresolved_after_followup": 39
+        },
+        ":C0_c1": {
+          "entries": 0,
+          "p95": null,
+          "pending_at_cutoff": 52,
+          "unresolved_after_followup": 52
+        },
+        ":C0_c2": {
+          "entries": 1,
+          "p95": 1.400000000000034,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C0_c3": {
+          "entries": 0,
+          "p95": null,
+          "pending_at_cutoff": 39,
+          "unresolved_after_followup": 39
+        },
+        ":C1_c0": {
+          "entries": 55,
+          "p95": 29.19999999999999,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c1": {
+          "entries": 112,
+          "p95": 27.799999999999955,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c2": {
+          "entries": 61,
+          "p95": 26.600000000000136,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C1_c3": {
+          "entries": 104,
+          "p95": 26.0,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c0": {
+          "entries": 52,
+          "p95": 28.600000000000023,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c1": {
+          "entries": 55,
+          "p95": 27.799999999999955,
+          "pending_at_cutoff": 2,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c2": {
+          "entries": 46,
+          "p95": 27.799999999999955,
+          "pending_at_cutoff": 0,
+          "unresolved_after_followup": 0
+        },
+        ":C2_c3": {
+          "entries": 116,
+          "p95": 28.200000000000045,
+          "pending_at_cutoff": 1,
+          "unresolved_after_followup": 0
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Original simulator traces and demonstration tensors are absent; no physical-safety replay was performed.",
+    "Recomputed point estimates, service gates and vehicle bootstrap intervals; crossing intervals were inspected, not independently regenerated.",
+    "No SLURM job log is included; artifact completeness is verified independently of scheduler status."
+  ]
+}

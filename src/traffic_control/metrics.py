@@ -112,6 +112,12 @@ def vehicle_summary(tripinfo_file: Path, scheduled_ids: set[str],
                         if ident in tripinfos and "timeLoss" in tripinfos[ident]]
     if len(completed_losses) != len(completed):
         raise RuntimeError("Missing tripinfo timeLoss for a completed vehicle")
+    # SUMO timeLoss starts after insertion; a car can wait outside the network
+    # first. Keep these separately visible rather than counting missing values
+    # as zero when reading an older/minimal tripinfo artifact.
+    departure_delays = [float(tripinfos[ident]["departDelay"]) for ident in completed
+                        if "departDelay" in tripinfos[ident]]
+    delays_complete = bool(completed) and len(departure_delays) == len(completed)
     return {
         "scheduled_count": len(scheduled_ids),
         "inserted_count": len(departed_ids),
@@ -120,6 +126,12 @@ def vehicle_summary(tripinfo_file: Path, scheduled_ids: set[str],
         "uninserted_count": len(uninserted),
         "completed_mean_time_loss_seconds": statistics.mean(completed_losses) if completed_losses else None,
         "completed_total_time_loss_seconds": sum(completed_losses),
+        "completed_depart_delay_observed_count": len(departure_delays),
+        "completed_mean_depart_delay_seconds": statistics.mean(departure_delays) if delays_complete else None,
+        "completed_total_depart_delay_seconds": sum(departure_delays) if delays_complete else None,
+        "completed_mean_time_loss_plus_depart_delay_seconds": (
+            (sum(completed_losses) + sum(departure_delays)) / len(completed)
+            if delays_complete else None),
         "unfinished_ids": sorted(unfinished),
         "uninserted_ids": sorted(uninserted),
     }
