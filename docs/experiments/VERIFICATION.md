@@ -37,3 +37,18 @@ other NumPy-dependent code.
 The earlier integration and saved-trace audits remain attributed to their own
 study reviews. Passing these new focused tests does not independently revalidate
 every historical safety assertion or scientific confidence interval.
+
+## Checkpoint setup follow-up
+
+The original E13 ZIP was independently rechecked: 21,368,736 bytes, the pinned
+whole-archive SHA-256, twelve checkpoint hashes and 53 frozen source files match.
+Five new standard-library setup tests pass. A temporary Linux-style LF-only
+copy of all 53 sources exposed one newline mismatch (`evaluate.py`); the optional
+helper restored only that file's original line endings and exact verification
+then passed. Actual code changes and missing/escaping paths are rejected before
+any repair. No actual working source, model, simulation or training was changed.
+
+```bash
+python -m unittest tests.test_frozen_checkpoint_setup -v
+python scripts/check_frozen_checkpoints.py
+```

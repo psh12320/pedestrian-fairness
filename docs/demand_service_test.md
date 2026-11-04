@@ -10,7 +10,8 @@ checked [review and figures](../results/demand-service-review/REVIEW.md) explain
 the outcomes. Early service improved every crossing p95 point estimate relative
 to continued MAPPO, but had higher vehicle time loss than actuated in all four
 settings. No learned/hybrid configuration met the joint target. Saved run output
-uses approximately 116 MiB.
+uses approximately 116 MiB under `runs/demand-service-test/`. This is the
+generated evaluation output, **not the checkpoint input ZIP**.
 
 The protocol is saved before evaluation in `runs/demand-service-test/protocol.json`.
 Source snapshots, model hashes, demand/network identities, compressed pedestrian
@@ -70,7 +71,24 @@ python -m scripts.demand_service_test --status
 ```
 
 The complete reviewed archive must exist at
-`runs/pedestrian-finetune-cluster-results.zip`. Only its verified checkpoint
+`runs/pedestrian-finetune-cluster-results.zip`: **21,368,736 bytes (20.38 MiB)**,
+containing all twelve frozen parent/continuation checkpoints. It is ignored by
+Git and must be obtained separately from the project owner; see the
+[artifact transfer guide](experiments/ARTIFACTS.md). Keep the original ZIP intact.
+Before the smoke/full command, verify the input without running SUMO:
+
+```bash
+python scripts/check_frozen_checkpoints.py
+# Only if the check reports newline differences in the frozen source:
+python scripts/check_frozen_checkpoints.py --repair-line-endings
+```
+
+Git can change LF/CRLF line endings across Windows and Linux, while the frozen
+protocol hashes exact bytes. The optional helper restores only newline-equivalent
+files from the verified archive. It refuses actual code changes or missing
+source files; it does not disable provenance checks or overwrite an experiment.
+
+Only the archive's verified checkpoint
 members are read, with Torch's weights-only loader; the archive is not extracted
 or its source executed. A changed source fingerprint requires a new output
 directory. The runner is resumable and exclusively locked; do not start a second

@@ -74,6 +74,20 @@ the missing weights or trajectories; obtaining the original cluster directory
 is necessary in those cases.
 
 For E15 replay, place `pedestrian-finetune-cluster-results.zip` under `runs/`.
+Its size is **21,368,736 bytes (20.38 MiB)**, not 116 MiB; the latter refers to
+the separate E15 evaluation-output folder. Keep the ZIP intact. Check the
+archive, twelve checkpoint hashes and frozen source compatibility without
+starting any simulations:
+
+```bash
+python scripts/check_frozen_checkpoints.py
+# If only source line endings differ after checkout:
+python scripts/check_frozen_checkpoints.py --repair-line-endings
+```
+
+The optional repair restores LF/CRLF differences only and refuses actual code
+changes. Do not bypass source checks to make an altered experiment appear frozen.
+
 The expected SHA-256 is
 `255b82536b3a341c8964ef2338b5bd0a5e54fbe73dfd8e89fd9315b18c46354b`.
 For E10/E14, use `guided-exploration-results.zip`, SHA-256
