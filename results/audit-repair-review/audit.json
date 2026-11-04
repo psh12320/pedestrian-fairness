@@ -1,0 +1,455 @@
+{
+  "fingerprint": "ca09c5422b64e5edb6234c1c31e61c8190aa10d2c51846ebb3d5c8fc2833c5cc",
+  "checks": {
+    "source_files": 47,
+    "models": 16,
+    "training_episodes": 1024,
+    "validations": 48,
+    "traffic_runs": 324,
+    "crossing_event_files": 324,
+    "crossing_rows": 3888,
+    "aggregate_rows": 48
+  },
+  "measurement_anomalies": [],
+  "scenarios": {
+    "pedestrian-burst": {
+      "actuated": {
+        "vehicle_loss": 51.423767837797804,
+        "completed": 923.5,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 0.0,
+        "crossings_no_worse": 12,
+        "descriptive_pass": false
+      },
+      "fixed": {
+        "vehicle_loss": 33.37407951461271,
+        "completed": 928.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 42.39999999999998,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "pressure": {
+        "vehicle_loss": 40.80113843004202,
+        "completed": 932.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 10.200000000000045,
+        "crossings_no_worse": 2,
+        "descriptive_pass": false
+      },
+      "uniform": {
+        "vehicle_loss": 56.05345545954161,
+        "completed": 925.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 62.0,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-legacy": {
+        "vehicle_loss": 71.62884309347702,
+        "completed": 912.25,
+        "uninserted": 0.875,
+        "worst_crossing_delta": 14.300000000000068,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-memory": {
+        "vehicle_loss": 71.34086787906867,
+        "completed": 910.75,
+        "uninserted": 0.375,
+        "worst_crossing_delta": 14.500000000000028,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-memory-separate": {
+        "vehicle_loss": 70.07731697974256,
+        "completed": 910.625,
+        "uninserted": 1.375,
+        "worst_crossing_delta": 18.79999999999984,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-separate": {
+        "vehicle_loss": 75.33838498562923,
+        "completed": 916.5,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 22.100000000000023,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-legacy": {
+        "vehicle_loss": 63.678759781671616,
+        "completed": 918.375,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 30.799999999999926,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory": {
+        "vehicle_loss": 59.70012986195782,
+        "completed": 919,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 24.10000000000008,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory-separate": {
+        "vehicle_loss": 65.04876763336658,
+        "completed": 915.375,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 26.600000000000023,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-separate": {
+        "vehicle_loss": 67.71092571700274,
+        "completed": 912.625,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 19.799999999999955,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      }
+    },
+    "short-spacing": {
+      "actuated": {
+        "vehicle_loss": 46.63921774452794,
+        "completed": 709.5,
+        "uninserted": 1579.5,
+        "worst_crossing_delta": 0.0,
+        "crossings_no_worse": 12,
+        "descriptive_pass": false
+      },
+      "fixed": {
+        "vehicle_loss": 37.70141384299676,
+        "completed": 2251,
+        "uninserted": 16,
+        "worst_crossing_delta": 42.600000000000136,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "pressure": {
+        "vehicle_loss": 53.37847370100986,
+        "completed": 1903.5,
+        "uninserted": 363.75,
+        "worst_crossing_delta": 31.40000000000009,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "uniform": {
+        "vehicle_loss": 88.41698165950694,
+        "completed": 1474,
+        "uninserted": 776,
+        "worst_crossing_delta": 61.200000000000045,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-legacy": {
+        "vehicle_loss": 84.55038484097429,
+        "completed": 1265.875,
+        "uninserted": 995.625,
+        "worst_crossing_delta": 18.799999999999983,
+        "crossings_no_worse": 1,
+        "descriptive_pass": false
+      },
+      "ippo-memory": {
+        "vehicle_loss": 78.14024446445623,
+        "completed": 1339.875,
+        "uninserted": 926,
+        "worst_crossing_delta": 21.100000000000023,
+        "crossings_no_worse": 1,
+        "descriptive_pass": false
+      },
+      "ippo-memory-separate": {
+        "vehicle_loss": 76.26042825075706,
+        "completed": 1313.375,
+        "uninserted": 943.5,
+        "worst_crossing_delta": 27.200000000000045,
+        "crossings_no_worse": 1,
+        "descriptive_pass": false
+      },
+      "ippo-separate": {
+        "vehicle_loss": 72.64824579221616,
+        "completed": 1304.5,
+        "uninserted": 960.875,
+        "worst_crossing_delta": 30.200000000000102,
+        "crossings_no_worse": 1,
+        "descriptive_pass": false
+      },
+      "mappo-legacy": {
+        "vehicle_loss": 76.44526069067902,
+        "completed": 1361,
+        "uninserted": 894.25,
+        "worst_crossing_delta": 39.80000000000001,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory": {
+        "vehicle_loss": 77.57010625114641,
+        "completed": 1429.375,
+        "uninserted": 825.5,
+        "worst_crossing_delta": 31.199999999999932,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory-separate": {
+        "vehicle_loss": 85.27828849933391,
+        "completed": 1353.25,
+        "uninserted": 898.25,
+        "worst_crossing_delta": 34.8000000000001,
+        "crossings_no_worse": 1,
+        "descriptive_pass": false
+      },
+      "mappo-separate": {
+        "vehicle_loss": 85.27215197764599,
+        "completed": 1371.25,
+        "uninserted": 880.75,
+        "worst_crossing_delta": 31.700000000000045,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      }
+    },
+    "slow-walkers": {
+      "actuated": {
+        "vehicle_loss": 52.19438978885781,
+        "completed": 925.5,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 0.0,
+        "crossings_no_worse": 12,
+        "descriptive_pass": false
+      },
+      "fixed": {
+        "vehicle_loss": 33.45404555432013,
+        "completed": 928.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 44.799999999999955,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "pressure": {
+        "vehicle_loss": 44.053621745681376,
+        "completed": 930.75,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 17.0,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "uniform": {
+        "vehicle_loss": 56.05345545954161,
+        "completed": 925.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 91.59999999999991,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-legacy": {
+        "vehicle_loss": 72.88319399203597,
+        "completed": 912.375,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 24.59999999999988,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-memory": {
+        "vehicle_loss": 73.14000111123073,
+        "completed": 912.125,
+        "uninserted": 0.75,
+        "worst_crossing_delta": 23.399999999999977,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-memory-separate": {
+        "vehicle_loss": 69.07284134968101,
+        "completed": 920.125,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 25.999999999999886,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-separate": {
+        "vehicle_loss": 74.8824676646009,
+        "completed": 913.625,
+        "uninserted": 0.625,
+        "worst_crossing_delta": 33.69999999999993,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-legacy": {
+        "vehicle_loss": 67.17116370076795,
+        "completed": 921.625,
+        "uninserted": 0.375,
+        "worst_crossing_delta": 34.69999999999993,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory": {
+        "vehicle_loss": 61.14479229413455,
+        "completed": 921.875,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 33.299999999999955,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory-separate": {
+        "vehicle_loss": 67.38632889018875,
+        "completed": 918.375,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 33.59999999999988,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-separate": {
+        "vehicle_loss": 67.01341606334992,
+        "completed": 913.375,
+        "uninserted": 0.375,
+        "worst_crossing_delta": 33.60000000000002,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      }
+    },
+    "vmedium-pmedium": {
+      "actuated": {
+        "vehicle_loss": 51.423767837797804,
+        "completed": 923.5,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 0.0,
+        "crossings_no_worse": 12,
+        "descriptive_pass": false
+      },
+      "fixed": {
+        "vehicle_loss": 33.37407951461271,
+        "completed": 928.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 42.39999999999998,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "pressure": {
+        "vehicle_loss": 39.912234410084096,
+        "completed": 928.75,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 10.600000000000023,
+        "crossings_no_worse": 1,
+        "descriptive_pass": false
+      },
+      "uniform": {
+        "vehicle_loss": 56.05345545954161,
+        "completed": 925.25,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 62.0,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-legacy": {
+        "vehicle_loss": 71.79871245164838,
+        "completed": 909.25,
+        "uninserted": 0.875,
+        "worst_crossing_delta": 14.300000000000068,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-memory": {
+        "vehicle_loss": 71.31320951816434,
+        "completed": 911.5,
+        "uninserted": 0.375,
+        "worst_crossing_delta": 14.500000000000028,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-memory-separate": {
+        "vehicle_loss": 70.07731697974256,
+        "completed": 910.625,
+        "uninserted": 1.375,
+        "worst_crossing_delta": 18.79999999999984,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "ippo-separate": {
+        "vehicle_loss": 75.33838498562923,
+        "completed": 916.5,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 22.100000000000023,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-legacy": {
+        "vehicle_loss": 62.907327509923576,
+        "completed": 917.375,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 30.799999999999926,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory": {
+        "vehicle_loss": 59.70012986195782,
+        "completed": 919,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 24.10000000000008,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-memory-separate": {
+        "vehicle_loss": 65.04876763336658,
+        "completed": 915.375,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 26.600000000000023,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      },
+      "mappo-separate": {
+        "vehicle_loss": 67.28836348561019,
+        "completed": 914.125,
+        "uninserted": 0.25,
+        "worst_crossing_delta": 19.799999999999955,
+        "crossings_no_worse": 0,
+        "descriptive_pass": false
+      }
+    }
+  },
+  "validation_vehicle_loss": {
+    "ippo-legacy": {
+      "16": 58.998447192039016,
+      "32": 68.05798629148629,
+      "64": 74.76742977657716
+    },
+    "ippo-memory": {
+      "16": 58.998447192039016,
+      "32": 66.08603887042712,
+      "64": 68.76649965136076
+    },
+    "ippo-separate": {
+      "16": 61.71945406607688,
+      "32": 74.33032513098058,
+      "64": 68.47518560883901
+    },
+    "ippo-memory-separate": {
+      "16": 61.71945406607688,
+      "32": 78.03295394316996,
+      "64": 67.95626245724732
+    },
+    "mappo-legacy": {
+      "16": 59.13297357005639,
+      "32": 60.36953483078871,
+      "64": 65.06037994496045
+    },
+    "mappo-memory": {
+      "16": 57.85960417701607,
+      "32": 58.40281579951269,
+      "64": 56.955849371782406
+    },
+    "mappo-separate": {
+      "16": 60.51268272745574,
+      "32": 64.07128376230354,
+      "64": 63.74217145790554
+    },
+    "mappo-memory-separate": {
+      "16": 60.51268272745574,
+      "32": 69.0462496888925,
+      "64": 63.69572947951566
+    }
+  },
+  "limitations": [
+    "No fresh SUMO replay or checkpoint deserialization.",
+    "Bootstrap intervals inspected in code, not independently regenerated.",
+    "These are two-replica development results, not a final method ranking."
+  ]
+}

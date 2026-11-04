@@ -1,5 +1,7 @@
 # Independent review of the local repair trial
 
+**Final status, 4 November 2026:** the full trial is complete. The final [results review](../results/audit-repair-review/REVIEW.md) supersedes pending-result statements below. This page preserves the pre-result design and implementation assessment.
+
 This review concerns the new CPU experiment testing the audit findings in SUMO. It does not treat a successful software test as a traffic improvement. Final observations below will distinguish completed verification from intended checks.
 
 ## Frozen comparison reviewed before performance results

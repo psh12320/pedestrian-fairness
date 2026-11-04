@@ -1,36 +1,40 @@
 # CS4246 Team 38: pedestrian-aware traffic signal control
 
-**Local correction experiment:** [audit-repair trial](docs/audit_trial.md) compares
-legacy, controller-memory, separate-clipping and combined settings for IPPO/MAPPO.
-Its 56-run engineering smoke passed. The full 1,396-simulation CPU study was
-launched on 3 November; use `python scripts/collect_audit_trial_status.py` for
-current evidence. Launching the experiment is not evidence of a performance gain.
+**Start here:** [experiment catalogue](docs/experiments/README.md) ·
+[what is in Git and how to reproduce it](docs/experiments/ARTIFACTS.md) ·
+[metric dictionary](docs/metrics_and_results_explained.md).
 
-**3 November implementation audit:** [findings, verified repairs and remaining experiments](docs/deep_audit_2026_11_03.md).
-Three independent audits identified missing controller memory, a junction-collision
-check gap, platform-dependent demand bytes and missing insertion-delay reporting.
-Bounded fixes are verified; no new RL performance gain is claimed. Existing
-cluster archives/results are preserved. The newer neural `fairness` pipeline uses
-a different tracker/protocol from the original study described further below;
-do not combine their results or measurement definitions.
+**Status, 4 November 2026:** the latest 720-run demand/early-service study,
+876-simulation cluster fine-tuning study, and 1,396-simulation local repair trial
+are complete. Reviews, protocols, complete aggregate results and figures are
+shared on **`fairness-service-priority`**. The original every-crossing joint target
+has **not** been achieved. Vehicle gains and partial pedestrian gains are
+reported alongside remaining failures; see the catalogue for all earlier studies.
 
-**Latest development study:** [guided exploration](docs/guided_exploration.md)
-tests crossing-age rewards, actuated-guided MAPPO and training-only curiosity
-against matched controls, including imitation without RL. The
-[completed PPO-repair review](results/ppo-repair-cluster/REVIEW.md) found no joint
-vehicle/pedestrian win. The new study is a separate experiment, not a claimed
-solution. See the [v2 execution guide](docs/fairness_v2.md) for the earlier neural
-IPPO/MAPPO implementation, 21 demand settings, constraints and cluster workflow.
+- [Latest demand and early-service results](results/demand-service-review/REVIEW.md).
+- [Pedestrian fine-tuning results](results/pedestrian-finetune-cluster-review/REVIEW.md).
+- [Implementation repair results](results/audit-repair-review/REVIEW.md).
+- [Congested failure replays](results/failure-mechanism-review/REVIEW.md).
 
-A separate [local timing study](docs/local_timing_study.md) tests 12-, 18- and
-24-second pedestrian admission periods under matched conventional controllers.
-It is a timing sensitivity experiment; any gains are not attributable to RL.
+A fresh clone can read the evidence without training anything. Raw `runs/`,
+checkpoints and downloaded ZIPs are generally ignored; some older raw artifacts
+remain only on the cluster. The [artifact inventory](results/experiment-index/local_artifacts.json)
+records what exists locally and what is missing. Validate the shared records with:
+
+```bash
+python scripts/experiment_inventory.py --check
+```
+
+This is a documentation/integrity check, not a SUMO experiment. See the catalogue
+before using older PDFs, slide decks or studies below: their names may say
+"final", but they predate the newer neural experiments. Updated report writing
+must preserve protocol differences and disclose LLM-assisted work.
 
 This project asks: **When, if ever, does multi-agent PPO save vehicle time without worsening long waits at any crossing, compared with a pedestrian-responsive controller?** It is an original SUMO simulation, built from scratch, with a single-junction safety and measurement milestone and a three-junction research corridor. Each learning actor controls one signal using local observations. Both PPO methods use the same per-junction reward; IPPO has local value estimators, while MAPPO's value estimators can see the whole corridor during training. Vehicles and pedestrians are simulated road users. Earlier CS3263 code, scenarios, models, results, and figures were not reused.
 
 The primary study uses **synthetic geometry and demand**. A separate [NUS Kent Ridge–NUH pilot](docs/singapore.md) includes a small OpenStreetMap extract, clipped public LTA signal-hardware points, and a safe *simplified* left-hand corridor through approximate candidate-site centroids. Its connectors are straight segments and its side arms are synthetic. It has **no observed turning or pedestrian counts and no actual LTA timing plans**. Neither case establishes an improvement to deployed traffic lights.
 
-## Current evidence and status
+## Historical linear-policy study (E01–E03)
 
 - The single-junction and connected-junction SUMO smoke tests exercise moving cars and walkers, protected crossing service, conflict checks, phase timing, crossing events, and repeatable seeded demand. The hand-checkable event trace includes immediate entry, a queue, and a request left waiting at the horizon.
 - Fixed-time, pedestrian-actuated, and a **pressure-inspired** queue-responsive baseline use the same phase machine as learned policies. The pressure controller is an adaptation for this project, not an exact implementation of a published max-pressure algorithm.
@@ -40,7 +44,7 @@ The primary study uses **synthetic geometry and demand**. A separate [NUS Kent R
 - The first test attempt exposed a pedestrian-burst safety failure; its 7001–7010 checkpoints are excluded. A partial 8001–8010 run was also stopped when a training/evaluation phase-rule mismatch was found. All models were retrained before testing the untouched 9001–9010 seeds; see the [safety revision](docs/safety_revision_v3.md). Neither interrupted attempt is included in the final performance tables.
 - The final short-spacing test logged **28 pedestrian-jam warnings**. A [recorded replay](results/reproducibility/pedestrian_jam_audit.json) exactly reproduced its saved results and held vehicle links red while the person occupied the crossing. SUMO's jam recovery ignores obstacles, so these stress runs do not establish collision safety. Pre-entry waiting time also excludes jams during traversal; see the [official explanation](https://sumo.dlr.de/docs/Simulation/Pedestrians.html#jamming).
 
-## Completed deliverables
+## Historical report and presentation artifacts (E02–E03)
 
 - [Ten-page report](output/pdf/cs4246-team38-final-report.pdf), with all twelve crossings, confidence intervals, training curves, stress results and the separate geometry test.
 - [Thirteen-slide presentation](deliverables/presentation/output/team38-research-talk-v2f-final.pptx) and [presenter guide](deliverables/presentation/PRESENTER_GUIDE.md).
@@ -49,7 +53,7 @@ The primary study uses **synthetic geometry and demand**. A separate [NUS Kent R
 - [Labelled moving comparison](deliverables/presentation/assets/final-protocol/sumo-fixed-vs-ippo-pedestrian-seed-6001.mp4): 20 distinct frames per controller, matched seed 6001, 10-second playback. Each frame is an original SUMO rendering from the same deterministic replay.
 - [One-click SUMO comparison](Watch-Comparison.cmd): fixed-time and selected IPPO weight-3 replica on identical exploratory demand.
 
-The 43-test suite passed in the recorded environment (`runs/resume-tests.log`). The final saved-output audit reconciles all 4,620 evaluation runs. The report and all 13 slides have been rendered and visually inspected. The individual contributions remain explicitly provisional; replace them with actual work and confirm the contradictory course deadline before submission. LLM assistance is disclosed in both documents.
+The historical 43-test suite passed in the recorded environment (`runs/resume-tests.log`). The final saved-output audit reconciles all 4,620 evaluation runs. The report and all 13 slides have been rendered and visually inspected. The individual contributions remain explicitly provisional; replace them with actual work and confirm the contradictory course deadline before submission. LLM assistance is disclosed in both documents.
 
 ## Setup within a 2 GB storage budget
 
@@ -57,7 +61,7 @@ The original implementation's setup is below. The new v2 neural implementation
 also requires PyTorch; its [execution guide](docs/fairness_execution.md) uses the
 existing local CPU installation or an isolated, pinned environment on the cluster.
 
-Use Python 3.10+ and SUMO with `sumo`, `sumo-gui`, and `netconvert`. This workspace has a Git-ignored portable SUMO 1.27.1 installation under `.local/sumo-1.27.1` (about 163 MB); a fresh checkout can instead use an installed SUMO. The PPO implementation uses the Python standard library. The only Python requirement is TraCI:
+Use Python 3.10+ and SUMO with `sumo`, `sumo-gui`, and `netconvert`. This workspace has a Git-ignored portable SUMO 1.27.1 installation under `.local/sumo-1.27.1` (about 163 MB); a fresh checkout can instead use an installed SUMO. The original linear PPO implementation uses the Python standard library; its Python dependency is TraCI. Newer neural studies also require PyTorch, as described in the linked execution guide:
 
 ```powershell
 python -m pip install -r requirements.txt

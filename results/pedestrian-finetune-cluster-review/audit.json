@@ -1,0 +1,672 @@
+{
+  "archive_sha256": "255b82536b3a341c8964ef2338b5bd0a5e54fbe73dfd8e89fd9315b18c46354b",
+  "checks": {
+    "manifest_files": 1174,
+    "source_files": 53,
+    "parent_checkpoints": 3,
+    "trained_checkpoints": 9,
+    "training_episodes": 576,
+    "event_files": 300,
+    "observed_crossing_entries": 277395,
+    "entries_observed_at_phase_change": 1094,
+    "crossing_rows": 3600,
+    "traffic_runs": 300,
+    "vehicle_intervals": 56,
+    "paired_comparisons": 88,
+    "aggregate_rows": 28
+  },
+  "fingerprint": "4ee20b14ae22df2a6051b6c2ca8ed645ce350563efec692c8ec02dcb1406152a",
+  "measurement_anomalies": [],
+  "admission_anomalies": [],
+  "incomplete_person_runs": [
+    {
+      "label": "fixed",
+      "scenario": "slow-walkers",
+      "seed": 980001,
+      "persons": {
+        "completed": 663,
+        "scheduled": 667,
+        "seen": 667,
+        "unfinished": 4,
+        "uninserted": 0
+      }
+    },
+    {
+      "label": "fixed",
+      "scenario": "slow-walkers",
+      "seed": 980002,
+      "persons": {
+        "completed": 646,
+        "scheduled": 648,
+        "seen": 648,
+        "unfinished": 2,
+        "uninserted": 0
+      }
+    },
+    {
+      "label": "fixed",
+      "scenario": "slow-walkers",
+      "seed": 980003,
+      "persons": {
+        "completed": 711,
+        "scheduled": 717,
+        "seen": 717,
+        "unfinished": 6,
+        "uninserted": 0
+      }
+    },
+    {
+      "label": "fixed",
+      "scenario": "slow-walkers",
+      "seed": 980004,
+      "persons": {
+        "completed": 689,
+        "scheduled": 693,
+        "seen": 693,
+        "unfinished": 4,
+        "uninserted": 0
+      }
+    },
+    {
+      "label": "mappo-original-r0",
+      "scenario": "slow-walkers",
+      "seed": 980001,
+      "persons": {
+        "completed": 665,
+        "scheduled": 667,
+        "seen": 667,
+        "unfinished": 2,
+        "uninserted": 0
+      }
+    }
+  ],
+  "arithmetic_ties": [
+    {
+      "comparison": "slow-walkers/mappo-continue-vs-mappo-original",
+      "archived": 3,
+      "ties_corrected": 4
+    },
+    {
+      "comparison": "slow-walkers/mappo-tail-vs-mappo-original",
+      "archived": 9,
+      "ties_corrected": 10
+    }
+  ],
+  "training": {
+    "mappo-continue-r0": {
+      "totals": {
+        "free_decisions": 6653,
+        "selected_guidance_decisions": 2196,
+        "student_teacher_disagreements": 2849,
+        "urgent_actions_following_teacher": 1334
+      },
+      "first16": {
+        "free_decisions": 1636,
+        "selected_guidance_decisions": 546,
+        "student_teacher_disagreements": 689,
+        "urgent_actions_following_teacher": 332
+      },
+      "last16": {
+        "free_decisions": 1656,
+        "selected_guidance_decisions": 549,
+        "student_teacher_disagreements": 690,
+        "urgent_actions_following_teacher": 344
+      },
+      "validation_vehicle_loss": {
+        "16": 38.435929284362174,
+        "32": 37.46173463977922,
+        "64": 35.50364728105042
+      }
+    },
+    "mappo-continue-r1": {
+      "totals": {
+        "free_decisions": 6303,
+        "selected_guidance_decisions": 1951,
+        "student_teacher_disagreements": 2351,
+        "urgent_actions_following_teacher": 1258
+      },
+      "first16": {
+        "free_decisions": 1576,
+        "selected_guidance_decisions": 478,
+        "student_teacher_disagreements": 606,
+        "urgent_actions_following_teacher": 304
+      },
+      "last16": {
+        "free_decisions": 1566,
+        "selected_guidance_decisions": 488,
+        "student_teacher_disagreements": 566,
+        "urgent_actions_following_teacher": 320
+      },
+      "validation_vehicle_loss": {
+        "16": 38.4066122115581,
+        "32": 38.07908957559404,
+        "64": 39.849418437292655
+      }
+    },
+    "mappo-continue-r2": {
+      "totals": {
+        "free_decisions": 6401,
+        "selected_guidance_decisions": 2063,
+        "student_teacher_disagreements": 2453,
+        "urgent_actions_following_teacher": 1268
+      },
+      "first16": {
+        "free_decisions": 1605,
+        "selected_guidance_decisions": 490,
+        "student_teacher_disagreements": 604,
+        "urgent_actions_following_teacher": 301
+      },
+      "last16": {
+        "free_decisions": 1614,
+        "selected_guidance_decisions": 543,
+        "student_teacher_disagreements": 657,
+        "urgent_actions_following_teacher": 327
+      },
+      "validation_vehicle_loss": {
+        "16": 37.5400940995941,
+        "32": 37.0014627676574,
+        "64": 35.85643890896576
+      }
+    },
+    "mappo-tail-r0": {
+      "totals": {
+        "free_decisions": 6544,
+        "selected_guidance_decisions": 1943,
+        "student_teacher_disagreements": 2566,
+        "urgent_actions_following_teacher": 1291
+      },
+      "first16": {
+        "free_decisions": 1634,
+        "selected_guidance_decisions": 531,
+        "student_teacher_disagreements": 671,
+        "urgent_actions_following_teacher": 328
+      },
+      "last16": {
+        "free_decisions": 1600,
+        "selected_guidance_decisions": 471,
+        "student_teacher_disagreements": 570,
+        "urgent_actions_following_teacher": 329
+      },
+      "validation_vehicle_loss": {
+        "16": 38.79404770851548,
+        "32": 39.14031496911101,
+        "64": 41.709725447076835
+      }
+    },
+    "mappo-tail-r1": {
+      "totals": {
+        "free_decisions": 6256,
+        "selected_guidance_decisions": 1808,
+        "student_teacher_disagreements": 2276,
+        "urgent_actions_following_teacher": 1222
+      },
+      "first16": {
+        "free_decisions": 1584,
+        "selected_guidance_decisions": 470,
+        "student_teacher_disagreements": 604,
+        "urgent_actions_following_teacher": 301
+      },
+      "last16": {
+        "free_decisions": 1541,
+        "selected_guidance_decisions": 426,
+        "student_teacher_disagreements": 528,
+        "urgent_actions_following_teacher": 303
+      },
+      "validation_vehicle_loss": {
+        "16": 40.47302228036476,
+        "32": 38.61583332305529,
+        "64": 41.27687140334167
+      }
+    },
+    "mappo-tail-r2": {
+      "totals": {
+        "free_decisions": 6335,
+        "selected_guidance_decisions": 1886,
+        "student_teacher_disagreements": 2299,
+        "urgent_actions_following_teacher": 1243
+      },
+      "first16": {
+        "free_decisions": 1611,
+        "selected_guidance_decisions": 466,
+        "student_teacher_disagreements": 590,
+        "urgent_actions_following_teacher": 295
+      },
+      "last16": {
+        "free_decisions": 1557,
+        "selected_guidance_decisions": 475,
+        "student_teacher_disagreements": 553,
+        "urgent_actions_following_teacher": 328
+      },
+      "validation_vehicle_loss": {
+        "16": 38.2976247723133,
+        "32": 39.01437668824437,
+        "64": 38.826060952299265
+      }
+    },
+    "mappo-guided-r0": {
+      "totals": {
+        "free_decisions": 6393,
+        "selected_guidance_decisions": 1784,
+        "student_teacher_disagreements": 2321,
+        "urgent_actions_following_teacher": 1273
+      },
+      "first16": {
+        "free_decisions": 1634,
+        "selected_guidance_decisions": 519,
+        "student_teacher_disagreements": 640,
+        "urgent_actions_following_teacher": 324
+      },
+      "last16": {
+        "free_decisions": 1566,
+        "selected_guidance_decisions": 401,
+        "student_teacher_disagreements": 522,
+        "urgent_actions_following_teacher": 309
+      },
+      "validation_vehicle_loss": {
+        "16": 43.41098465669304,
+        "32": 42.02217221992986,
+        "64": 45.01084609473321
+      }
+    },
+    "mappo-guided-r1": {
+      "totals": {
+        "free_decisions": 6092,
+        "selected_guidance_decisions": 1599,
+        "student_teacher_disagreements": 1991,
+        "urgent_actions_following_teacher": 1173
+      },
+      "first16": {
+        "free_decisions": 1576,
+        "selected_guidance_decisions": 453,
+        "student_teacher_disagreements": 585,
+        "urgent_actions_following_teacher": 294
+      },
+      "last16": {
+        "free_decisions": 1492,
+        "selected_guidance_decisions": 331,
+        "student_teacher_disagreements": 426,
+        "urgent_actions_following_teacher": 267
+      },
+      "validation_vehicle_loss": {
+        "16": 41.232883932408335,
+        "32": 43.26132587398038,
+        "64": 43.949166034846726
+      }
+    },
+    "mappo-guided-r2": {
+      "totals": {
+        "free_decisions": 6122,
+        "selected_guidance_decisions": 1602,
+        "student_teacher_disagreements": 2000,
+        "urgent_actions_following_teacher": 1184
+      },
+      "first16": {
+        "free_decisions": 1571,
+        "selected_guidance_decisions": 430,
+        "student_teacher_disagreements": 560,
+        "urgent_actions_following_teacher": 284
+      },
+      "last16": {
+        "free_decisions": 1509,
+        "selected_guidance_decisions": 365,
+        "student_teacher_disagreements": 452,
+        "urgent_actions_following_teacher": 290
+      },
+      "validation_vehicle_loss": {
+        "16": 40.964466341039966,
+        "32": 41.49773209278333,
+        "64": 42.79601777773402
+      }
+    }
+  },
+  "diagnostics": {
+    "pedestrian-burst": {
+      "actuated": {
+        "phase_fractions": {
+          "EW": 0.18444444444444444,
+          "NS": 0.16836805555555556,
+          "PED": 0.26166666666666666,
+          "PED_CLEARANCE": 0.2398611111111111,
+          "ALL_RED": 0.058125,
+          "EW_YELLOW": 0.04555555555555556,
+          "NS_YELLOW": 0.04197916666666667
+        },
+        "max_queued_without_green": 139
+      },
+      "fixed": {
+        "phase_fractions": {
+          "EW": 0.3020833333333333,
+          "NS": 0.3020833333333333,
+          "PED": 0.145,
+          "PED_CLEARANCE": 0.13,
+          "ALL_RED": 0.04833333333333333,
+          "EW_YELLOW": 0.03625,
+          "NS_YELLOW": 0.03625
+        },
+        "max_queued_without_green": 57
+      },
+      "pressure": {
+        "phase_fractions": {
+          "EW": 0.24357638888888888,
+          "NS": 0.1707986111111111,
+          "PED": 0.23208333333333334,
+          "PED_CLEARANCE": 0.21274305555555556,
+          "ALL_RED": 0.05631944444444444,
+          "EW_YELLOW": 0.04229166666666667,
+          "NS_YELLOW": 0.0421875
+        },
+        "max_queued_without_green": 104
+      },
+      "mappo-continue": {
+        "phase_fractions": {
+          "EW": 0.19202546296296297,
+          "NS": 0.19670138888888888,
+          "PED": 0.23603009259259258,
+          "PED_CLEARANCE": 0.21525462962962963,
+          "ALL_RED": 0.0639699074074074,
+          "EW_YELLOW": 0.04756944444444444,
+          "NS_YELLOW": 0.048449074074074075
+        },
+        "max_queued_without_green": 194
+      },
+      "mappo-guided": {
+        "phase_fractions": {
+          "EW": 0.1666087962962963,
+          "NS": 0.17803240740740742,
+          "PED": 0.26815972222222223,
+          "PED_CLEARANCE": 0.24487268518518518,
+          "ALL_RED": 0.05690972222222222,
+          "EW_YELLOW": 0.04130787037037037,
+          "NS_YELLOW": 0.0441087962962963
+        },
+        "max_queued_without_green": 146
+      },
+      "mappo-original": {
+        "phase_fractions": {
+          "EW": 0.19100694444444444,
+          "NS": 0.19012731481481482,
+          "PED": 0.24180555555555555,
+          "PED_CLEARANCE": 0.22060185185185185,
+          "ALL_RED": 0.06253472222222223,
+          "EW_YELLOW": 0.04716435185185185,
+          "NS_YELLOW": 0.04675925925925926
+        },
+        "max_queued_without_green": 184
+      },
+      "mappo-tail": {
+        "phase_fractions": {
+          "EW": 0.17574074074074075,
+          "NS": 0.18987268518518519,
+          "PED": 0.2531365740740741,
+          "PED_CLEARANCE": 0.23063657407407406,
+          "ALL_RED": 0.06018518518518519,
+          "EW_YELLOW": 0.043541666666666666,
+          "NS_YELLOW": 0.046886574074074074
+        },
+        "max_queued_without_green": 169
+      }
+    },
+    "short-spacing": {
+      "actuated": {
+        "phase_fractions": {
+          "EW": 0.059479166666666666,
+          "NS": 0.29270833333333335,
+          "PED": 0.2629166666666667,
+          "PED_CLEARANCE": 0.24778472222222223,
+          "ALL_RED": 0.05479166666666667,
+          "EW_YELLOW": 0.012708333333333334,
+          "NS_YELLOW": 0.06958333333333333
+        },
+        "max_queued_without_green": 2080
+      },
+      "fixed": {
+        "phase_fractions": {
+          "EW": 0.3020833333333333,
+          "NS": 0.3020833333333333,
+          "PED": 0.145,
+          "PED_CLEARANCE": 0.13,
+          "ALL_RED": 0.04833333333333333,
+          "EW_YELLOW": 0.03625,
+          "NS_YELLOW": 0.03625
+        },
+        "max_queued_without_green": 57
+      },
+      "pressure": {
+        "phase_fractions": {
+          "EW": 0.19479166666666667,
+          "NS": 0.28878472222222223,
+          "PED": 0.17083333333333334,
+          "PED_CLEARANCE": 0.15659722222222222,
+          "ALL_RED": 0.07548611111111111,
+          "EW_YELLOW": 0.044270833333333336,
+          "NS_YELLOW": 0.06923611111111111
+        },
+        "max_queued_without_green": 180
+      },
+      "mappo-continue": {
+        "phase_fractions": {
+          "EW": 0.1682986111111111,
+          "NS": 0.2671064814814815,
+          "PED": 0.20186342592592593,
+          "PED_CLEARANCE": 0.1844212962962963,
+          "ALL_RED": 0.07128472222222222,
+          "EW_YELLOW": 0.04170138888888889,
+          "NS_YELLOW": 0.06532407407407408
+        },
+        "max_queued_without_green": 221
+      },
+      "mappo-guided": {
+        "phase_fractions": {
+          "EW": 0.10614583333333333,
+          "NS": 0.26510416666666664,
+          "PED": 0.24888888888888888,
+          "PED_CLEARANCE": 0.2278611111111111,
+          "ALL_RED": 0.06074074074074074,
+          "EW_YELLOW": 0.02625,
+          "NS_YELLOW": 0.065
+        },
+        "max_queued_without_green": 818
+      },
+      "mappo-original": {
+        "phase_fractions": {
+          "EW": 0.1600925925925926,
+          "NS": 0.2628240740740741,
+          "PED": 0.21134259259259258,
+          "PED_CLEARANCE": 0.19258101851851853,
+          "ALL_RED": 0.06924768518518519,
+          "EW_YELLOW": 0.03953703703703704,
+          "NS_YELLOW": 0.064375
+        },
+        "max_queued_without_green": 341
+      },
+      "mappo-tail": {
+        "phase_fractions": {
+          "EW": 0.14049768518518518,
+          "NS": 0.268125,
+          "PED": 0.22136574074074072,
+          "PED_CLEARANCE": 0.20290277777777777,
+          "ALL_RED": 0.06675925925925925,
+          "EW_YELLOW": 0.03474537037037037,
+          "NS_YELLOW": 0.06559027777777778
+        },
+        "max_queued_without_green": 387
+      }
+    },
+    "slow-walkers": {
+      "actuated": {
+        "phase_fractions": {
+          "EW": 0.17697916666666666,
+          "NS": 0.16260416666666666,
+          "PED": 0.27125,
+          "PED_CLEARANCE": 0.24865277777777778,
+          "ALL_RED": 0.05611111111111111,
+          "EW_YELLOW": 0.04392361111111111,
+          "NS_YELLOW": 0.04045138888888889
+        },
+        "max_queued_without_green": 142
+      },
+      "fixed": {
+        "phase_fractions": {
+          "EW": 0.3020833333333333,
+          "NS": 0.3020833333333333,
+          "PED": 0.145,
+          "PED_CLEARANCE": 0.13,
+          "ALL_RED": 0.04833333333333333,
+          "EW_YELLOW": 0.03625,
+          "NS_YELLOW": 0.03625
+        },
+        "max_queued_without_green": 57
+      },
+      "pressure": {
+        "phase_fractions": {
+          "EW": 0.2095138888888889,
+          "NS": 0.16930555555555554,
+          "PED": 0.2520833333333333,
+          "PED_CLEARANCE": 0.2310763888888889,
+          "ALL_RED": 0.05520833333333333,
+          "EW_YELLOW": 0.04083333333333333,
+          "NS_YELLOW": 0.041979166666666665
+        },
+        "max_queued_without_green": 117
+      },
+      "mappo-continue": {
+        "phase_fractions": {
+          "EW": 0.18469907407407407,
+          "NS": 0.18737268518518518,
+          "PED": 0.24809027777777778,
+          "PED_CLEARANCE": 0.22668055555555555,
+          "ALL_RED": 0.061238425925925925,
+          "EW_YELLOW": 0.045752314814814815,
+          "NS_YELLOW": 0.046157407407407404
+        },
+        "max_queued_without_green": 251
+      },
+      "mappo-guided": {
+        "phase_fractions": {
+          "EW": 0.15943287037037038,
+          "NS": 0.16836805555555556,
+          "PED": 0.2807638888888889,
+          "PED_CLEARANCE": 0.2561574074074074,
+          "ALL_RED": 0.05407407407407407,
+          "EW_YELLOW": 0.03951388888888889,
+          "NS_YELLOW": 0.04168981481481481
+        },
+        "max_queued_without_green": 154
+      },
+      "mappo-original": {
+        "phase_fractions": {
+          "EW": 0.18234953703703705,
+          "NS": 0.1812037037037037,
+          "PED": 0.2545601851851852,
+          "PED_CLEARANCE": 0.23235185185185186,
+          "ALL_RED": 0.05978009259259259,
+          "EW_YELLOW": 0.04510416666666667,
+          "NS_YELLOW": 0.044641203703703704
+        },
+        "max_queued_without_green": 162
+      },
+      "mappo-tail": {
+        "phase_fractions": {
+          "EW": 0.16810185185185186,
+          "NS": 0.18287037037037038,
+          "PED": 0.26381944444444444,
+          "PED_CLEARANCE": 0.24065972222222223,
+          "ALL_RED": 0.057777777777777775,
+          "EW_YELLOW": 0.04162037037037037,
+          "NS_YELLOW": 0.04515046296296296
+        },
+        "max_queued_without_green": 144
+      }
+    },
+    "vmedium-pmedium": {
+      "actuated": {
+        "phase_fractions": {
+          "EW": 0.18444444444444444,
+          "NS": 0.16836805555555556,
+          "PED": 0.26166666666666666,
+          "PED_CLEARANCE": 0.2398611111111111,
+          "ALL_RED": 0.058125,
+          "EW_YELLOW": 0.04555555555555556,
+          "NS_YELLOW": 0.04197916666666667
+        },
+        "max_queued_without_green": 139
+      },
+      "fixed": {
+        "phase_fractions": {
+          "EW": 0.3020833333333333,
+          "NS": 0.3020833333333333,
+          "PED": 0.145,
+          "PED_CLEARANCE": 0.13,
+          "ALL_RED": 0.04833333333333333,
+          "EW_YELLOW": 0.03625,
+          "NS_YELLOW": 0.03625
+        },
+        "max_queued_without_green": 57
+      },
+      "pressure": {
+        "phase_fractions": {
+          "EW": 0.2434375,
+          "NS": 0.17222222222222222,
+          "PED": 0.23041666666666666,
+          "PED_CLEARANCE": 0.21121527777777777,
+          "ALL_RED": 0.05708333333333333,
+          "EW_YELLOW": 0.042916666666666665,
+          "NS_YELLOW": 0.042708333333333334
+        },
+        "max_queued_without_green": 117
+      },
+      "mappo-continue": {
+        "phase_fractions": {
+          "EW": 0.19188657407407408,
+          "NS": 0.1966550925925926,
+          "PED": 0.2362152777777778,
+          "PED_CLEARANCE": 0.21550925925925926,
+          "ALL_RED": 0.06385416666666667,
+          "EW_YELLOW": 0.04746527777777778,
+          "NS_YELLOW": 0.048414351851851854
+        },
+        "max_queued_without_green": 194
+      },
+      "mappo-guided": {
+        "phase_fractions": {
+          "EW": 0.16636574074074073,
+          "NS": 0.17717592592592593,
+          "PED": 0.26914351851851853,
+          "PED_CLEARANCE": 0.24540509259259258,
+          "ALL_RED": 0.056747685185185186,
+          "EW_YELLOW": 0.041226851851851855,
+          "NS_YELLOW": 0.04393518518518519
+        },
+        "max_queued_without_green": 238
+      },
+      "mappo-original": {
+        "phase_fractions": {
+          "EW": 0.19105324074074073,
+          "NS": 0.18967592592592591,
+          "PED": 0.24202546296296296,
+          "PED_CLEARANCE": 0.22106481481481483,
+          "ALL_RED": 0.062418981481481485,
+          "EW_YELLOW": 0.047141203703703706,
+          "NS_YELLOW": 0.04662037037037037
+        },
+        "max_queued_without_green": 184
+      },
+      "mappo-tail": {
+        "phase_fractions": {
+          "EW": 0.17497685185185186,
+          "NS": 0.19010416666666666,
+          "PED": 0.25351851851851853,
+          "PED_CLEARANCE": 0.2310300925925926,
+          "ALL_RED": 0.060127314814814814,
+          "EW_YELLOW": 0.043298611111111114,
+          "NS_YELLOW": 0.04694444444444444
+        },
+        "max_queued_without_green": 169
+      }
+    }
+  },
+  "limitations": [
+    "No fresh SUMO replay or model deserialization.",
+    "Crossing bootstrap intervals were inspected but not independently regenerated."
+  ]
+}

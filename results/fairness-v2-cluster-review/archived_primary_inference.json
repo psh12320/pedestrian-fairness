@@ -1,0 +1,194 @@
+{
+  "ippo-constrained": {
+    "crossing_order": [
+      ":C0_c0",
+      ":C0_c1",
+      ":C0_c2",
+      ":C0_c3",
+      ":C1_c0",
+      ":C1_c1",
+      ":C1_c2",
+      ":C1_c3",
+      ":C2_c0",
+      ":C2_c1",
+      ":C2_c2",
+      ":C2_c3"
+    ],
+    "descriptive_pass": false,
+    "minimum_crossing_entries": 969,
+    "point_estimates": [
+      1.9498037420474756,
+      [
+        0.0,
+        1.1600000000000357,
+        -0.7199999999999349,
+        0.31999999999984396,
+        -0.520000000000131,
+        0.7600000000001721,
+        0.4000000000000554,
+        0.5200000000001168,
+        -0.47999999999996135,
+        0.2799999999999052,
+        1.0,
+        0.20000000000004547
+      ]
+    ],
+    "service_and_measurement_ok": false,
+    "statistical_support": false
+  },
+  "ippo-pedestrian": {
+    "crossing_order": [
+      ":C0_c0",
+      ":C0_c1",
+      ":C0_c2",
+      ":C0_c3",
+      ":C1_c0",
+      ":C1_c1",
+      ":C1_c2",
+      ":C1_c3",
+      ":C2_c0",
+      ":C2_c1",
+      ":C2_c2",
+      ":C2_c3"
+    ],
+    "descriptive_pass": false,
+    "minimum_crossing_entries": 968,
+    "point_estimates": [
+      1.5237390150305121,
+      [
+        0.15999999999996817,
+        1.20000000000001,
+        -0.6799999999999287,
+        0.19999999999985363,
+        -0.6000000000001364,
+        0.7200000000001623,
+        0.40000000000009095,
+        0.4800000000001212,
+        -0.599999999999909,
+        0.31999999999984396,
+        1.0,
+        0.16000000000003567
+      ]
+    ],
+    "service_and_measurement_ok": false,
+    "statistical_support": false
+  },
+  "ippo-vehicle": {
+    "crossing_order": [
+      ":C0_c0",
+      ":C0_c1",
+      ":C0_c2",
+      ":C0_c3",
+      ":C1_c0",
+      ":C1_c1",
+      ":C1_c2",
+      ":C1_c3",
+      ":C2_c0",
+      ":C2_c1",
+      ":C2_c2",
+      ":C2_c3"
+    ],
+    "descriptive_pass": false,
+    "minimum_crossing_entries": 0,
+    "point_estimates": null,
+    "service_and_measurement_ok": false,
+    "statistical_support": false
+  },
+  "mappo-constrained": {
+    "crossing_order": [
+      ":C0_c0",
+      ":C0_c1",
+      ":C0_c2",
+      ":C0_c3",
+      ":C1_c0",
+      ":C1_c1",
+      ":C1_c2",
+      ":C1_c3",
+      ":C2_c0",
+      ":C2_c1",
+      ":C2_c2",
+      ":C2_c3"
+    ],
+    "descriptive_pass": false,
+    "minimum_crossing_entries": 968,
+    "point_estimates": [
+      1.6427163636836934,
+      [
+        0.08000000000001961,
+        1.1599999999999469,
+        -0.7599999999999447,
+        0.2799999999998377,
+        -0.6000000000001364,
+        0.7600000000001721,
+        0.36000000000008114,
+        0.5200000000001168,
+        -0.5599999999998992,
+        0.2399999999998741,
+        0.9600000000000151,
+        0.20000000000002416
+      ]
+    ],
+    "service_and_measurement_ok": false,
+    "simultaneous_crossing_upper_97_5": 2.1600000000003448,
+    "statistical_support": false,
+    "vehicle_upper_97_5": 2.8095625389186543
+  },
+  "mappo-pedestrian": {
+    "crossing_order": [
+      ":C0_c0",
+      ":C0_c1",
+      ":C0_c2",
+      ":C0_c3",
+      ":C1_c0",
+      ":C1_c1",
+      ":C1_c2",
+      ":C1_c3",
+      ":C2_c0",
+      ":C2_c1",
+      ":C2_c2",
+      ":C2_c3"
+    ],
+    "descriptive_pass": false,
+    "minimum_crossing_entries": 969,
+    "point_estimates": [
+      1.3440491750276675,
+      [
+        0.23999999999997357,
+        1.1600000000000144,
+        -0.7599999999999696,
+        0.23999999999983856,
+        -0.6400000000001462,
+        0.720000000000141,
+        0.4800000000000644,
+        0.5200000000001168,
+        -0.599999999999909,
+        0.1999999999998643,
+        1.0,
+        0.08000000000001961
+      ]
+    ],
+    "service_and_measurement_ok": false,
+    "statistical_support": false
+  },
+  "mappo-vehicle": {
+    "crossing_order": [
+      ":C0_c0",
+      ":C0_c1",
+      ":C0_c2",
+      ":C0_c3",
+      ":C1_c0",
+      ":C1_c1",
+      ":C1_c2",
+      ":C1_c3",
+      ":C2_c0",
+      ":C2_c1",
+      ":C2_c2",
+      ":C2_c3"
+    ],
+    "descriptive_pass": false,
+    "minimum_crossing_entries": 0,
+    "point_estimates": null,
+    "service_and_measurement_ok": false,
+    "statistical_support": false
+  }
+}

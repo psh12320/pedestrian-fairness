@@ -1,5 +1,7 @@
 # Local SUMO experiment after the implementation audit
 
+**Completed, 4 November 2026:** all 1,396 simulations finished. [Independent review](../results/audit-repair-review/REVIEW.md) and [full original report](../results/audit-repair-review/archived_REPORT.md). The launch/recovery narrative below is historical; it does not describe a currently running experiment.
+
 This is a new, controlled development experiment. It tests whether two identified implementation changes improve actual SUMO outcomes, rather than assuming that better code or a lower value-prediction error implies better traffic control. It preserves earlier negative results and does not use the reserved final test seeds.
 
 ## Frozen comparison
@@ -51,7 +53,8 @@ Track effective free decisions, action entropy, KL, both gradient norms and valu
 
 This study does not change the reward, expose insertion backlog to the critic, train a continuing traffic objective, increase the corridor-through route share, or reproduce a published external traffic algorithm. Those were separate audit concerns. Keeping them unchanged allows the memory and clipping mechanisms to be tested without attributing a bundle of unrelated changes to one correction.
 
-The existing guided/RND cluster study remains separate and unmodified. No report here should imply that it has finished unless its own evidence confirms completion.
+The completed guided/RND cluster study remains separate and unmodified; see its
+[independent review](../results/guided-exploration-cluster-review/REVIEW.md).
 
 ## Outputs and verification
 

@@ -1,5 +1,7 @@
 # Final-week evidence, experiments and presentation
 
+**Historical snapshot:** this review predates the completed supplementary studies. Use the [dated experiment catalogue](experiments/README.md) for current status; retain the results and uncertainties here as historical evidence.
+
 Review date: 2 November 2026. This is a proposed work schedule, not a claim that the follow-up experiments have run.
 
 ## Keep the original question and expose partial progress

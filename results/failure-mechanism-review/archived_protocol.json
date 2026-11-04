@@ -1,0 +1,42 @@
+{
+  "archive_sha256": "ea17b162e3329e777abe0f98122ffae42d2642453bedd704fc5e8eef75447725",
+  "cases": [
+    [
+      "mappo-age-r2",
+      890004
+    ],
+    [
+      "mappo-guided-r1",
+      890004
+    ],
+    [
+      "mappo-guided-r2",
+      890005
+    ],
+    [
+      "actuated",
+      890004
+    ],
+    [
+      "actuated",
+      890005
+    ],
+    [
+      "imitation-r2",
+      890004
+    ],
+    [
+      "imitation-r1",
+      890004
+    ],
+    [
+      "imitation-r2",
+      890005
+    ]
+  ],
+  "final_test_seeds_used": false,
+  "instrumentation": "Read-only sample callback and signal advance wrapper",
+  "limits": "Targeted post-hoc failure diagnosis, not an estimate of failure frequency. Historical collision settings retained for exact replay.",
+  "protocol_fingerprint": "5cc6251a3e3f9418d896fb46a385980c6258186f23f6ce0b02c3dfa0f07ff3ce",
+  "source": "Hash-verified archived source, unchanged simulation and policy"
+}

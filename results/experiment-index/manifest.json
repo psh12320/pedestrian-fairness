@@ -1,0 +1,1161 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-05",
+  "scope": "Public result files, not entire source history or raw runs.",
+  "files": [
+    {
+      "path": "results/audit-repair-review/archived_protocol.json",
+      "hashed_bytes": 7687,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d6752f5c5fd37dc0ec4035b5d3ef60c0bd839b5c79fc6611c731db0220045f56"
+    },
+    {
+      "path": "results/audit-repair-review/archived_recovery-20261103.json",
+      "hashed_bytes": 4343,
+      "hash_encoding": "lf-normalized",
+      "sha256": "91b131d6560ba5fd9db2677883528d1a60dcee082d77148011d2c857c77a6a38"
+    },
+    {
+      "path": "results/audit-repair-review/archived_REPORT.md",
+      "hashed_bytes": 20513,
+      "hash_encoding": "lf-normalized",
+      "sha256": "9fec45bf9e75528a4d4fe80ab0738934bba4d328854be0e6212866f044671246"
+    },
+    {
+      "path": "results/audit-repair-review/archived_status.json",
+      "hashed_bytes": 996,
+      "hash_encoding": "lf-normalized",
+      "sha256": "a417fe216771c558389ca44a656979ebbbed9446b8ec792bc7e242931e60c7d3"
+    },
+    {
+      "path": "results/audit-repair-review/archived_summary.json.gz",
+      "hashed_bytes": 798585,
+      "hash_encoding": "bytes",
+      "sha256": "f74b5de64ad9e45c29501c6a84a5c5c7fb0beac1bd60e1050e31caf55ca361ee"
+    },
+    {
+      "path": "results/audit-repair-review/audit.json",
+      "hashed_bytes": 13754,
+      "hash_encoding": "lf-normalized",
+      "sha256": "144449daca9d0ab7f323d6542bfbd51505c63a12bcc293c328bbb1393ae29b35"
+    },
+    {
+      "path": "results/audit-repair-review/REVIEW.md",
+      "hashed_bytes": 7956,
+      "hash_encoding": "lf-normalized",
+      "sha256": "800a916df0d22228633ec71a309ef4be1906bfdad0e91233c904ae1f84396a23"
+    },
+    {
+      "path": "results/critic-checks/REVIEW.md",
+      "hashed_bytes": 5943,
+      "hash_encoding": "lf-normalized",
+      "sha256": "ebbe9e1406134712178d82207b6bb4062a9f1575ca0bb61447efd8d48489c730"
+    },
+    {
+      "path": "results/critic-checks-cluster/REVIEW.md",
+      "hashed_bytes": 6199,
+      "hash_encoding": "lf-normalized",
+      "sha256": "916627f5bc1214c7086f029219ad7cfda2406e07f5183a7781f865eea2fb8370"
+    },
+    {
+      "path": "results/critic-checks-cluster/summary.json",
+      "hashed_bytes": 52612,
+      "hash_encoding": "lf-normalized",
+      "sha256": "52064c96737127886567619ca3cfaef65fb521cdfb5f8dcf26494a14f079406d"
+    },
+    {
+      "path": "results/critic-data-volume-cluster/REVIEW.md",
+      "hashed_bytes": 7290,
+      "hash_encoding": "lf-normalized",
+      "sha256": "8a5a63e83fec1a4277a1e86a8eac523b7fced53e07a19392f22ecf657650db41"
+    },
+    {
+      "path": "results/critic-data-volume-cluster/summary.json",
+      "hashed_bytes": 112895,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e328b462962312559e43ff04f94090391eb6f9875def38c90ba07d86c5cf912c"
+    },
+    {
+      "path": "results/crossing_summary.csv",
+      "hashed_bytes": 56568,
+      "hash_encoding": "lf-normalized",
+      "sha256": "50fdfc65215c0cfcfacfe94025f6adb0e1563b98836ca3cef050e9d7741d65fa"
+    },
+    {
+      "path": "results/crossings.csv",
+      "hashed_bytes": 223085,
+      "hash_encoding": "lf-normalized",
+      "sha256": "824a063fc2c7a76f54e9e043262d1309d7a807a5ee211eef64c65f630da3e902"
+    },
+    {
+      "path": "results/demand-service-review/archived_protocol.json",
+      "hashed_bytes": 32517,
+      "hash_encoding": "lf-normalized",
+      "sha256": "0463dc47796483eda9df8db2a5977eff8c71f1122c26387b4390b6d12e987a5a"
+    },
+    {
+      "path": "results/demand-service-review/archived_REPORT.md",
+      "hashed_bytes": 16002,
+      "hash_encoding": "lf-normalized",
+      "sha256": "40f183f45fb7b0a48573f2efd47c2f1e4ab83b78581f618771e9ebff5a00e259"
+    },
+    {
+      "path": "results/demand-service-review/archived_status.json",
+      "hashed_bytes": 213,
+      "hash_encoding": "lf-normalized",
+      "sha256": "2e5efa0bfc06dcea83081f2fa234e9f1f8f1c62ea975aead480af7bc67c7a896"
+    },
+    {
+      "path": "results/demand-service-review/archived_summary.json",
+      "hashed_bytes": 3163852,
+      "hash_encoding": "lf-normalized",
+      "sha256": "125f62eec2851e80d0ad1b679b5bdcf2250c62cd8c15033367dbb4025717ecc1"
+    },
+    {
+      "path": "results/demand-service-review/audit.json",
+      "hashed_bytes": 62490,
+      "hash_encoding": "lf-normalized",
+      "sha256": "4a55134fdd68eaf955b453911f48b0a434238b32ca64676369eaea693c7b7cb0"
+    },
+    {
+      "path": "results/demand-service-review/crossing_differences.png",
+      "hashed_bytes": 268707,
+      "hash_encoding": "bytes",
+      "sha256": "94722e4edece8f34def09affedebad94dd8450da67fffe8747b56865b85c1b39"
+    },
+    {
+      "path": "results/demand-service-review/crossing_differences.svg",
+      "hashed_bytes": 177657,
+      "hash_encoding": "lf-normalized",
+      "sha256": "87c76a896af5caed463f457ca3b3627c7ddecf647bd58ac070a078bb0cb85e89"
+    },
+    {
+      "path": "results/demand-service-review/empty_pedestrian_service.png",
+      "hashed_bytes": 125186,
+      "hash_encoding": "bytes",
+      "sha256": "31ad32e64d437550ec061eb79a5ba4d1cd4282b8a45979f0c0c7a4afa050128d"
+    },
+    {
+      "path": "results/demand-service-review/empty_pedestrian_service.svg",
+      "hashed_bytes": 100512,
+      "hash_encoding": "lf-normalized",
+      "sha256": "29df140eae615433bb5afdcd85278033a8697450e54695d554a46b72fb1218e0"
+    },
+    {
+      "path": "results/demand-service-review/REVIEW.md",
+      "hashed_bytes": 15961,
+      "hash_encoding": "lf-normalized",
+      "sha256": "9dbe6fca838469e7cfaa32b5bfa6afdfea3c2ceeac4033a0e30fe0ef183f045a"
+    },
+    {
+      "path": "results/demand-service-review/vehicle_changes.png",
+      "hashed_bytes": 147917,
+      "hash_encoding": "bytes",
+      "sha256": "688f4d33b3b20f8b452e388e4197eed29750b56329436afb6e398cf23d7dc4e6"
+    },
+    {
+      "path": "results/demand-service-review/vehicle_changes.svg",
+      "hashed_bytes": 150068,
+      "hash_encoding": "lf-normalized",
+      "sha256": "df27e7cd50a60f35c79f1f80fab44afd243638685b821980d6a4162a40389014"
+    },
+    {
+      "path": "results/demand-service-review/vehicle_choice_diagnostic.json",
+      "hashed_bytes": 9045,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7cb3772990c6f6e532f05945f135beccc8dba678e3d4c47dc95530aa2e0d5409"
+    },
+    {
+      "path": "results/experiment-index/local_artifacts.json",
+      "hashed_bytes": 35863,
+      "hash_encoding": "lf-normalized",
+      "sha256": "3663e51e1f00a7217e7340dda6e8cfe4587a1aba2020cd130fa0acc1062b9851"
+    },
+    {
+      "path": "results/experiment-index/partial_local_finetune_status.json",
+      "hashed_bytes": 792,
+      "hash_encoding": "lf-normalized",
+      "sha256": "43ac0d966bfa3fa7e5b4ebeae9e60bb710c73c86f24498185528ab287a496564"
+    },
+    {
+      "path": "results/experiment-index/protocols/E05/service-priority-pilot.json",
+      "hashed_bytes": 5012,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e4375d43ffa710260fe94daf6af6c8cacb91acc9a15f4224f3432f8e92fd0fae"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-fit-actuated-results.json",
+      "hashed_bytes": 5284,
+      "hash_encoding": "lf-normalized",
+      "sha256": "1de4e18277463f9a614e3438db12c591156776a5beadbab239a885aa13efdc2d"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-fit-plain-mappo-r0.json",
+      "hashed_bytes": 5463,
+      "hash_encoding": "lf-normalized",
+      "sha256": "52e9c72117b15f0521813efdde2569e8a9a106e64e93a78a4bad7b1e41f9223c"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-fit-priority-mappo-r0.json",
+      "hashed_bytes": 5466,
+      "hash_encoding": "lf-normalized",
+      "sha256": "916d91f514608583fd36cc6f1f7907990ea61840ce48b56a7c400949b2e12c70"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-horizon-actuated-results.json",
+      "hashed_bytes": 5807,
+      "hash_encoding": "lf-normalized",
+      "sha256": "35eb72977ec75f4cd657fa999c34cca3a3f3f9d836828679c675a2fbe24192ed"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-horizon-plain-mappo-r0.json",
+      "hashed_bytes": 5986,
+      "hash_encoding": "lf-normalized",
+      "sha256": "b40f4fe11b75c01b5236e5080c776e0028534dac6f7225b8d0e76e2c1da1bf64"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-horizon-priority-mappo-r0.json",
+      "hashed_bytes": 5989,
+      "hash_encoding": "lf-normalized",
+      "sha256": "88ed20a583931ee6d5680b3474b78e4b65e553ecad6c555b3c9b327c7b1ccc1f"
+    },
+    {
+      "path": "results/experiment-index/protocols/E08/critic-data-plain-mappo-r0.json",
+      "hashed_bytes": 6211,
+      "hash_encoding": "lf-normalized",
+      "sha256": "92da17a5075d119549daa73c13f3ab2eb6ea508e4c9daee9829c615b5011ce90"
+    },
+    {
+      "path": "results/experiment-index/protocols/E08/critic-data-priority-mappo-r0.json",
+      "hashed_bytes": 6214,
+      "hash_encoding": "lf-normalized",
+      "sha256": "b2e9b79920dd0eff6ac90dc134d5ce24ba82e959516028ddda837c99c8274398"
+    },
+    {
+      "path": "results/experiment-index/protocols/E09/ppo-repair-pilot.json",
+      "hashed_bytes": 6717,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e9579e4900187617d890856bed9c20fa2a3803425e8fc6f7bf5dc7db4b31acf5"
+    },
+    {
+      "path": "results/failure-mechanism-review/archived_protocol.json",
+      "hashed_bytes": 920,
+      "hash_encoding": "lf-normalized",
+      "sha256": "c8e8d971ca1dab7e62bf54e9caf04705560878edfe952595fa6304aeda7c0d86"
+    },
+    {
+      "path": "results/failure-mechanism-review/REVIEW.md",
+      "hashed_bytes": 3221,
+      "hash_encoding": "lf-normalized",
+      "sha256": "78853f62c42c79c5bf06216aa352984e9941bd2543f8d25831c7e7bba1e43514"
+    },
+    {
+      "path": "results/failure-mechanism-review/summary.json",
+      "hashed_bytes": 312224,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e4425176cc9db3f15352c7c3831025b43ffc0f268cbf7d197622795436bdfb5e"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/archived_primary_inference.json",
+      "hashed_bytes": 4109,
+      "hash_encoding": "lf-normalized",
+      "sha256": "27635a0417576eeba51d5cdb48b441ade646da5d794acbc4fd70f2bf60970421"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/archived_protocol.json",
+      "hashed_bytes": 9250,
+      "hash_encoding": "lf-normalized",
+      "sha256": "2a31998ca910601e1d25f736a8d610feae2bedbb636bd6782f36a676270ba544"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/archived_REPORT.md",
+      "hashed_bytes": 7032,
+      "hash_encoding": "lf-normalized",
+      "sha256": "36bf28e1db531ba029eb7a4f158d2c21e575ed603219e32a15515bd32e242a09"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/README.md",
+      "hashed_bytes": 1535,
+      "hash_encoding": "lf-normalized",
+      "sha256": "2b8ff9cc55243d50554ce217984a5d9e6125407c1426a8bd33e2649e5519d8c0"
+    },
+    {
+      "path": "results/fairness-v2-progress/episode-64-review.md",
+      "hashed_bytes": 3268,
+      "hash_encoding": "lf-normalized",
+      "sha256": "eebad06d94d46446dbeb4774d13aeb2295784e46fc134bb8786ea3483df542a1"
+    },
+    {
+      "path": "results/final-study/action_decisions.csv",
+      "hashed_bytes": 145021,
+      "hash_encoding": "lf-normalized",
+      "sha256": "0ca43df74bf27a6e1f5d92ea4210cd7b812fb9a5b7088b4338a1ad3c072189d2"
+    },
+    {
+      "path": "results/final-study/crossing_comparison.csv",
+      "hashed_bytes": 8224,
+      "hash_encoding": "lf-normalized",
+      "sha256": "6156615120485a346526ca7416016e5a914a9b61209f1f101cc1db659f63066b"
+    },
+    {
+      "path": "results/final-study/crossing_differences.png",
+      "hashed_bytes": 401332,
+      "hash_encoding": "bytes",
+      "sha256": "a31dc575f432b39dd195029a85bc814e986cc80a79f15f948f032570709e7ff1"
+    },
+    {
+      "path": "results/final-study/crossing_differences.svg",
+      "hashed_bytes": 184741,
+      "hash_encoding": "lf-normalized",
+      "sha256": "b581137e1cae2a0582985fa3dc96a32ffd94f23d5a5d4428501cd289e193d448"
+    },
+    {
+      "path": "results/final-study/crossing_events.csv",
+      "hashed_bytes": 51289207,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7f73ee30febbf39dfa4ba5e0b085c817dfe94217da3238cd59347096ab5a7421"
+    },
+    {
+      "path": "results/final-study/crossing_summary.csv",
+      "hashed_bytes": 77464,
+      "hash_encoding": "lf-normalized",
+      "sha256": "6871a075e6217d3eb48def117b84c96a622df6bf3be9f5a701139c5ce40ab1e6"
+    },
+    {
+      "path": "results/final-study/crossings.csv",
+      "hashed_bytes": 3824698,
+      "hash_encoding": "lf-normalized",
+      "sha256": "381712f04b991491f31708e0ac4aab0b807454a73a6d59b7b87f02ab7fcdcdc1"
+    },
+    {
+      "path": "results/final-study/decision_divergence.csv",
+      "hashed_bytes": 1263,
+      "hash_encoding": "lf-normalized",
+      "sha256": "a81e4d8c08187bd27827790e610a8e3187e245fbb9fcc9e9831544182415cb7f"
+    },
+    {
+      "path": "results/final-study/extension_decision.json",
+      "hashed_bytes": 1704,
+      "hash_encoding": "lf-normalized",
+      "sha256": "b21a74956d60550ca48fdf7170046ecbad53d92e149d7361134e4650fb016241"
+    },
+    {
+      "path": "results/final-study/figure_provenance.json",
+      "hashed_bytes": 235,
+      "hash_encoding": "lf-normalized",
+      "sha256": "ff136d87d672176c770b65efff23119280af2e3538e0ebfe602f9a2ddb442c12"
+    },
+    {
+      "path": "results/final-study/imputation_summary.csv",
+      "hashed_bytes": 86005,
+      "hash_encoding": "lf-normalized",
+      "sha256": "fd6b041282610f6ff984ec25fafe579d0820b82075ac7e776ac5d23885f7bd0a"
+    },
+    {
+      "path": "results/final-study/learning_curves.png",
+      "hashed_bytes": 222963,
+      "hash_encoding": "bytes",
+      "sha256": "af18ec50af7d1e74c9c07c237908de8adc0defd0d89246ee7f18f12615f67c72"
+    },
+    {
+      "path": "results/final-study/learning_curves.svg",
+      "hashed_bytes": 38703,
+      "hash_encoding": "lf-normalized",
+      "sha256": "5619c0b56d73b2088053c1dd1b1f61957d72343d13134e2b15abb7851ac697df"
+    },
+    {
+      "path": "results/final-study/paper_crossings.png",
+      "hashed_bytes": 77263,
+      "hash_encoding": "bytes",
+      "sha256": "af526e6078c8d8f7bd39759502ca8e477dcce3dc3eff7c97eae81f2ca8b5080b"
+    },
+    {
+      "path": "results/final-study/paper_crossings.svg",
+      "hashed_bytes": 26576,
+      "hash_encoding": "lf-normalized",
+      "sha256": "c86683ffa189dc6fe581f5893d433d5d2aa3d25981247544929a11404bfc81c9"
+    },
+    {
+      "path": "results/final-study/paper_learning_curves.png",
+      "hashed_bytes": 120839,
+      "hash_encoding": "bytes",
+      "sha256": "c689be2c2f16120d46143b00a089a6100e837c543061651ec1a0f1495c8b37c5"
+    },
+    {
+      "path": "results/final-study/paper_learning_curves.svg",
+      "hashed_bytes": 28895,
+      "hash_encoding": "lf-normalized",
+      "sha256": "31cb15752ae058d52bff8c7ea87242a81a72bfd6f411de7849c3ed8a7a6d725e"
+    },
+    {
+      "path": "results/final-study/paper_tradeoff.png",
+      "hashed_bytes": 64949,
+      "hash_encoding": "bytes",
+      "sha256": "cca4b19716330405c2511fdbad5c9ad9e28c7eaa5d9bc0c56a38bbd5caf3310d"
+    },
+    {
+      "path": "results/final-study/paper_tradeoff.svg",
+      "hashed_bytes": 26015,
+      "hash_encoding": "lf-normalized",
+      "sha256": "623c1cb7c180b01c6a87ad608705c919031cfa352d5095773350723b4d6b54c2"
+    },
+    {
+      "path": "results/final-study/phase_history.csv",
+      "hashed_bytes": 199009,
+      "hash_encoding": "lf-normalized",
+      "sha256": "2c7d7bffa8bfb1dc95d771848f2068314ad1ac45d564b7e5a00f98a0cb87fdc3"
+    },
+    {
+      "path": "results/final-study/REPORT.md",
+      "hashed_bytes": 33209,
+      "hash_encoding": "lf-normalized",
+      "sha256": "2f6d0f03e21a3630e58909572ad4603a8662afc5ef59067508f4bdcabffef04b"
+    },
+    {
+      "path": "results/final-study/runs.csv",
+      "hashed_bytes": 733979,
+      "hash_encoding": "lf-normalized",
+      "sha256": "a8a878a87b05e954f2584b8b91ef37763fcbf89f29b7ce30448556839b1dc88f"
+    },
+    {
+      "path": "results/final-study/sampling_audit.json",
+      "hashed_bytes": 3894,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e2d96ee98d00a3601d885f9802f2bcd25ca9148cf9f35e5cff031e73e185ac1d"
+    },
+    {
+      "path": "results/final-study/sampling_events.csv",
+      "hashed_bytes": 3388,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d07a92b2892e169ea85242408f23bc76e9f8d25dbec966d5e6f29cd36b43c08f"
+    },
+    {
+      "path": "results/final-study/sampling_hand_trace.csv",
+      "hashed_bytes": 8157,
+      "hash_encoding": "lf-normalized",
+      "sha256": "18b75ed02817c772b660b3f9e9c8f3486f0415aed9303f3848ef458097e7a8c7"
+    },
+    {
+      "path": "results/final-study/slow_crossing_comparison.csv",
+      "hashed_bytes": 8757,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7cc86962c7aa33d348ce9f9b5f7377dbd461edd7c06c5db45aa1350fdbe2c3c2"
+    },
+    {
+      "path": "results/final-study/summary.json",
+      "hashed_bytes": 520233,
+      "hash_encoding": "lf-normalized",
+      "sha256": "4ecb837de7a772319d15971ec77428c7d52173c6d9e71df913e4898df2c1d328"
+    },
+    {
+      "path": "results/final-study/tradeoff.png",
+      "hashed_bytes": 70347,
+      "hash_encoding": "bytes",
+      "sha256": "da2f232576c30cef21fbf3caf092d71f6d418d8ee6d4cc86be7a079319ca7b9a"
+    },
+    {
+      "path": "results/final-study/tradeoff.svg",
+      "hashed_bytes": 27435,
+      "hash_encoding": "lf-normalized",
+      "sha256": "0cce8fc01c2c6fcb6d0810f27c1f9ed6b53537c83428479d6b6e783199d39c1a"
+    },
+    {
+      "path": "results/final-study/training_source_hashes.json",
+      "hashed_bytes": 1299,
+      "hash_encoding": "lf-normalized",
+      "sha256": "856209529cf663d5a919c704e0c49d5cd517208209a84b4a2c23544a49411d8a"
+    },
+    {
+      "path": "results/final-study/validation.jsonl",
+      "hashed_bytes": 10232,
+      "hash_encoding": "bytes",
+      "sha256": "84e4b6b770639d81b037de7848edfc0eeab6ae0d324e248793996d631fd86898"
+    },
+    {
+      "path": "results/friend-marl-tsc-review/audit.json",
+      "hashed_bytes": 705900,
+      "hash_encoding": "lf-normalized",
+      "sha256": "990a92127a712ccf928f0b2db492967de928865d550204e6ee2dcf3b9b2de981"
+    },
+    {
+      "path": "results/friend-marl-tsc-review/REVIEW.md",
+      "hashed_bytes": 15465,
+      "hash_encoding": "lf-normalized",
+      "sha256": "0b1342acb8baae2912f612437e7d6c155993a7d04a02fc60b73506baa333478d"
+    },
+    {
+      "path": "results/friend-marl-tsc-review/verified_per_seed_failures.csv",
+      "hashed_bytes": 1751,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7dba7ed4843b5889fa2cfbaf81e0e57ad136b8ee3b196c76a8bc1cc4cc5c1992"
+    },
+    {
+      "path": "results/friend-marl-tsc-review/verified_vehicle_cells.csv",
+      "hashed_bytes": 19589,
+      "hash_encoding": "lf-normalized",
+      "sha256": "4e762570583b92497e49dcd92a18e7302bc5b89ac62187ca695b350d1e54b2de"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/analyze.py",
+      "hashed_bytes": 17978,
+      "hash_encoding": "lf-normalized",
+      "sha256": "09bfa8011987a3c8662d268ff3d07c832d457ad54dbc75a4560063a45a8e0511"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/archived_protocol.json",
+      "hashed_bytes": 8122,
+      "hash_encoding": "lf-normalized",
+      "sha256": "47cadda8aba29a0aa5d6c1bffb2dea1702ae570af693b62f1f9f2c13479fd7b5"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/archived_REPORT.md",
+      "hashed_bytes": 8136,
+      "hash_encoding": "lf-normalized",
+      "sha256": "4582ed707b076c14a15b77de4365a4193649baf3af0ec311a1adc78dbd555ada"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/archived_summary.json",
+      "hashed_bytes": 1163064,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7e05b37f1190ea47d0c8bedda72cade5e916bf114a5ee6c0c44344d94aa00e31"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/audit.json",
+      "hashed_bytes": 32503,
+      "hash_encoding": "lf-normalized",
+      "sha256": "dada74e59da910ea1a628b81f22f639a4813364d966696b6ea51c4548eb58e1a"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/medium_tradeoff.png",
+      "hashed_bytes": 122799,
+      "hash_encoding": "bytes",
+      "sha256": "afcdcdf65de041a861bab6d22e687d41d3bc10bcd527a8d45b2fe186b5c38e1b"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/medium_tradeoff.svg",
+      "hashed_bytes": 109889,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d152407143680986fd59634237797a04e6e008e2b8246399967e139d1b517e79"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/REVIEW.md",
+      "hashed_bytes": 13279,
+      "hash_encoding": "lf-normalized",
+      "sha256": "80ff2b07b3029c378a6962d922189af6cd80db01123d8d9ca0a4d5d40f8b396e"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/validation_trends.png",
+      "hashed_bytes": 133690,
+      "hash_encoding": "bytes",
+      "sha256": "1e9c20f4903028895c7b07bc42c186715459bf7e6777d1a406500f47d7cae42a"
+    },
+    {
+      "path": "results/guided-exploration-cluster-review/validation_trends.svg",
+      "hashed_bytes": 68143,
+      "hash_encoding": "lf-normalized",
+      "sha256": "a2fbe1482d5f52512788aa37bb2e948812c4c3fe2123d56a890a087a734bdacf"
+    },
+    {
+      "path": "results/local-timing-study/export.json",
+      "hashed_bytes": 562,
+      "hash_encoding": "lf-normalized",
+      "sha256": "bbabc00af9e547de246ad8c7d3fddc85762b89ab988f9cbfaa554e755117a4bf"
+    },
+    {
+      "path": "results/local-timing-study/protocol.json",
+      "hashed_bytes": 6214,
+      "hash_encoding": "lf-normalized",
+      "sha256": "451210ab592300042f098f894f5ace3cad3d621b722a69312c16a1d8a8036d44"
+    },
+    {
+      "path": "results/local-timing-study/REPORT.md",
+      "hashed_bytes": 5259,
+      "hash_encoding": "lf-normalized",
+      "sha256": "390be297673fcf97e4154d5646fa2da6093addc7dbebf85c20e069bfe2f3339f"
+    },
+    {
+      "path": "results/local-timing-study/summary.json",
+      "hashed_bytes": 200023,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d9aed0f01a8e3a0489af577d470d04317c257c9bf630f62722cc0af622808c5a"
+    },
+    {
+      "path": "results/measurement-resolution/event_comparison.csv",
+      "hashed_bytes": 3388,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d07a92b2892e169ea85242408f23bc76e9f8d25dbec966d5e6f29cd36b43c08f"
+    },
+    {
+      "path": "results/measurement-resolution/hand_trace.csv",
+      "hashed_bytes": 8157,
+      "hash_encoding": "lf-normalized",
+      "sha256": "18b75ed02817c772b660b3f9e9c8f3486f0415aed9303f3848ef458097e7a8c7"
+    },
+    {
+      "path": "results/measurement-resolution/summary.json",
+      "hashed_bytes": 3894,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e2d96ee98d00a3601d885f9802f2bcd25ca9148cf9f35e5cff031e73e185ac1d"
+    },
+    {
+      "path": "results/metrics-guide/guided_all_settings.md",
+      "hashed_bytes": 39929,
+      "hash_encoding": "lf-normalized",
+      "sha256": "28dac68ebb15ebe43af9c15473a230dc4c44e68d3fca2d17c56311ebad628e38"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/archived_protocol.json",
+      "hashed_bytes": 17364,
+      "hash_encoding": "lf-normalized",
+      "sha256": "ca4d7e81271fba50d691ad1b096f45f500ef206bb9739010f1101c213921a7a0"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/archived_REPORT.md",
+      "hashed_bytes": 56645,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7f02c486ea45473e1574babf8ef5f725a434a371cc342e1801ac7e55e011144e"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/archived_status.json",
+      "hashed_bytes": 743,
+      "hash_encoding": "lf-normalized",
+      "sha256": "44bdd1b0850fd89b650827e5286fb0a32dff39129ec6596b8aa1a22d3e10cecf"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/archived_summary.json",
+      "hashed_bytes": 2108331,
+      "hash_encoding": "lf-normalized",
+      "sha256": "59517581ae10cbce4b8a5c20324ea044b946ead62b846e48c5dd362a1b9df3ab"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/audit.json",
+      "hashed_bytes": 20298,
+      "hash_encoding": "lf-normalized",
+      "sha256": "30ceb1e36836ccc7e15a6c0cbcec4b84ba29590dc2ebf49ff080d2dbda410938"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/medium_crossing_p95.png",
+      "hashed_bytes": 170610,
+      "hash_encoding": "bytes",
+      "sha256": "158e9bf674c43a3a4cc557f6711b05176e2f751a152b466370206e362ec4cb8d"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/medium_crossing_p95.svg",
+      "hashed_bytes": 78783,
+      "hash_encoding": "lf-normalized",
+      "sha256": "62870a60a5a3762ac8724da0220bfe82fff7fd18e5e11f7c015e2308095ae7ce"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/medium_tradeoff.png",
+      "hashed_bytes": 77329,
+      "hash_encoding": "bytes",
+      "sha256": "a13bd20562becafffef6c5bdbb3ab481b98fd54b1e8611185eeb2c4cd628ec97"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/medium_tradeoff.svg",
+      "hashed_bytes": 57503,
+      "hash_encoding": "lf-normalized",
+      "sha256": "3e26337c08a2a388dbf91472691f12faa348e0b4a560a0456f46b6e6281e4a74"
+    },
+    {
+      "path": "results/pedestrian-finetune-cluster-review/REVIEW.md",
+      "hashed_bytes": 12950,
+      "hash_encoding": "lf-normalized",
+      "sha256": "ae93559718309aeb721cf4a95e77905e46ef702894daaff3b2085f45d27a80c3"
+    },
+    {
+      "path": "results/pedestrian-finetune-preflight/README.md",
+      "hashed_bytes": 884,
+      "hash_encoding": "lf-normalized",
+      "sha256": "76ac40f4c20f7e038178fb4a693f03184dd8d67789346a6239a146145cbfd8b3"
+    },
+    {
+      "path": "results/pedestrian-finetune-preflight/verification.json",
+      "hashed_bytes": 760,
+      "hash_encoding": "lf-normalized",
+      "sha256": "72a19e9115be998995ca7f5feaa4b9920cd6ab24d76c94fb07e71eb6f7b2dc11"
+    },
+    {
+      "path": "results/ppo-repair-cluster/CLUSTER_REPORT.md",
+      "hashed_bytes": 11328,
+      "hash_encoding": "lf-normalized",
+      "sha256": "6ac6baca50efb569d180c5eae194400adce9b91404cb82c9ecdbf8c6fcf2be15"
+    },
+    {
+      "path": "results/ppo-repair-cluster/REVIEW.md",
+      "hashed_bytes": 7619,
+      "hash_encoding": "lf-normalized",
+      "sha256": "235da1d9afafed6ff6529bb4df39c2e3d6fb4ed34be983ce05bb7264ee167fed"
+    },
+    {
+      "path": "results/ppo-repair-cluster/summary.json",
+      "hashed_bytes": 474507,
+      "hash_encoding": "lf-normalized",
+      "sha256": "ac022d0dd0e892c693827dff2d1e8bb90a1a0a40b166a4b9d1b36bdeec801712"
+    },
+    {
+      "path": "results/PRESENTATION.md",
+      "hashed_bytes": 1126,
+      "hash_encoding": "lf-normalized",
+      "sha256": "89cdd8b1a36ec93a78ab1e911695e8956ee06abbad8e7ec7f20ba5d72b298db7"
+    },
+    {
+      "path": "results/project-review/crossing_differences.png",
+      "hashed_bytes": 90715,
+      "hash_encoding": "bytes",
+      "sha256": "accbde6a4e4b6b043ed0a3e467d5c989a4e1ac4afa272a4a7d8fb9d5d965588b"
+    },
+    {
+      "path": "results/project-review/crossing_differences.svg",
+      "hashed_bytes": 63449,
+      "hash_encoding": "lf-normalized",
+      "sha256": "c5f30f95b92987d2ac36978b27b30fd629d7f8990ec6b74135dceecb7f3427c3"
+    },
+    {
+      "path": "results/project-review/DATA.md",
+      "hashed_bytes": 36822,
+      "hash_encoding": "lf-normalized",
+      "sha256": "9549322791de10dbc5aa0dbba8715164f4b5d28e0a006422c1e2f19d4cd6180a"
+    },
+    {
+      "path": "results/project-review/provenance.json",
+      "hashed_bytes": 1166,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e55d975f0da62d3c597512b37984eadeb1e10bdfd9686d04be9d959e33e747f4"
+    },
+    {
+      "path": "results/REPORT.md",
+      "hashed_bytes": 9771,
+      "hash_encoding": "lf-normalized",
+      "sha256": "6d63adf83a185fd7037907a9f4fcf71da7a6e179276dcc6a0f150b8306b81499"
+    },
+    {
+      "path": "results/reproducibility/artifact_environment.json",
+      "hashed_bytes": 456,
+      "hash_encoding": "lf-normalized",
+      "sha256": "0dd1d84e8b5caef549b33854cdabe481f6dfcae3aff6fccbeb74ec830e8b9c59"
+    },
+    {
+      "path": "results/reproducibility/completion.json",
+      "hashed_bytes": 1646,
+      "hash_encoding": "lf-normalized",
+      "sha256": "1cfe748bd35f99905ab7ac02a6e25de4fa3a73899d50057e267fc31ad3d2ec91"
+    },
+    {
+      "path": "results/reproducibility/final_log_audit.json",
+      "hashed_bytes": 3267,
+      "hash_encoding": "lf-normalized",
+      "sha256": "9b89dc5211f06026f04756acbc5cc82255cd6b553e2d9bb389eef523cca7042c"
+    },
+    {
+      "path": "results/reproducibility/final_output_audit.json",
+      "hashed_bytes": 828,
+      "hash_encoding": "lf-normalized",
+      "sha256": "66533746b09e70064d660d86f3aea0809ddeb828c85101490f5b87b7a96fdddd"
+    },
+    {
+      "path": "results/reproducibility/final_pdf_audit.json",
+      "hashed_bytes": 1389,
+      "hash_encoding": "lf-normalized",
+      "sha256": "58ad80f09f4431e2c935cd5cec748e3c7e85f985d9a4dfbc576c4f627f503456"
+    },
+    {
+      "path": "results/reproducibility/final_presentation_audit.json",
+      "hashed_bytes": 272,
+      "hash_encoding": "lf-normalized",
+      "sha256": "9217bdc2d85e148adf5d0a1c4b841dcfef2ccaaba40f9d47911fbe03a16b12a4"
+    },
+    {
+      "path": "results/reproducibility/final_video_audit.json",
+      "hashed_bytes": 705,
+      "hash_encoding": "lf-normalized",
+      "sha256": "1c5bb97e79b9dbfd89ed23892aff838301f0917a58dce8c3a3fbc0260f0364a0"
+    },
+    {
+      "path": "results/reproducibility/pedestrian_jam_audit.json",
+      "hashed_bytes": 3127,
+      "hash_encoding": "lf-normalized",
+      "sha256": "4314fcdf0bdf54eecaed9ab7f30040e8f37bd0159d1c9f1f4e1f2f1a27bd2709"
+    },
+    {
+      "path": "results/reproducibility/pedestrian_jam_trace.csv",
+      "hashed_bytes": 4424,
+      "hash_encoding": "lf-normalized",
+      "sha256": "3d9a63e0033ca94f1de5e21382d97234930be8f9e608a6419b0795afa68e0224"
+    },
+    {
+      "path": "results/reproducibility/runtime_comparison.json",
+      "hashed_bytes": 2532,
+      "hash_encoding": "lf-normalized",
+      "sha256": "be46faa6521081d4ed43e9e7bcaa297b478b9547cd71d0d2aa63f3edb21083dd"
+    },
+    {
+      "path": "results/reproducibility/simulation_environment.json",
+      "hashed_bytes": 919,
+      "hash_encoding": "lf-normalized",
+      "sha256": "9553dc8f3a21e8fd7a3bc6e0005811bbf825bdcb6dd09e7b9a506272699c46ad"
+    },
+    {
+      "path": "results/reproducibility/storage_audit.json",
+      "hashed_bytes": 560,
+      "hash_encoding": "lf-normalized",
+      "sha256": "fae5a712a0861764b67671ec4fafb8ea3c2ec5f6b69c0fd957eca25d1242a6ee"
+    },
+    {
+      "path": "results/runs.csv",
+      "hashed_bytes": 44240,
+      "hash_encoding": "lf-normalized",
+      "sha256": "c4b774c6f99a171c94888b2acbe4b4ba502f926f0a828450b177b757dcc967de"
+    },
+    {
+      "path": "results/service-policy-audit/policy_diagnostic.png",
+      "hashed_bytes": 168267,
+      "hash_encoding": "bytes",
+      "sha256": "66f6f135bdb9f231f96d7f8f0693b0d72dd211df8f50591d38bfd492513da5b5"
+    },
+    {
+      "path": "results/service-policy-audit/policy_diagnostic.svg",
+      "hashed_bytes": 121564,
+      "hash_encoding": "lf-normalized",
+      "sha256": "66472b26088f1bd8c2c55f40633b406aec062291bc2cdb6dce1de3b57f1dcb05"
+    },
+    {
+      "path": "results/service-policy-audit/REVIEW.md",
+      "hashed_bytes": 7416,
+      "hash_encoding": "lf-normalized",
+      "sha256": "e80c7ceac236d6340e293e04769f424e28e6eed5618f77e44d0c9c0f6b75b460"
+    },
+    {
+      "path": "results/service-policy-audit/summary.json",
+      "hashed_bytes": 146466,
+      "hash_encoding": "lf-normalized",
+      "sha256": "554bc7a1f013c90002caa38c1f9add58508e729f53a3d8cf442f462a748dbced"
+    },
+    {
+      "path": "results/service-priority/LOCAL_PILOT.md",
+      "hashed_bytes": 3813,
+      "hash_encoding": "lf-normalized",
+      "sha256": "8287c2341ec7dfe5dc6d34b205a8c194ab42d654b0e8e26194ca1eae9e7f12b9"
+    },
+    {
+      "path": "results/service-priority-cluster/REVIEW.md",
+      "hashed_bytes": 23623,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d08a83ef444d233b5c48731e7c5150cdae4e18b95cf299aa03b09e4050f68700"
+    },
+    {
+      "path": "results/service-priority-cluster/summary.json",
+      "hashed_bytes": 413076,
+      "hash_encoding": "lf-normalized",
+      "sha256": "1141ab7d7e435bca125dad12ff2a90e6f0d52ee1b6062bffe6c5dbe460dbdf92"
+    },
+    {
+      "path": "results/singapore-transfer/crossing_comparison.csv",
+      "hashed_bytes": 9483,
+      "hash_encoding": "lf-normalized",
+      "sha256": "d6b85fff83e820524c4d29ef4537dac7e7f1d0c40f7a8c89b7914dd96cbb0014"
+    },
+    {
+      "path": "results/singapore-transfer/crossing_events.csv.gz",
+      "hashed_bytes": 281535,
+      "hash_encoding": "bytes",
+      "sha256": "b0c30aa6999541c86df884fe1968a4a93be89e7179367ec25c094b011d23b28c"
+    },
+    {
+      "path": "results/singapore-transfer/crossing_summary.csv",
+      "hashed_bytes": 5074,
+      "hash_encoding": "lf-normalized",
+      "sha256": "ea68ca4640c10452a5111c32e4f0216bbef8d563f8c6d13b1600cdd7d7945331"
+    },
+    {
+      "path": "results/singapore-transfer/crossings.csv",
+      "hashed_bytes": 341995,
+      "hash_encoding": "lf-normalized",
+      "sha256": "95be28b9732358e17adcfb55b3f1d616137b58424fc22f39bc9957bbedbbfa14"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9101.json.gz",
+      "hashed_bytes": 63232,
+      "hash_encoding": "bytes",
+      "sha256": "736e9cfbb17cb8b2d634c243f901d371b6cd2b2079e8bfd9ed42cc3fe1e09192"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9102.json.gz",
+      "hashed_bytes": 63052,
+      "hash_encoding": "bytes",
+      "sha256": "27df7dbc5063b57d9d9c63deed1ec5bfbc726c5ac2f7962595e3734979b7c628"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9103.json.gz",
+      "hashed_bytes": 62742,
+      "hash_encoding": "bytes",
+      "sha256": "c7832a18fead5b4d4f9292167d0798a8ed142def77bde2351f1e50ca8d8ec25a"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9104.json.gz",
+      "hashed_bytes": 64168,
+      "hash_encoding": "bytes",
+      "sha256": "fae29a06eab47136fbe2e628d38501c3eeef972055ce1e3d7ed2e62788e333d5"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9105.json.gz",
+      "hashed_bytes": 62010,
+      "hash_encoding": "bytes",
+      "sha256": "9754f8d98d7ae033682c90387fe4c490f86d30cb07d545908a975ce87dafa816"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9106.json.gz",
+      "hashed_bytes": 63623,
+      "hash_encoding": "bytes",
+      "sha256": "23cc64be3101b2110ac66d39e970fac07450be90278d54b0255b7a7ded6fa5db"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9107.json.gz",
+      "hashed_bytes": 63190,
+      "hash_encoding": "bytes",
+      "sha256": "1483902f183b2054222e35cc429f7f81c227f7eb066bf53ea28b992a6fb40130"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9108.json.gz",
+      "hashed_bytes": 63410,
+      "hash_encoding": "bytes",
+      "sha256": "245f30798693d6e5620110e2112ccc095348ef3e43c8c84b9d7b39c3f0fa11df"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9109.json.gz",
+      "hashed_bytes": 64056,
+      "hash_encoding": "bytes",
+      "sha256": "9358f17d0c33495dc8c421b49c99e2ea7a1d603827c2ce2112653c3da9ce1f0d"
+    },
+    {
+      "path": "results/singapore-transfer/groups/seed-9110.json.gz",
+      "hashed_bytes": 62221,
+      "hash_encoding": "bytes",
+      "sha256": "48ad65e33e5e12d11056db704c16fb54fbd0fb44a2daaf2dc317285efc83c239"
+    },
+    {
+      "path": "results/singapore-transfer/REPORT.md",
+      "hashed_bytes": 3826,
+      "hash_encoding": "lf-normalized",
+      "sha256": "6e99cfecff83c2e07e6290178b17ab255c41acf11dde480168c944b9d3f347aa"
+    },
+    {
+      "path": "results/singapore-transfer/runs.csv",
+      "hashed_bytes": 59330,
+      "hash_encoding": "lf-normalized",
+      "sha256": "90e00b44c2f4eae516996c02bad53607ee00642b0244238613f5d7077f962515"
+    },
+    {
+      "path": "results/singapore-transfer/site-audit/case-audit.json",
+      "hashed_bytes": 7830,
+      "hash_encoding": "lf-normalized",
+      "sha256": "a8f0d826a58678384c90b9a8bca94cbf3ea63611f6ea00e615fb67384c910a9d"
+    },
+    {
+      "path": "results/singapore-transfer/site-audit/netconvert.log",
+      "hashed_bytes": 8161,
+      "hash_encoding": "bytes",
+      "sha256": "6fb8695287263fcf49a103a3a021f90a665c1b9a7ad1ae038f84c2dd4b43163a"
+    },
+    {
+      "path": "results/singapore-transfer/site-audit/singapore.net.xml",
+      "hashed_bytes": 3685948,
+      "hash_encoding": "bytes",
+      "sha256": "9b8aeca78b0183472d9728c4e14ddebdb10216bf53def679da4cf981bb3e5173"
+    },
+    {
+      "path": "results/singapore-transfer/summary.json",
+      "hashed_bytes": 33153,
+      "hash_encoding": "lf-normalized",
+      "sha256": "7277240ff0bd1d6fb0075481fa1e406b7f3dd6695b735d3a73bc9ef3b925d86c"
+    },
+    {
+      "path": "results/summary.json",
+      "hashed_bytes": 132969,
+      "hash_encoding": "lf-normalized",
+      "sha256": "8ac793eaf9ef6bcb41a6793d76aab8c674333eae60c3f837848107a5349f50c8"
+    },
+    {
+      "path": "results/team38-presentation.pptx",
+      "hashed_bytes": 37738,
+      "hash_encoding": "bytes",
+      "sha256": "65f097478b60a12085daa5a439a0af0f5a0620bbfe7644eed0bbd57d02cc7aa4"
+    },
+    {
+      "path": "results/tradeoff.svg",
+      "hashed_bytes": 2191,
+      "hash_encoding": "lf-normalized",
+      "sha256": "683acf9c283f1a251f306a6e73b96ba530a22e0de58a9f0191b4574351cb79e8"
+    }
+  ],
+  "exports": [
+    {
+      "path": "results/demand-service-review/archived_REPORT.md",
+      "source": "runs/demand-service-test/REPORT.md",
+      "payload_sha256": "40f183f45fb7b0a48573f2efd47c2f1e4ab83b78581f618771e9ebff5a00e259",
+      "payload_bytes": 16002,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/demand-service-review/archived_summary.json",
+      "source": "runs/demand-service-test/summary.json",
+      "payload_sha256": "125f62eec2851e80d0ad1b679b5bdcf2250c62cd8c15033367dbb4025717ecc1",
+      "payload_bytes": 3163852,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/demand-service-review/archived_protocol.json",
+      "source": "runs/demand-service-test/protocol.json",
+      "payload_sha256": "0463dc47796483eda9df8db2a5977eff8c71f1122c26387b4390b6d12e987a5a",
+      "payload_bytes": 32517,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/demand-service-review/archived_status.json",
+      "source": "runs/demand-service-test/status.json",
+      "payload_sha256": "2e5efa0bfc06dcea83081f2fa234e9f1f8f1c62ea975aead480af7bc67c7a896",
+      "payload_bytes": 213,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/audit-repair-review/archived_REPORT.md",
+      "source": "runs/audit-repair-trial/REPORT.md",
+      "payload_sha256": "7efbe740c333b5fe1c92f18e7a22cb47d5e34b814c9c9dc5189c861a14642ffc",
+      "payload_bytes": 20766,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/audit-repair-review/archived_summary.json.gz",
+      "source": "runs/audit-repair-trial/summary.json",
+      "payload_sha256": "6c2ee4d7fe2ac5077913d939de20fa24b0bae81950d75cb6b5085603a83225e5",
+      "payload_bytes": 12766505,
+      "encoding": "gzip"
+    },
+    {
+      "path": "results/audit-repair-review/archived_protocol.json",
+      "source": "runs/audit-repair-trial/protocol.json",
+      "payload_sha256": "74c9b9637361ad79ead8071a944c1d0121f4ea356610df97e839486cc1451a26",
+      "payload_bytes": 7840,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/audit-repair-review/archived_status.json",
+      "source": "runs/audit-repair-trial/status.json",
+      "payload_sha256": "4770c714ff0d4dedc66d170248e2e39835f0ea71b8298e13b25e0d50534db1e6",
+      "payload_bytes": 1031,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/archived_REPORT.md",
+      "source": "runs/cluster-final-review/REPORT.md",
+      "payload_sha256": "36bf28e1db531ba029eb7a4f158d2c21e575ed603219e32a15515bd32e242a09",
+      "payload_bytes": 7032,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/archived_protocol.json",
+      "source": "runs/cluster-final-review/protocol.json",
+      "payload_sha256": "2a31998ca910601e1d25f736a8d610feae2bedbb636bd6782f36a676270ba544",
+      "payload_bytes": 9250,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/fairness-v2-cluster-review/archived_primary_inference.json",
+      "source": "runs/cluster-final-review/primary_inference.json",
+      "payload_sha256": "27635a0417576eeba51d5cdb48b441ade646da5d794acbc4fd70f2bf60970421",
+      "payload_bytes": 4109,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/partial_local_finetune_status.json",
+      "source": "runs/pedestrian-finetune/status.json",
+      "payload_sha256": "43ac0d966bfa3fa7e5b4ebeae9e60bb710c73c86f24498185528ab287a496564",
+      "payload_bytes": 792,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/failure-mechanism-review/archived_protocol.json",
+      "source": "runs/guided-failure-replay/protocol.json",
+      "payload_sha256": "1ddddf8f65f186779eaf45a897ce037e4d37c221fd42f16a86fc27e52f1d42e0",
+      "payload_bytes": 962,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/audit-repair-review/archived_recovery-20261103.json",
+      "source": "runs/audit-repair-trial/recovery-20261103.json",
+      "payload_sha256": "84cf07fee3c4c35d2f9f5e682874b3931a9da5fc986e017a2d7d1154e17e8c2a",
+      "payload_bytes": 4481,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E05/service-priority-pilot.json",
+      "source": "runs/service-priority-results.zip!runs/service-priority-pilot/protocol.json",
+      "payload_sha256": "e4375d43ffa710260fe94daf6af6c8cacb91acc9a15f4224f3432f8e92fd0fae",
+      "payload_bytes": 5012,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-fit-actuated-results.json",
+      "source": "runs/critic-fit-actuated-results.zip!protocol.json",
+      "payload_sha256": "4cba04a28b05a55d639a792931c225482cc5df8786e4232908f8cc63bbc5cb43",
+      "payload_bytes": 5362,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-horizon-actuated-results.json",
+      "source": "runs/critic-horizon-actuated-results.zip!protocol.json",
+      "payload_sha256": "f4cdc56797d9782f2dba13dc4b20761b652ea7661e51f4384603d3bc3b538b77",
+      "payload_bytes": 5893,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-fit-plain-mappo-r0.json",
+      "source": "runs/critic-check-results.zip!runs/critic-fit-plain-mappo-r0/protocol.json",
+      "payload_sha256": "52e9c72117b15f0521813efdde2569e8a9a106e64e93a78a4bad7b1e41f9223c",
+      "payload_bytes": 5463,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-fit-priority-mappo-r0.json",
+      "source": "runs/critic-check-results.zip!runs/critic-fit-priority-mappo-r0/protocol.json",
+      "payload_sha256": "916d91f514608583fd36cc6f1f7907990ea61840ce48b56a7c400949b2e12c70",
+      "payload_bytes": 5466,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-horizon-plain-mappo-r0.json",
+      "source": "runs/critic-check-results.zip!runs/critic-horizon-plain-mappo-r0/protocol.json",
+      "payload_sha256": "b40f4fe11b75c01b5236e5080c776e0028534dac6f7225b8d0e76e2c1da1bf64",
+      "payload_bytes": 5986,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E07/critic-horizon-priority-mappo-r0.json",
+      "source": "runs/critic-check-results.zip!runs/critic-horizon-priority-mappo-r0/protocol.json",
+      "payload_sha256": "88ed20a583931ee6d5680b3474b78e4b65e553ecad6c555b3c9b327c7b1ccc1f",
+      "payload_bytes": 5989,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E08/critic-data-plain-mappo-r0.json",
+      "source": "runs/critic-data-volume-results.zip!runs/critic-data-plain-mappo-r0/protocol.json",
+      "payload_sha256": "92da17a5075d119549daa73c13f3ab2eb6ea508e4c9daee9829c615b5011ce90",
+      "payload_bytes": 6211,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E08/critic-data-priority-mappo-r0.json",
+      "source": "runs/critic-data-volume-results.zip!runs/critic-data-priority-mappo-r0/protocol.json",
+      "payload_sha256": "b2e9b79920dd0eff6ac90dc134d5ce24ba82e959516028ddda837c99c8274398",
+      "payload_bytes": 6214,
+      "encoding": "identity"
+    },
+    {
+      "path": "results/experiment-index/protocols/E09/ppo-repair-pilot.json",
+      "source": "runs/ppo-repair-results.zip!runs/ppo-repair-pilot/protocol.json",
+      "payload_sha256": "e9579e4900187617d890856bed9c20fa2a3803425e8fc6f7bf5dc7db4b31acf5",
+      "payload_bytes": 6717,
+      "encoding": "identity"
+    }
+  ]
+}

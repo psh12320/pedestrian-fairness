@@ -1,0 +1,138 @@
+{
+  "reason": "Windows denied replacing learning.json after latest.pt was atomically saved",
+  "runtime_source_unchanged": true,
+  "checkpoints": [
+    {
+      "model": "ippo-legacy-r0",
+      "checkpoint_episode": 53,
+      "logged_episode": 53,
+      "sha256": "d8b139064104724929440610877d42af7c8b4b5f3f3199529625c9fc414f9c5f"
+    },
+    {
+      "model": "ippo-legacy-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "2be0d62df4fbf18f9959bc2a2e2496339308977b619e5cbd33a464729cb20e23"
+    },
+    {
+      "model": "ippo-memory-r0",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "5203e2a55b477358b15d75df2ba79f0f54b105f07b7432bd5b2c0dcffc246b32"
+    },
+    {
+      "model": "ippo-memory-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "06f6b0923f43471f5c86b3ea981e3f5dabde85cebe2daffbac3aa250d040a735"
+    },
+    {
+      "model": "ippo-memory-separate-r0",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "6d274f0f7936b1b78506f3c5d601c0c463e309f35466aef82d9b7831e2080b81"
+    },
+    {
+      "model": "ippo-memory-separate-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "d5b30af9676eb2a1a395f7f82dfd41de334be0a5c12ec9d000f38d8aa070896a"
+    },
+    {
+      "model": "ippo-separate-r0",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "db1ee3ebf6589d43fbd49107966a0b1b36fa6726f0c2ce529df8700aacb6e740"
+    },
+    {
+      "model": "ippo-separate-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "32f1f682aacee644f34dcdcfe29408a87288e6b9379dfedcbfdea56a782a18ee"
+    },
+    {
+      "model": "mappo-legacy-r0",
+      "checkpoint_episode": 52,
+      "logged_episode": 51,
+      "sha256": "405310e82ef661fc19b229f686d4196f8b58cd2d3ca808077619539b0639979d"
+    },
+    {
+      "model": "mappo-legacy-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "8a3b9030d2112a560d90687adab128fa403fe5c622058f8f296c59f3405e41c3"
+    },
+    {
+      "model": "mappo-memory-r0",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "fe1bde451c5c03219403047beaef0f56e23de3bd04a49e31f701f5eaa99afa83"
+    },
+    {
+      "model": "mappo-memory-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "569c1737215fb4ae081298fe48ef65d8bf3effd227a58c8f6e579fa5b37bbd02"
+    },
+    {
+      "model": "mappo-memory-separate-r0",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "b04e90260f3b4984e1395961a4b18c557003cbeab2c30f37337bcc2d6e525fa1"
+    },
+    {
+      "model": "mappo-memory-separate-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "dbbc781479ffc479de6bf005eeb644635f0f8c0bcbef30399d70e2b13726c791"
+    },
+    {
+      "model": "mappo-separate-r0",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "3837ed617f6197ab1dd92fd4dd225e9610c0a398236facf5ab5e03ded50c5b8f"
+    },
+    {
+      "model": "mappo-separate-r1",
+      "checkpoint_episode": 32,
+      "logged_episode": 32,
+      "sha256": "bbed38b0f27a296cce72a09e7dba003682963c88d32c2c6e3f93bf6152999982"
+    }
+  ],
+  "previous_status": {
+    "baseline_completed": 4,
+    "baseline_total": 68,
+    "completed_simulations": 588,
+    "error": "PermissionError(13, 'Access is denied')",
+    "evaluation_completed": 0,
+    "evaluation_total": 256,
+    "fingerprint": "ca09c5422b64e5edb6234c1c31e61c8190aa10d2c51846ebb3d5c8fc2833c5cc",
+    "model_episodes": {
+      "ippo-legacy-r0": 53,
+      "ippo-legacy-r1": 32,
+      "ippo-memory-r0": 32,
+      "ippo-memory-r1": 32,
+      "ippo-memory-separate-r0": 32,
+      "ippo-memory-separate-r1": 32,
+      "ippo-separate-r0": 32,
+      "ippo-separate-r1": 32,
+      "mappo-legacy-r0": 51,
+      "mappo-legacy-r1": 32,
+      "mappo-memory-r0": 32,
+      "mappo-memory-r1": 32,
+      "mappo-memory-separate-r0": 32,
+      "mappo-memory-separate-r1": 32,
+      "mappo-separate-r0": 32,
+      "mappo-separate-r1": 32
+    },
+    "pid": 11868,
+    "stage": null,
+    "state": "failed",
+    "total_simulations": 1396,
+    "training_completed": 552,
+    "training_total": 1024,
+    "updated_utc": "2026-11-03T14:18:16.672301+00:00",
+    "validation_completed": 32,
+    "validation_total": 48
+  }
+}

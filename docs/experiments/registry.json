@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-05",
+  "branch": "fairness-service-priority",
+  "scope": "Research studies and diagnostics; prefixes classify local artifacts, not independent replications. See catalogue for counts, exclusions and protocol differences.",
+  "studies": [
+    {
+      "id": "E01",
+      "title": "Milestones and initial exploratory comparison",
+      "status": "completed-historical",
+      "code": [
+        "src/traffic_control/cli.py",
+        "src/traffic_control/measurement_resolution.py"
+      ],
+      "evidence": [
+        "results/REPORT.md",
+        "results/measurement-resolution/summary.json"
+      ],
+      "local_run_prefixes": [
+        "fixed-seed38",
+        "actuated-seed38",
+        "3j-fixed-seed38",
+        "measurement-resolution",
+        "evaluation",
+        "training",
+        "ped-entry",
+        "speedprobe",
+        "dense-probe",
+        "pilot-",
+        "turn-",
+        "pressure-smoke"
+      ],
+      "guides": [
+        "docs/measurement_safety_audit.md"
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "Repeated linear-policy comparison",
+      "status": "completed",
+      "code": [
+        "scripts/finish_study.py",
+        "scripts/verify_study_outputs.py"
+      ],
+      "evidence": [
+        "results/final-study/REPORT.md",
+        "results/final-study/summary.json"
+      ],
+      "local_run_prefixes": [
+        "evaluation-v4",
+        "training-v3",
+        "final-pipeline",
+        "burst-",
+        "jam-diagnostic",
+        "models-safety",
+        "overload-probe",
+        "short-spacing-"
+      ],
+      "guides": [
+        "docs/safety_revision_v3.md"
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "Singapore-derived geometry sensitivity",
+      "status": "completed-uncalibrated",
+      "code": [
+        "src/traffic_control/singapore.py"
+      ],
+      "evidence": [
+        "results/singapore-transfer/REPORT.md",
+        "results/singapore-transfer/summary.json"
+      ],
+      "local_run_prefixes": [
+        "singapore-transfer",
+        "singapore",
+        "nus-derived-probe"
+      ],
+      "guides": [
+        "docs/singapore.md"
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "Neural fairness-v2 study",
+      "status": "completed-partial-raw-availability",
+      "code": [
+        "src/traffic_control/fairness/pipeline.py",
+        "scripts/collect_fairness_status.py"
+      ],
+      "evidence": [
+        "results/fairness-v2-cluster-review/README.md",
+        "results/fairness-v2-cluster-review/archived_REPORT.md",
+        "results/fairness-v2-cluster-review/archived_protocol.json",
+        "results/fairness-v2-cluster-review/archived_primary_inference.json"
+      ],
+      "local_run_prefixes": [
+        "cluster-final-review",
+        "fairness-v2-study",
+        "fairness-v2-"
+      ],
+      "guides": [
+        "docs/fairness_v2.md",
+        "docs/fairness_execution.md"
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "Service-priority pilot",
+      "status": "completed",
+      "code": [
+        "src/traffic_control/service_priority/pilot.py"
+      ],
+      "evidence": [
+        "results/service-priority-cluster/REVIEW.md",
+        "results/service-priority-cluster/summary.json"
+      ],
+      "local_run_prefixes": [
+        "service-priority"
+      ],
+      "guides": [
+        "docs/service_priority_followup.md"
+      ]
+    },
+    {
+      "id": "E06",
+      "title": "Sampled versus greedy action audit",
+      "status": "completed",
+      "code": [
+        "scripts/audit_service_policy.py"
+      ],
+      "evidence": [
+        "results/service-policy-audit/REVIEW.md",
+        "results/service-policy-audit/summary.json"
+      ],
+      "local_run_prefixes": [
+        "service-policy-audit"
+      ],
+      "guides": [
+        "docs/service_policy_audit.md"
+      ]
+    },
+    {
+      "id": "E07",
+      "title": "Critic fitting and horizon diagnostics",
+      "status": "completed-diagnostic",
+      "code": [
+        "scripts/critic_fit_check.py",
+        "scripts/critic_horizon_check.py"
+      ],
+      "evidence": [
+        "results/critic-checks/REVIEW.md",
+        "results/critic-checks-cluster/REVIEW.md",
+        "results/critic-checks-cluster/summary.json"
+      ],
+      "local_run_prefixes": [
+        "critic-fit",
+        "critic-horizon"
+      ],
+      "guides": [
+        "docs/critic_checks.md"
+      ]
+    },
+    {
+      "id": "E08",
+      "title": "Critic data volume",
+      "status": "completed-diagnostic",
+      "code": [
+        "scripts/critic_data_volume_check.py"
+      ],
+      "evidence": [
+        "results/critic-data-volume-cluster/REVIEW.md",
+        "results/critic-data-volume-cluster/summary.json"
+      ],
+      "local_run_prefixes": [
+        "critic-data"
+      ],
+      "guides": [
+        "docs/critic_data_volume.md"
+      ]
+    },
+    {
+      "id": "E09",
+      "title": "PPO repair pilot",
+      "status": "completed",
+      "code": [
+        "src/traffic_control/ppo_repair/pilot.py"
+      ],
+      "evidence": [
+        "results/ppo-repair-cluster/REVIEW.md",
+        "results/ppo-repair-cluster/summary.json"
+      ],
+      "local_run_prefixes": [
+        "ppo-repair"
+      ],
+      "guides": [
+        "docs/ppo_repair_pilot.md"
+      ]
+    },
+    {
+      "id": "E10",
+      "title": "Guided exploration",
+      "status": "completed",
+      "code": [
+        "src/traffic_control/guided_exploration/pilot.py"
+      ],
+      "evidence": [
+        "results/guided-exploration-cluster-review/archived_REPORT.md",
+        "results/guided-exploration-cluster-review/archived_summary.json",
+        "results/metrics-guide/guided_all_settings.md"
+      ],
+      "local_run_prefixes": [
+        "guided-exploration"
+      ],
+      "guides": [
+        "docs/guided_exploration.md"
+      ]
+    },
+    {
+      "id": "E11",
+      "title": "Pedestrian admission timing sensitivity",
+      "status": "completed",
+      "code": [
+        "scripts/run_local_timing_study.py"
+      ],
+      "evidence": [
+        "results/local-timing-study/REPORT.md",
+        "results/local-timing-study/summary.json",
+        "results/local-timing-study/protocol.json"
+      ],
+      "local_run_prefixes": [
+        "local-timing"
+      ],
+      "guides": [
+        "docs/local_timing_study.md"
+      ]
+    },
+    {
+      "id": "E12",
+      "title": "Implementation repair factorial",
+      "status": "completed",
+      "code": [
+        "scripts/run_audit_trial_windows.py",
+        "scripts/review_audit_repair_results.py"
+      ],
+      "evidence": [
+        "results/audit-repair-review/REVIEW.md",
+        "results/audit-repair-review/audit.json",
+        "results/audit-repair-review/archived_REPORT.md",
+        "results/audit-repair-review/archived_status.json",
+        "results/audit-repair-review/archived_protocol.json",
+        "results/audit-repair-review/archived_summary.json.gz"
+      ],
+      "local_run_prefixes": [
+        "audit-repair",
+        "deep-audit"
+      ],
+      "guides": [
+        "docs/audit_trial.md",
+        "docs/deep_audit_2026_11_03.md"
+      ]
+    },
+    {
+      "id": "E13",
+      "title": "Pedestrian fine-tuning",
+      "status": "completed-cluster-local-duplicate-stopped",
+      "code": [
+        "scripts/pedestrian_finetune/pilot.py",
+        "scripts/pedestrian_finetune_cluster.py"
+      ],
+      "evidence": [
+        "results/pedestrian-finetune-cluster-review/REVIEW.md",
+        "results/pedestrian-finetune-cluster-review/archived_summary.json",
+        "results/pedestrian-finetune-cluster-review/archived_protocol.json",
+        "results/pedestrian-finetune-cluster-review/archived_status.json",
+        "results/experiment-index/partial_local_finetune_status.json"
+      ],
+      "local_run_prefixes": [
+        "pedestrian-finetune"
+      ],
+      "guides": [
+        "docs/pedestrian_finetune.md",
+        "docs/pedestrian_finetune_cluster.md"
+      ]
+    },
+    {
+      "id": "E14",
+      "title": "Congested failure replay",
+      "status": "completed-diagnostic",
+      "code": [
+        "scripts/replay_guided_failures.py",
+        "scripts/summarize_guided_failures.py"
+      ],
+      "evidence": [
+        "results/failure-mechanism-review/REVIEW.md",
+        "results/failure-mechanism-review/summary.json",
+        "results/failure-mechanism-review/archived_protocol.json"
+      ],
+      "local_run_prefixes": [
+        "guided-failure-replay"
+      ],
+      "guides": [
+        "docs/failure_explanation_protocol.md"
+      ]
+    },
+    {
+      "id": "E15",
+      "title": "Demand and early service",
+      "status": "completed-evaluation-only",
+      "code": [
+        "scripts/demand_service_test.py",
+        "scripts/demand_service_report.py",
+        "scripts/review_demand_service_results.py"
+      ],
+      "evidence": [
+        "results/demand-service-review/REVIEW.md",
+        "results/demand-service-review/audit.json",
+        "results/demand-service-review/archived_REPORT.md",
+        "results/demand-service-review/archived_summary.json",
+        "results/demand-service-review/archived_protocol.json",
+        "results/demand-service-review/archived_status.json"
+      ],
+      "local_run_prefixes": [
+        "demand-service"
+      ],
+      "guides": [
+        "docs/demand_service_test.md"
+      ]
+    },
+    {
+      "id": "E16",
+      "title": "Independent friend's implementation audit",
+      "status": "external-review-not-team-training",
+      "code": [
+        "scripts/review_friend_marl_tsc.py"
+      ],
+      "evidence": [
+        "results/friend-marl-tsc-review/REVIEW.md",
+        "results/friend-marl-tsc-review/audit.json"
+      ],
+      "local_run_prefixes": [
+        "friend-marl-tsc-review"
+      ],
+      "guides": []
+    }
+  ]
+}

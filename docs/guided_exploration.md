@@ -1,5 +1,7 @@
 # Guided exploration experiment
 
+**Completed:** [review and compact archive](../results/guided-exploration-cluster-review/REVIEW.md). The [later full table](../results/metrics-guide/guided_all_settings.md) corrects crossing pass counts affected by arithmetic roundoff. Subsequent fine-tuning and failure-replay studies are indexed in the [catalogue](experiments/README.md).
+
 This is a separate development study after the negative PPO-repair result. It preserves the three-junction network, 12 crossings, physical action mask, minimum greens, yellow/all-red transitions, protected pedestrian admission/clearance, event measurement and service accounting. It does not replace the original four-controller proposal comparison or overwrite existing results. No simulation settings are changed to favour a method.
 
 ## Recorded engineering verification (3 November 2026)

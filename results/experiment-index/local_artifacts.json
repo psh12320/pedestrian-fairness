@@ -1,0 +1,1418 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "One local workspace; no remote availability guarantee. Prefix association is not a completion claim.",
+  "archives": [
+    {
+      "path": "runs/critic-check-results.zip",
+      "bytes": 194164,
+      "sha256": "9ce0e58ed6b24ac2a75f9e3aee32e47c4e4e153ff7eea3d70d94f7bff05a7997",
+      "shared_in_git": false,
+      "members": 38,
+      "uncompressed_bytes": 1076752
+    },
+    {
+      "path": "runs/critic-check-source.tar.gz",
+      "bytes": 12570,
+      "sha256": "4401cb7936a8a8d78793424dd311369f465345ba4adca931ea59186d4728eef9",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/critic-data-volume-results.zip",
+      "bytes": 178936,
+      "sha256": "0b1377dfeea89f8268051ef29dcbc58222ec7eff3383c8319ea23569b2baafd7",
+      "shared_in_git": false,
+      "members": 19,
+      "uncompressed_bytes": 1209070
+    },
+    {
+      "path": "runs/critic-data-volume-source.tar.gz",
+      "bytes": 18796,
+      "sha256": "02a4a0aae8233dd8f456ae60ccc79eed36bfe569a727044ef95d606661da6f6c",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/critic-fit-actuated-results.zip",
+      "bytes": 58979,
+      "sha256": "1ab737590d4d32e855ba16bea6da938bf136c361569eddfd913a828f0b280f2c",
+      "shared_in_git": false,
+      "members": 10,
+      "uncompressed_bytes": 332514
+    },
+    {
+      "path": "runs/critic-horizon-actuated-results.zip",
+      "bytes": 37093,
+      "sha256": "abe008caab7070c510657a1e4a7ca3e24ba301b7d13c58e4100f0dbd2d671e5f",
+      "shared_in_git": false,
+      "members": 9,
+      "uncompressed_bytes": 218867
+    },
+    {
+      "path": "runs/fairness-cluster-status.zip",
+      "bytes": 4006679,
+      "sha256": "8dae8ed384bfa20574382504a748698b4e5ac39a9696e2b921637f33d6e230c5",
+      "shared_in_git": false,
+      "members": 210,
+      "uncompressed_bytes": 21568487
+    },
+    {
+      "path": "runs/fairness-diagnosis-selftest.zip",
+      "bytes": 6120,
+      "sha256": "1727a024e146ec33173a35c3166e21ad4c02a1d91f316647bb03a4e54324b945",
+      "shared_in_git": false,
+      "members": 5,
+      "uncompressed_bytes": 48668
+    },
+    {
+      "path": "runs/fairness-status-selfcheck.zip",
+      "bytes": 19094,
+      "sha256": "9ec5f2ad4df91a4af88f618fafcfd816e3ddf44892e3f32bf16d1c381a05341c",
+      "shared_in_git": false,
+      "members": 27,
+      "uncompressed_bytes": 53513
+    },
+    {
+      "path": "runs/fairness-v2-source.tar.gz",
+      "bytes": 143023,
+      "sha256": "c69175e379c21174d2ed1aa478cb743dffd6ecd03666f5483ca4caa6ef52b6c9",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/guided-exploration-results.zip",
+      "bytes": 12875891,
+      "sha256": "ea17b162e3329e777abe0f98122ffae42d2642453bedd704fc5e8eef75447725",
+      "shared_in_git": false,
+      "members": 485,
+      "uncompressed_bytes": 79233961
+    },
+    {
+      "path": "runs/guided-exploration-smoke-results.zip",
+      "bytes": 2019646,
+      "sha256": "83c5d3c34927b2f98796eb4330232770d7bafe145e460c86af93cc593303190a",
+      "shared_in_git": false,
+      "members": 78,
+      "uncompressed_bytes": 2932503
+    },
+    {
+      "path": "runs/guided-exploration-source.tar.gz",
+      "bytes": 147968,
+      "sha256": "20a8ea6cca9072cf9a5b15b845dd4d0d34456b29d3da87924f3d6df25cd9f979",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pedestrian-finetune-cluster-results.zip",
+      "bytes": 21368736,
+      "sha256": "255b82536b3a341c8964ef2338b5bd0a5e54fbe73dfd8e89fd9315b18c46354b",
+      "shared_in_git": false,
+      "members": 1175,
+      "uncompressed_bytes": 76129916
+    },
+    {
+      "path": "runs/pedestrian-finetune-source.tar.gz",
+      "bytes": 12951300,
+      "sha256": "1d4070a4197bc74918a7ba660cbe5d36eadc2602e0e4de6becd3a082604689f0",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/ppo-repair-results.zip",
+      "bytes": 8629081,
+      "sha256": "cb34cf4834e90a655ea9bd852b06e7fa20b12b4b0160d0218342ebabd9216160",
+      "shared_in_git": false,
+      "members": 498,
+      "uncompressed_bytes": 82976599
+    },
+    {
+      "path": "runs/ppo-repair-smoke-results.zip",
+      "bytes": 76582,
+      "sha256": "552e420afa96ed0c1ef3a4e0641ea336e0bc712cf64e285cf4d79a2d1bde77a6",
+      "shared_in_git": false,
+      "members": 24,
+      "uncompressed_bytes": 562174
+    },
+    {
+      "path": "runs/ppo-repair-source.tar.gz",
+      "bytes": 118700,
+      "sha256": "ce73b170ba8c4b3df425485be8f34c5a2a22a6a0958258973ab86ed87aa0a515",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-policy-audit-results.zip",
+      "bytes": 1082127,
+      "sha256": "a4bc25c10cad424680ddfe9910f159d2b882f4fcbf90405f920178e3a3c6f7cd",
+      "shared_in_git": false,
+      "members": 112,
+      "uncompressed_bytes": 11051738
+    },
+    {
+      "path": "runs/service-policy-audit-smoke-results.zip",
+      "bytes": 8179,
+      "sha256": "5e6ece835e6f5d1f228ce9817d177580e034ef187a4e7042fe294a8a42647084",
+      "shared_in_git": false,
+      "members": 7,
+      "uncompressed_bytes": 42405
+    },
+    {
+      "path": "runs/service-policy-audit-source.tar.gz",
+      "bytes": 8436,
+      "sha256": "23191953553f31b8224f2ea793f4fa4889075e040980c6fe7236908676a589c6",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-policy-audit-verified-results.zip",
+      "bytes": 12094,
+      "sha256": "5b5677fc77a6c014cefae4a4aa0356fb1060a9731cde639fc6c117f28379d58e",
+      "shared_in_git": false,
+      "members": 9,
+      "uncompressed_bytes": 61687
+    },
+    {
+      "path": "runs/service-priority-results.zip",
+      "bytes": 7365960,
+      "sha256": "5053bc3ff299d650ecf320f3c447883cec1ab0fa372a31142a250c2c26f5b71a",
+      "shared_in_git": false,
+      "members": 480,
+      "uncompressed_bytes": 34364631
+    },
+    {
+      "path": "runs/service-priority-source.tar.gz",
+      "bytes": 115455,
+      "sha256": "3373fb4aac8e8c1eecb7d7eaac2e6dec723709fb6aa10ed85b825670ee36191e",
+      "shared_in_git": false
+    }
+  ],
+  "directories": [
+    {
+      "path": "runs/3j-fixed-seed38",
+      "files": 8,
+      "bytes": 165066,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/actuated-seed38",
+      "files": 5,
+      "bytes": 77818,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/audit-repair-smoke",
+      "files": 64,
+      "bytes": 10979903,
+      "related_studies": [
+        "E12"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/audit-repair-trial",
+      "files": 669,
+      "bytes": 129052859,
+      "related_studies": [
+        "E12"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-diagnostic",
+      "files": 8,
+      "bytes": 315790,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-diagnostic-7002-fixed",
+      "files": 6,
+      "bytes": 240203,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-diagnostic-7002-fixed-gap3",
+      "files": 6,
+      "bytes": 241812,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-diagnostic-7002-fixed-protected",
+      "files": 8,
+      "bytes": 276894,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-preflight-n20-s6001",
+      "files": 8,
+      "bytes": 266515,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-preflight-n20-s7002",
+      "files": 8,
+      "bytes": 266589,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-preflight-n30-s6001",
+      "files": 8,
+      "bytes": 274710,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-preflight-n30-s7002",
+      "files": 8,
+      "bytes": 274747,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-preflight-n40-s6001",
+      "files": 8,
+      "bytes": 282905,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-preflight-n40-s7002",
+      "files": 8,
+      "bytes": 282990,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-safety-pilot",
+      "files": 1,
+      "bytes": 91992,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-safety-pilot-20",
+      "files": 10,
+      "bytes": 1935154,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/burst-safety-pilot-20-all-dev",
+      "files": 17,
+      "bytes": 6317028,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/cluster-final-review",
+      "files": 4,
+      "bytes": 2117543,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/cluster-logs",
+      "files": 1,
+      "bytes": 151,
+      "related_studies": [],
+      "classification": "unclassified-local-artifact",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/critic-fit-actuated",
+      "files": 16,
+      "bytes": 2392666,
+      "related_studies": [
+        "E07"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/critic-horizon-actuated",
+      "files": 11,
+      "bytes": 906907,
+      "related_studies": [
+        "E07"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/deep-audit",
+      "files": 7,
+      "bytes": 122274,
+      "related_studies": [
+        "E12"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/deep-audit-simulation",
+      "files": 33,
+      "bytes": 3078398,
+      "related_studies": [
+        "E12"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/demand-service-preflight",
+      "files": 8,
+      "bytes": 217663,
+      "related_studies": [
+        "E15"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/demand-service-preflight-v2",
+      "files": 28,
+      "bytes": 358046,
+      "related_studies": [
+        "E15"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/demand-service-preflight-v3",
+      "files": 31,
+      "bytes": 809710,
+      "related_studies": [
+        "E15"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/demand-service-test",
+      "files": 2166,
+      "bytes": 121215370,
+      "related_studies": [
+        "E15"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/dense-probe",
+      "files": 8,
+      "bytes": 252236,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/dense-probe-subscribed",
+      "files": 8,
+      "bytes": 252313,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/evaluation",
+      "files": 2403,
+      "bytes": 51092498,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/evaluation-smoke",
+      "files": 99,
+      "bytes": 2020824,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/evaluation-v2",
+      "files": 120,
+      "bytes": 7548802,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/evaluation-v3",
+      "files": 32,
+      "bytes": 1868611,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/evaluation-v4",
+      "files": 137,
+      "bytes": 65845091,
+      "related_studies": [
+        "E01",
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2",
+      "files": 5,
+      "bytes": 175985,
+      "related_studies": [],
+      "classification": "unclassified-local-artifact",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-audit",
+      "files": 15,
+      "bytes": 955976,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-audit-final",
+      "files": 10,
+      "bytes": 3308015,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-audit-verified",
+      "files": 15,
+      "bytes": 1365622,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-current-audit",
+      "files": 10,
+      "bytes": 3373718,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-current-check",
+      "files": 43,
+      "bytes": 7383399,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-final-check",
+      "files": 37,
+      "bytes": 7184420,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-final-load-audit",
+      "files": 10,
+      "bytes": 3392068,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-local-study",
+      "files": 53,
+      "bytes": 5548994,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-pipeline-verified",
+      "files": 37,
+      "bytes": 7179346,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-quick",
+      "files": 36,
+      "bytes": 7171035,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-release-check",
+      "files": 45,
+      "bytes": 7373383,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-temp",
+      "files": 6,
+      "bytes": 58104,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fairness-v2-width-audit",
+      "files": 1,
+      "bytes": 194068,
+      "related_studies": [
+        "E04"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/final-pipeline",
+      "files": 9,
+      "bytes": 886356,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/final-visuals",
+      "files": 9,
+      "bytes": 16938,
+      "related_studies": [],
+      "classification": "unclassified-local-artifact",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/fixed-seed38",
+      "files": 5,
+      "bytes": 77478,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/friend-marl-tsc-review",
+      "files": 89,
+      "bytes": 17661041,
+      "related_studies": [
+        "E16"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/gui",
+      "files": 206,
+      "bytes": 3005700,
+      "related_studies": [],
+      "classification": "unclassified-local-artifact",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/guided-exploration-smoke",
+      "files": 3,
+      "bytes": 117713,
+      "related_studies": [
+        "E10"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/guided-exploration-smoke-verified",
+      "files": 30,
+      "bytes": 6700151,
+      "related_studies": [
+        "E10"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/guided-failure-replay",
+      "files": 111,
+      "bytes": 13792040,
+      "related_studies": [
+        "E14"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/jam-diagnostic",
+      "files": 10,
+      "bytes": 466966,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/jam-diagnostic-9005",
+      "files": 10,
+      "bytes": 480859,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/jam-diagnostic-9007",
+      "files": 10,
+      "bytes": 474369,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/jam-diagnostic-9008",
+      "files": 10,
+      "bytes": 474561,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/local-timing-smoke",
+      "files": 14,
+      "bytes": 84560,
+      "related_studies": [
+        "E11"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/local-timing-study",
+      "files": 149,
+      "bytes": 5148224,
+      "related_studies": [
+        "E11"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/models-safety-one-episode",
+      "files": 5,
+      "bytes": 17429,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/nus-derived-probe",
+      "files": 8,
+      "bytes": 209190,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/nus-derived-probe2",
+      "files": 8,
+      "bytes": 238566,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/overload-probe-100",
+      "files": 8,
+      "bytes": 579409,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/overload-probe-60",
+      "files": 8,
+      "bytes": 430586,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/overload-probe-actuated",
+      "files": 8,
+      "bytes": 511291,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/overload-probe-pressure",
+      "files": 8,
+      "bytes": 550752,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/ped-entry-pilot",
+      "files": 8,
+      "bytes": 252338,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pedestrian-finetune",
+      "files": 61,
+      "bytes": 6259377,
+      "related_studies": [
+        "E13"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pedestrian-finetune-smoke",
+      "files": 45,
+      "bytes": 5358237,
+      "related_studies": [
+        "E13"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-cardinality-check",
+      "files": 8,
+      "bytes": 259736,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-evaluation",
+      "files": 8,
+      "bytes": 737398,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-matched-critic",
+      "files": 2,
+      "bytes": 1108,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-matched-critic-eval",
+      "files": 8,
+      "bytes": 259342,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-matched-critic-models",
+      "files": 5,
+      "bytes": 17433,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-matched-critic-report",
+      "files": 13,
+      "bytes": 247029,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-models",
+      "files": 5,
+      "bytes": 14023,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-parallel-evaluation",
+      "files": 8,
+      "bytes": 737443,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-parallel-models",
+      "files": 5,
+      "bytes": 14041,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-parallel-report",
+      "files": 13,
+      "bytes": 237029,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-parallel-training",
+      "files": 8,
+      "bytes": 3373,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-prepared-inputs-smoke",
+      "files": 8,
+      "bytes": 259736,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-report",
+      "files": 12,
+      "bytes": 235692,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-report-preflight",
+      "files": 16,
+      "bytes": 276206,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-reporting-audit",
+      "files": 15,
+      "bytes": 273077,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-reporting-budget-check",
+      "files": 13,
+      "bytes": 271712,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-reporting-latest",
+      "files": 15,
+      "bytes": 273550,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-short-spacing-evaluation",
+      "files": 1,
+      "bytes": 32908,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-short-spacing-evaluation2",
+      "files": 8,
+      "bytes": 267443,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-short-spacing-report2",
+      "files": 12,
+      "bytes": 245591,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-short-spacing-serial2",
+      "files": 8,
+      "bytes": 267443,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-training",
+      "files": 2,
+      "bytes": 1106,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pilot-version-check",
+      "files": 8,
+      "bytes": 260943,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/ppo-repair-smoke",
+      "files": 35,
+      "bytes": 7355551,
+      "related_studies": [
+        "E09"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/ppo-repair-verified",
+      "files": 35,
+      "bytes": 7385263,
+      "related_studies": [
+        "E09"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/pressure-smoke",
+      "files": 8,
+      "bytes": 192758,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/report-figures-preflight",
+      "files": 22,
+      "bytes": 733376,
+      "related_studies": [],
+      "classification": "unclassified-local-artifact",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/report-final-code-preflight",
+      "files": 16,
+      "bytes": 268344,
+      "related_studies": [],
+      "classification": "unclassified-local-artifact",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-policy-audit-smoke",
+      "files": 13,
+      "bytes": 105717,
+      "related_studies": [
+        "E06"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-policy-audit-verified",
+      "files": 9,
+      "bytes": 61687,
+      "related_studies": [
+        "E06"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-priority-medium-pilot",
+      "files": 4,
+      "bytes": 948131,
+      "related_studies": [
+        "E05"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-priority-smoke",
+      "files": 5,
+      "bytes": 5079,
+      "related_studies": [
+        "E05"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/service-priority-verified",
+      "files": 39,
+      "bytes": 4842662,
+      "related_studies": [
+        "E05"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/short-spacing-diagnostic-pilot",
+      "files": 8,
+      "bytes": 469423,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/short-spacing-pilot",
+      "files": 8,
+      "bytes": 469010,
+      "related_studies": [
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-case",
+      "files": 33,
+      "bytes": 8809667,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-centroid-smoke",
+      "files": 31,
+      "bytes": 4468194,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-debug",
+      "files": 7,
+      "bytes": 3729052,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-snapshot",
+      "files": 38,
+      "bytes": 12180677,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-transfer-legacy",
+      "files": 67,
+      "bytes": 5504206,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-transfer-smoke-dev",
+      "files": 11,
+      "bytes": 3769498,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-transfer-v2-pilot",
+      "files": 67,
+      "bytes": 5524172,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/singapore-transfer-v3-pilot",
+      "files": 67,
+      "bytes": 5524494,
+      "related_studies": [
+        "E03"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/speedprobe",
+      "files": 8,
+      "bytes": 178471,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/speedprobe-network",
+      "files": 4,
+      "bytes": 53325,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/training",
+      "files": 1156,
+      "bytes": 24702366,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/training-safety-one-episode",
+      "files": 2,
+      "bytes": 1108,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/training-smoke",
+      "files": 36,
+      "bytes": 577292,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/training-v2",
+      "files": 93,
+      "bytes": 5559708,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/training-v3",
+      "files": 94,
+      "bytes": 3981875,
+      "related_studies": [
+        "E01",
+        "E02"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/turn-smoke",
+      "files": 8,
+      "bytes": 178469,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    },
+    {
+      "path": "runs/turn-stress-smoke",
+      "files": 8,
+      "bytes": 190910,
+      "related_studies": [
+        "E01"
+      ],
+      "classification": "related-output-or-engineering-check",
+      "shared_in_git": false
+    }
+  ],
+  "known_incomplete_artifact": {
+    "path": "runs/cluster-final-review/comparisons.json",
+    "reason": "Status collector capped the file at 2097152 bytes; invalid truncated JSON. Not exported as results."
+  }
+}

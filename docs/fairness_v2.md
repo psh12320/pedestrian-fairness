@@ -1,5 +1,7 @@
 # Pedestrian fairness v2: implementation record
 
+**Completion update, 4 November 2026:** this neural study completed on the cluster (30 models × 512 episodes; 13,860 evaluations). [Shared evidence and artifact limitations](../results/fairness-v2-cluster-review/README.md). This document retains its original implementation history; the current sharing branch is `fairness-service-priority`.
+
 Branch: `pedestrian-fairness-v2`. This is the next research iteration, not a replacement
 of the completed study. Existing source, models and published results retain their
 original measurement and control definitions. The working tree already contained
@@ -101,16 +103,16 @@ bound. Conservative arrival bounds now begin with the first observed approach.
 The full-width detector has a separate sampling audit. Geometric-definition error
 is not covered by these timestamp bounds.
 
-## Remaining gates before final training/evaluation
+## Original gates and final status
 
 1. Review the saved sampling/load audit findings and queue geometry before freezing
    confirmatory claims. The sparse case is explicitly a sparse OD route, not yet
    a validated single-sparse-crossing intervention.
 2. Finalise demand/baseline timing assumptions and inspect validation learning curves.
-3. Run the cluster scripts after authenticated SSH; no cluster job has been launched
-   from this chat. They request CPUs, not GPUs: SUMO is the dominant workload.
-5. Five training seeds for six settings and twenty locked evaluation seeds. The
-   planned 21 x 20 x (30 models + 3 baselines) = 13,860 runs have **not** been run.
+3. Cluster execution completed using CPU jobs; SUMO is the dominant workload.
+5. Five training seeds for six settings and twenty evaluation seeds completed:
+   21 x 20 x (30 models + 3 baselines) = **13,860 evaluations**. See the linked
+   archived results and the limitations of the compact downloaded bundle.
 6. Ablations, report/presentation refresh, verified team contributions and resolution
    of the Team 28/38 discrepancy. Keep negative results and all failed-run counts.
 

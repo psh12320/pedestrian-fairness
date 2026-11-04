@@ -1,0 +1,9 @@
+# Preserve the exact bytes of newly exported frozen evidence on all platforms.
+results/demand-service-review/archived_* -text whitespace=cr-at-eol
+results/audit-repair-review/archived_* -text whitespace=cr-at-eol
+results/fairness-v2-cluster-review/archived_* -text whitespace=cr-at-eol
+results/failure-mechanism-review/archived_protocol.json -text whitespace=cr-at-eol
+results/experiment-index/partial_local_finetune_status.json -text whitespace=cr-at-eol
+results/experiment-index/protocols/** -text whitespace=cr-at-eol
+# Matplotlib's generated SVG paths include harmless trailing spaces.
+results/**/*.svg -whitespace

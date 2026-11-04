@@ -1,0 +1,237 @@
+{
+  "groups": {
+    "vlow-plow": {
+      "actuated": {
+        "after_clearance_vehicle_choices": 1027,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 0,
+        "selected_smaller_stopped_queue": 0,
+        "selected_zero_stopped_queue_while_other_queued": 0
+      },
+      "fixed": {
+        "after_clearance_vehicle_choices": 660,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 84,
+        "selected_smaller_stopped_queue": 213,
+        "selected_zero_stopped_queue_while_other_queued": 103
+      },
+      "mappo-continue": {
+        "after_clearance_vehicle_choices": 3016,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 47,
+        "selected_smaller_stopped_queue": 548,
+        "selected_zero_stopped_queue_while_other_queued": 118
+      },
+      "mappo-early": {
+        "after_clearance_vehicle_choices": 3554,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 30,
+        "selected_smaller_stopped_queue": 601,
+        "selected_zero_stopped_queue_while_other_queued": 95
+      },
+      "mappo-guided": {
+        "after_clearance_vehicle_choices": 3554,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 48,
+        "selected_smaller_stopped_queue": 664,
+        "selected_zero_stopped_queue_while_other_queued": 141
+      },
+      "mappo-original": {
+        "after_clearance_vehicle_choices": 3151,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 54,
+        "selected_smaller_stopped_queue": 657,
+        "selected_zero_stopped_queue_while_other_queued": 149
+      },
+      "mappo-tail": {
+        "after_clearance_vehicle_choices": 3288,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 51,
+        "selected_smaller_stopped_queue": 646,
+        "selected_zero_stopped_queue_while_other_queued": 136
+      },
+      "pressure": {
+        "after_clearance_vehicle_choices": 942,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 1,
+        "selected_smaller_stopped_queue": 7,
+        "selected_zero_stopped_queue_while_other_queued": 2
+      }
+    },
+    "vlow-pmedium": {
+      "actuated": {
+        "after_clearance_vehicle_choices": 1321,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 0,
+        "selected_smaller_stopped_queue": 0,
+        "selected_zero_stopped_queue_while_other_queued": 0
+      },
+      "fixed": {
+        "after_clearance_vehicle_choices": 660,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 84,
+        "selected_smaller_stopped_queue": 213,
+        "selected_zero_stopped_queue_while_other_queued": 103
+      },
+      "mappo-continue": {
+        "after_clearance_vehicle_choices": 3441,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 45,
+        "selected_smaller_stopped_queue": 651,
+        "selected_zero_stopped_queue_while_other_queued": 122
+      },
+      "mappo-early": {
+        "after_clearance_vehicle_choices": 3964,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 49,
+        "selected_smaller_stopped_queue": 651,
+        "selected_zero_stopped_queue_while_other_queued": 116
+      },
+      "mappo-guided": {
+        "after_clearance_vehicle_choices": 3784,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 71,
+        "selected_smaller_stopped_queue": 763,
+        "selected_zero_stopped_queue_while_other_queued": 167
+      },
+      "mappo-original": {
+        "after_clearance_vehicle_choices": 3464,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 58,
+        "selected_smaller_stopped_queue": 698,
+        "selected_zero_stopped_queue_while_other_queued": 142
+      },
+      "mappo-tail": {
+        "after_clearance_vehicle_choices": 3620,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 52,
+        "selected_smaller_stopped_queue": 704,
+        "selected_zero_stopped_queue_while_other_queued": 155
+      },
+      "pressure": {
+        "after_clearance_vehicle_choices": 1245,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 1,
+        "selected_smaller_stopped_queue": 17,
+        "selected_zero_stopped_queue_while_other_queued": 3
+      }
+    },
+    "vmedium-plow": {
+      "actuated": {
+        "after_clearance_vehicle_choices": 1033,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 0,
+        "selected_smaller_stopped_queue": 0,
+        "selected_zero_stopped_queue_while_other_queued": 0
+      },
+      "fixed": {
+        "after_clearance_vehicle_choices": 660,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 30,
+        "selected_smaller_stopped_queue": 188,
+        "selected_zero_stopped_queue_while_other_queued": 36
+      },
+      "mappo-continue": {
+        "after_clearance_vehicle_choices": 2813,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 1,
+        "selected_smaller_stopped_queue": 495,
+        "selected_zero_stopped_queue_while_other_queued": 22
+      },
+      "mappo-early": {
+        "after_clearance_vehicle_choices": 3471,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 7,
+        "selected_smaller_stopped_queue": 432,
+        "selected_zero_stopped_queue_while_other_queued": 17
+      },
+      "mappo-guided": {
+        "after_clearance_vehicle_choices": 3345,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 2,
+        "selected_smaller_stopped_queue": 550,
+        "selected_zero_stopped_queue_while_other_queued": 24
+      },
+      "mappo-original": {
+        "after_clearance_vehicle_choices": 2968,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 5,
+        "selected_smaller_stopped_queue": 546,
+        "selected_zero_stopped_queue_while_other_queued": 28
+      },
+      "mappo-tail": {
+        "after_clearance_vehicle_choices": 3065,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 5,
+        "selected_smaller_stopped_queue": 547,
+        "selected_zero_stopped_queue_while_other_queued": 19
+      },
+      "pressure": {
+        "after_clearance_vehicle_choices": 875,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 0,
+        "selected_smaller_stopped_queue": 11,
+        "selected_zero_stopped_queue_while_other_queued": 0
+      }
+    },
+    "vmedium-pmedium": {
+      "actuated": {
+        "after_clearance_vehicle_choices": 1328,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 0,
+        "selected_smaller_stopped_queue": 0,
+        "selected_zero_stopped_queue_while_other_queued": 0
+      },
+      "fixed": {
+        "after_clearance_vehicle_choices": 660,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 30,
+        "selected_smaller_stopped_queue": 188,
+        "selected_zero_stopped_queue_while_other_queued": 36
+      },
+      "mappo-continue": {
+        "after_clearance_vehicle_choices": 3210,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 2,
+        "selected_smaller_stopped_queue": 491,
+        "selected_zero_stopped_queue_while_other_queued": 29
+      },
+      "mappo-early": {
+        "after_clearance_vehicle_choices": 3969,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 3,
+        "selected_smaller_stopped_queue": 518,
+        "selected_zero_stopped_queue_while_other_queued": 13
+      },
+      "mappo-guided": {
+        "after_clearance_vehicle_choices": 3625,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 6,
+        "selected_smaller_stopped_queue": 625,
+        "selected_zero_stopped_queue_while_other_queued": 16
+      },
+      "mappo-original": {
+        "after_clearance_vehicle_choices": 3285,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 2,
+        "selected_smaller_stopped_queue": 633,
+        "selected_zero_stopped_queue_while_other_queued": 22
+      },
+      "mappo-tail": {
+        "after_clearance_vehicle_choices": 3419,
+        "runs": 30,
+        "selected_no_observed_vehicles_while_other_queued": 9,
+        "selected_smaller_stopped_queue": 551,
+        "selected_zero_stopped_queue_while_other_queued": 29
+      },
+      "pressure": {
+        "after_clearance_vehicle_choices": 1160,
+        "runs": 10,
+        "selected_no_observed_vehicles_while_other_queued": 0,
+        "selected_smaller_stopped_queue": 21,
+        "selected_zero_stopped_queue_while_other_queued": 0
+      }
+    }
+  },
+  "scope": "Post-hoc descriptive analysis of saved free vehicle choices after clearance in [300,2100). Counts are on each controller's own states; a smaller queue choice is not automatically an erroneous or causally harmful action."
+}

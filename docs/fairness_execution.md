@@ -1,8 +1,10 @@
 # Running the v2 study
 
-The full v2 study is not yet complete. Short runs verify software operation, not
-learning quality or the proposal target. Keep new results separate from the older
-completed study. The branch is `pedestrian-fairness-v2`.
+**Completion update, 4 November 2026:** the full E04 study completed on the cluster. [Results and artifact limitations](../results/fairness-v2-cluster-review/README.md). Commands below are reproduction instructions, not a request to restart completed experiments. Use the frozen source/environment for an exact rerun.
+
+Short runs verify software operation, not learning quality or the proposal target.
+Keep the neural results separate from the older linear-policy study. This work
+originated on `pedestrian-fairness-v2` and is now documented on `fairness-service-priority`.
 
 ## Local
 
@@ -53,8 +55,8 @@ squeue -u "$USER"
 The scripts submit compute jobs through Slurm, not on the login node. Python
 3.10–3.12 and package-download access are needed for the first job. They create an
 isolated environment with CPU PyTorch 2.3.0, NumPy 1.26.4, SUMO/TraCI 1.27.1.
-No GPU is requested. Linux package installation and authenticated cluster execution
-remain unverified. The [NUS cluster guide](https://www.comp.nus.edu.sg/~cs3210/student-guide/soc-gpus/)
+No GPU is requested. The completed cluster study provides execution evidence; access and package
+availability on a different account still need checking. The [NUS cluster guide](https://www.comp.nus.edu.sg/~cs3210/student-guide/soc-gpus/)
 describes Slurm access and the default three-hour maximum.
 
 The full launcher schedules preparation and one dependent dispatcher. Preparation

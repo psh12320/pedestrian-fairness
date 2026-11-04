@@ -1,0 +1,24 @@
+{
+  "fingerprint": "f7a41631e849f36ee8bb045fdcc9f4e2053da289fa8bcbe996d958c3ac6ffb6b",
+  "notes": "Phase histories compared after JSON normalization (live tuples become JSON lists). An earlier repeat passed metrics and stopped at that representation-only check.",
+  "same_seed_checks": {
+    "events": true,
+    "phase_history": true,
+    "result": true
+  },
+  "smoke_simulations": 19,
+  "unit_tests": {
+    "learning": 11,
+    "pilot": 6,
+    "reporting": 10,
+    "teacher": 9
+  },
+  "full_protocol_fingerprint": "bfa5d776ad0f45628de0374d95375d4a0bfd3d0de0f646cc34a29d24cf47105b",
+  "full_simulations": {
+    "baselines": 54,
+    "evaluation": 192,
+    "training": 576,
+    "validation": 54
+  },
+  "scope": "Preflight only; no full-study performance claim"
+}

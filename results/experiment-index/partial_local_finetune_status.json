@@ -1,0 +1,32 @@
+{
+  "completed": {
+    "baselines": 6,
+    "evaluation": 0,
+    "training": 32,
+    "validation": 4
+  },
+  "completed_simulations": 42,
+  "error": "InterruptedError('STOP requested; current completed results are saved')",
+  "fingerprint": "bfa5d776ad0f45628de0374d95375d4a0bfd3d0de0f646cc34a29d24cf47105b",
+  "model_episodes": {
+    "mappo-continue-r0": 16,
+    "mappo-continue-r1": 0,
+    "mappo-continue-r2": 0,
+    "mappo-guided-r0": 0,
+    "mappo-guided-r1": 0,
+    "mappo-guided-r2": 0,
+    "mappo-tail-r0": 16,
+    "mappo-tail-r1": 0,
+    "mappo-tail-r2": 0
+  },
+  "planned": {
+    "baselines": 54,
+    "evaluation": 192,
+    "training": 576,
+    "validation": 54
+  },
+  "stage": null,
+  "state": "stopped",
+  "total_simulations": 876,
+  "updated": "2026-11-03T18:34:42.807800+00:00"
+}

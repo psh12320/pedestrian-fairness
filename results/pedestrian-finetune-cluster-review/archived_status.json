@@ -1,0 +1,32 @@
+{
+  "completed": {
+    "baselines": 54,
+    "evaluation": 192,
+    "training": 576,
+    "validation": 54
+  },
+  "completed_simulations": 876,
+  "error": null,
+  "fingerprint": "4ee20b14ae22df2a6051b6c2ca8ed645ce350563efec692c8ec02dcb1406152a",
+  "model_episodes": {
+    "mappo-continue-r0": 64,
+    "mappo-continue-r1": 64,
+    "mappo-continue-r2": 64,
+    "mappo-guided-r0": 64,
+    "mappo-guided-r1": 64,
+    "mappo-guided-r2": 64,
+    "mappo-tail-r0": 64,
+    "mappo-tail-r1": 64,
+    "mappo-tail-r2": 64
+  },
+  "planned": {
+    "baselines": 54,
+    "evaluation": 192,
+    "training": 576,
+    "validation": 54
+  },
+  "stage": "complete",
+  "state": "complete",
+  "total_simulations": 876,
+  "updated": "2026-11-03T19:46:20.400925+00:00"
+}
