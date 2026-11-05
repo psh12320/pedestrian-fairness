@@ -1,0 +1,34 @@
+{
+  "vlow-plow": {
+    "actuated_loss": 35.71,
+    "constrained_loss": 31.85,
+    "vehicle_delta": -3.86,
+    "crossings_no_worse": 0,
+    "gate_fail_runs": 27,
+    "total_model_runs": 30
+  },
+  "vlow-pmedium": {
+    "actuated_loss": 44.14,
+    "constrained_loss": 39.4,
+    "vehicle_delta": -4.74,
+    "crossings_no_worse": 1,
+    "gate_fail_runs": 26,
+    "total_model_runs": 30
+  },
+  "vmedium-plow": {
+    "actuated_loss": 40.2,
+    "constrained_loss": 30.89,
+    "vehicle_delta": -9.31,
+    "crossings_no_worse": 0,
+    "gate_fail_runs": 21,
+    "total_model_runs": 30
+  },
+  "vmedium-pmedium": {
+    "actuated_loss": 51.98,
+    "constrained_loss": 37.93,
+    "vehicle_delta": -14.05,
+    "crossings_no_worse": 0,
+    "gate_fail_runs": 25,
+    "total_model_runs": 30
+  }
+}

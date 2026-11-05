@@ -34,3 +34,6 @@ GEMINI.md
 # Personal contact information in local data-request attachments.
 output/pdf/LTA_Data_Sharing_Form_CS4246_draft.pdf
 output/documents/LTA_Data_Request_Justification_CS4246.docx
+
+# local setup (claude): python3.12 venv with eclipse-sumo wheel
+.venv-setup/
