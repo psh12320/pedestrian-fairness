@@ -1,0 +1,47 @@
+{
+  "replica": 0,
+  "train_seeds": [
+    2200001,
+    2200002,
+    2200003,
+    2200004,
+    2200005,
+    2200006
+  ],
+  "test_seeds": [
+    2200101,
+    2200102,
+    2200103
+  ],
+  "architecture": "RepairNetworks normalized-clock (value normalization + time-to-horizon)",
+  "per_junction": {
+    "C0": {
+      "n_train": 3594,
+      "n_test": 1797,
+      "checkpoint_critic_ev": 0.41317713260650635,
+      "checkpoint_rmse": 15.803,
+      "fresh_critic_ev": 0.3943408727645874,
+      "target_mean": -87.56
+    },
+    "C1": {
+      "n_train": 3594,
+      "n_test": 1797,
+      "checkpoint_critic_ev": 0.5194756984710693,
+      "checkpoint_rmse": 15.202,
+      "fresh_critic_ev": 0.4365834593772888,
+      "target_mean": -87.75
+    },
+    "C2": {
+      "n_train": 3594,
+      "n_test": 1797,
+      "checkpoint_critic_ev": 0.5291288495063782,
+      "checkpoint_rmse": 14.086,
+      "fresh_critic_ev": 0.4760894179344177,
+      "target_mean": -87.74
+    }
+  },
+  "mean_checkpoint_ev": 0.4873,
+  "mean_fresh_critic_ev": 0.4357,
+  "verdict": "VALUE TARGET IS LEARNABLE (fresh critic fits) -> Stage 2 viable; checkpoint critic was under-fit",
+  "note": "Held-out GAE-return regression on frozen rollouts; development seeds 2200001+; reserved 58001-58020 untouched."
+}

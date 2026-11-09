@@ -1,0 +1,72 @@
+{
+  "search_cell": "vlow-pmedium",
+  "seeds": [
+    942001
+  ],
+  "replicas": [
+    0
+  ],
+  "best_hold": {
+    "C0": 30,
+    "C1": 30,
+    "C2": 30
+  },
+  "best_score": {
+    "crossings_no_worse": 6,
+    "vehicle_delta": -1.66,
+    "gate_fail": 1
+  },
+  "all_evaluated": {
+    "start_30_30_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "24_30_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "18_30_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "12_30_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "30_24_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "30_18_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "30_12_30": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "30_30_24": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "30_30_18": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    },
+    "30_30_12": {
+      "crossings": 6,
+      "veh_delta": -1.66,
+      "gate_fail": 1
+    }
+  },
+  "note": "Dev seeds only; reserved 58001-58020 untouched. g=30 == early+vehrule."
+}
